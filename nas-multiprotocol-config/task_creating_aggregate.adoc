@@ -13,6 +13,7 @@ summary: 'Si vous ne souhaitez pas utiliser d"agrégat existant, vous pouvez cr�
 [role="lead"]
 Si vous ne souhaitez pas utiliser d'agrégat existant, vous pouvez créer un nouvel agrégat afin d'allouer du stockage physique au volume que vous provisionnez.
 
+.Description de la tâche
 Si vous disposez d'un agrégat existant que vous souhaitez utiliser pour le nouveau volume, vous pouvez ignorer cette procédure.
 
 .Étapes
@@ -25,4 +26,5 @@ image::../media/aggregate_creation_nas_mp.gif[Création d'un écran d'agrégat d
 
 
 
+.Résultats
 L'agrégat est créé avec la configuration spécifiée et ajouté à la liste des agrégats dans la fenêtre Aggregates.

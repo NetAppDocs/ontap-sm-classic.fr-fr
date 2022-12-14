@@ -13,6 +13,7 @@ summary: Après avoir resynchronisé les données du volume de destination sur l
 [role="lead"]
 Après avoir resynchronisé les données du volume de destination sur le volume source, vous devez activer le volume source en rompant la relation SnapMirror. Vous devez ensuite resynchroniser le volume de destination pour protéger le volume source réactivé.
 
+.Description de la tâche
 Les opérations de rupture et de resynchronisation inverse sont exécutées à partir du cluster *source*.
 
 L'image suivante montre que les volumes source et de destination sont en lecture/écriture lorsque vous rompez la relation SnapMirror. Après l'opération de resynchronisation inverse, les données sont répliquées depuis le volume source actif vers le volume de destination en lecture seule.
@@ -60,4 +61,5 @@ Si vous exécutez ONTAP 9.2 ou version antérieure, la règle SnapMirror de la r
 
 
 
+.Résultats
 Le volume source dispose d'un accès en lecture/écriture et est protégé par le volume de destination.

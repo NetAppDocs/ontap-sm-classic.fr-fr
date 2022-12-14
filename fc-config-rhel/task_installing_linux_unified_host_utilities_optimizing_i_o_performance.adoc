@@ -13,6 +13,7 @@ summary: 'Linux Unified Host Utilities inclut l"utilitaire sanlun, un outil de c
 [role="lead"]
 Le logiciel Linux Unified Host Utilities inclut `sanlun` Utilitaire, outil de création de rapports LUN NetApp que vous pouvez utiliser pour afficher des informations sur le nodescluster de stockage et les adaptateurs bus hôte (HBA) situés sur l'hôte Linux. Vous devez également activer le profil de serveur correct sur l'hôte Linux pour optimiser les performances du stockage NetApp.
 
+.Avant de commencer
 Vous devez avoir identifié la version de Linux Unified Host Utilities prise en charge pour votre configuration à l'aide de la matrice d'interopérabilité. Vous devez également avoir le `tuned` Qui fait partie de votre distribution Linux OS et contient le `tuned-adm` commande, que vous utilisez pour définir le profil de serveur sur l'hôte.
 
 .Étapes

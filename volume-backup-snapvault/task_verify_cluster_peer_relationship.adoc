@@ -13,6 +13,7 @@ summary: 'Avant de configurer un volume pour la protection des données à l"aid
 [role="lead"]
 Avant de configurer un volume pour la protection des données à l'aide de la technologie SnapVault, vérifiez que le cluster source et le cluster de destination sont mis en relation et communiquent entre eux via les relations entre eux. On doit également vérifier que le SVM source et le SVM de destination sont peering et communiquent entre eux par le biais de la relation entre pairs.
 
+.Description de la tâche
 Vous devez effectuer cette tâche à partir du cluster *source*.
 
 

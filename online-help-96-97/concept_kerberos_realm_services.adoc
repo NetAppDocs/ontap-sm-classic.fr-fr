@@ -28,6 +28,7 @@ Cela empêche les erreurs d'authentification et garantit la cohérence des horod
 
 
 
+.Description de la tâche
 Lors de la création d'un Royaume Kerberos, vous devez définir les attributs suivants dans l'assistant Créer un Royaume Kerberos :
 
 * Le domaine Kerberos
@@ -56,6 +57,7 @@ Le numéro de port par défaut est 88.
 
 System Manager peut être utilisé pour modifier une configuration de domaine Kerberos au niveau de la machine de stockage virtuelle (SVM).
 
+.Description de la tâche
 Vous pouvez modifier les attributs suivants à l'aide de l'assistant d'édition du Royaume Kerberos :
 
 * L'adresse IP et le numéro de port KDC

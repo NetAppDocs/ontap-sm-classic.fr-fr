@@ -13,6 +13,7 @@ summary: Pour automatiser la plupart des tâches de configuration et de provisio
 [role="lead"]
 Virtual Storage Console pour automatiser la plupart des tâches de configuration et de provisionnement requises pour utiliser le stockage avec un hôte ESXi. Est un plug-in de vCenter Server.
 
+.Avant de commencer
 Vous devez disposer des informations d'identification d'administrateur sur le serveur vCenter utilisé pour gérer l'hôte ESXi.
 
 .Description de la tâche

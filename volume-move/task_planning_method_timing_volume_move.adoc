@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser l"interface ONTAP System Manager « classique » 
 [role="lead"]
 Vous pouvez utiliser l'interface ONTAP System Manager _Classic_ avec ONTAP 9.7 ou version antérieure pour déplacer un volume et décider s'il faut effectuer une mise en service manuelle. Si vous devez mettre à jour les nœuds de reporting des LUN, vous devez suivre une procédure avancée dans l'interface de ligne de commandes. Vous pouvez également planifier le déplacement d'un volume.
 
+.Description de la tâche
 Il est possible de déplacer le volume source d'une relation SnapMirror ou SnapVault pendant que le volume est en miroir. Les services SnapMirror rencontrent une brève pause lors de la phase de mise en service de la tâche de déplacement du volume.
 
 Le volume de destination peut également être déplacé. Lors de la phase itérative, les mises à jour de SnapMirror ou de SnapVault et les opérations de déplacement de volumes s'exécutent simultanément. Lors de l'évaluation de la possibilité d'une mise en service, la priorité entre la mise en service et les mises à jour SnapMirror ou SnapVault est déterminée selon le principe du « premier arrivé, premier servi ». Jusqu'à la fin de la première opération, d'autres opérations sont bloquées.
@@ -62,4 +63,5 @@ Vous devez attendre la fin de l'une de ces opérations pour pouvoir démarrer le
 
 
 
+.Informations associées
 link:task_verifying_lun_reporting_nodes_after_moving_volume.html["Vérification des nœuds de reporting LUN après le déplacement d'un volume"]

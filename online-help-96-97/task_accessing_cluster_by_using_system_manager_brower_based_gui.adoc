@@ -18,6 +18,7 @@ Si vous préférez utiliser une interface graphique plutôt que l'interface de l
 * Les cookies et les données du site doivent être activés dans le navigateur.
 
 
+.Description de la tâche
 Vous pouvez utiliser une LIF de cluster management ou un LIF de node management pour accéder à ONTAP System Manager. Pour un accès ininterrompu à ONTAP System Manager, vous devez utiliser une LIF de gestion du cluster.
 
 .Étapes

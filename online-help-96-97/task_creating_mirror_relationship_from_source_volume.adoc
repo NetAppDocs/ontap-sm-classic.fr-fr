@@ -95,6 +95,7 @@ Si le cluster sélectionné exécute une version du logiciel ONTAP antérieure �
 . Cliquez sur *Enregistrer*.
 
 
+.Résultats
 Un nouveau volume de destination de type _dp_ est créé avec les paramètres par défaut suivants :
 
 * Croissance automatique activée.

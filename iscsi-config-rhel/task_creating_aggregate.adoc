@@ -23,4 +23,5 @@ image::../media/aggregate_creation_iscsi_rhel.gif[Création d'un écran d'agrég
 
 
 
+.Résultats
 L'agrégat est créé avec la configuration spécifiée et ajouté à la liste des agrégats dans la fenêtre Aggregates.

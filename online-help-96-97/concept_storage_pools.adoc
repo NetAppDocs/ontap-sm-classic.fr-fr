@@ -25,6 +25,7 @@ Un pool de stockage est un ensemble de disques SSD (disques cache). System Manag
 * Tous les disques SSD d'un pool de stockage doivent être détenus par la même paire haute disponibilité.
 
 
+.Description de la tâche
 System Manager applique la règle de rechange à chaud aux groupes RAID SSD lorsque vous utilisez des disques SSD pour ajouter des disques à un pool de stockage. Par exemple, si le groupe SSD RAID est doté de 10 disques SSD et de l'option `raid.min_spare_count` est défini sur `1` Au niveau du nœud, System Manager laisse 1 SSD comme unité de rechange à chaud et utilise les 9 autres disques SSD pour les opérations liées aux SSD.
 
 Vous ne pouvez pas utiliser de disques SSD partitionnés lors de la création d'un pool de stockage à l'aide de System Manager.
@@ -42,6 +43,7 @@ Vous ne pouvez pas utiliser de disques SSD partitionnés lors de la création d'
 
 System Manager permet d'ajouter des disques SSD à un pool de stockage existant et d'augmenter la taille du cache.
 
+.Avant de commencer
 Les deux nœuds de la paire haute disponibilité doivent être opérationnels pour allouer des SSD et des SSD de rechange par le biais d'un pool de stockage.
 
 .Description de la tâche
@@ -68,6 +70,7 @@ Par exemple, si le groupe SSD RAID est doté de 10 disques SSD et de l'option `r
 
 Il peut être intéressant de supprimer un pool de stockage lorsque le cache du pool de stockage n'est pas optimal ou lorsqu'il n'est plus utilisé par un agrégat ou un agrégat Flash Pool. Vous pouvez supprimer un pool de stockage à l'aide de la boîte de dialogue Supprimer le pool de stockage de System Manager.
 
+.Avant de commencer
 Le pool de stockage ne doit pas être utilisé par un agrégat.
 
 .Étapes

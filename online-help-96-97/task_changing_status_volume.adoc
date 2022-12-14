@@ -18,6 +18,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 * Si vous souhaitez mettre un volume NAS hors ligne, le volume NAS doit être démonté.
 
 
+.Description de la tâche
 Vous pouvez mettre un volume hors ligne pour effectuer une maintenance sur le volume, déplacer le volume ou détruire le volume. Lorsqu'un volume est hors ligne, les clients n'ont pas accès en lecture ou en écriture à un volume. Vous ne pouvez pas mettre un volume racine hors ligne.
 
 .Étapes

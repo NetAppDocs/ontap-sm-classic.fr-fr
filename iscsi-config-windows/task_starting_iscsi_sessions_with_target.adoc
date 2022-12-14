@@ -13,8 +13,10 @@ summary: 'L"hôte Windows doit disposer d"une connexion iSCSI à chaque nœud du
 [role="lead"]
 L'hôte Windows doit disposer d'une connexion iSCSI à chaque nœud du cluster. Vous établissez les sessions à partir de l'hôte à l'aide de la boîte de dialogue Propriétés de l'initiateur iSCSI sur l'hôte.
 
+.Avant de commencer
 Vous devez connaître l'adresse IP d'une LIF de données iSCSI sur la machine virtuelle de stockage (SVM) qui contient la LUN que vous accédez.
 
+.Description de la tâche
 Dans ONTAP, l'hôte iSCSI doit avoir des chemins d'accès à chaque nœud du cluster. Le DSM natif sélectionne les meilleurs chemins d'accès à utiliser. En cas d'échec des chemins, le DSM natif sélectionne d'autres chemins.
 
 Les boutons et étiquettes de la boîte de dialogue Propriétés de l'initiateur iSCSI varient d'une version à l'autre de Windows. Certaines étapes de la tâche incluent plusieurs boutons ou noms de libellé ; vous devez choisir le nom qui correspond à la version de Windows que vous utilisez.

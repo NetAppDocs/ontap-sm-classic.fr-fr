@@ -13,6 +13,7 @@ summary: Si vous ne souhaitez plus utiliser cette règle, vous pouvez utiliser S
 [role="lead"]
 Si vous ne souhaitez plus utiliser cette règle, vous pouvez utiliser System Manager pour supprimer une règle de protection.
 
+.Description de la tâche
 Les règles de mise en miroir ou les règles de copie à distance au niveau du cluster ne sont pas affichées.
 
 .Étapes

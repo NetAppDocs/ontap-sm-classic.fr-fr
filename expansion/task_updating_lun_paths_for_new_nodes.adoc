@@ -13,6 +13,7 @@ summary: Si le cluster est configuré pour SAN, vous devez créer des LIF SAN su
 [role="lead"]
 Si le cluster est configuré pour SAN, vous devez créer des LIF SAN sur les nouveaux nœuds ajoutés, puis mettre à jour les chemins.
 
+.Description de la tâche
 Cette procédure est requise uniquement si le cluster contient des LUN. Si le cluster ne contient que des fichiers, vous pouvez ignorer cette procédure.
 
 .Étapes

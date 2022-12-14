@@ -13,8 +13,10 @@ summary: 'Avant de pouvoir provisionner le premier datastore sur un hôte ESXi d
 [role="lead"]
 Avant de provisionner le premier datastore sur un hôte ESXi de votre Datacenter, vous devez ajouter le cluster ou un SVM spécifique à Virtual Storage Console pour VMware vSphere. L'ajout d'un cluster permet de provisionner le stockage sur n'importe quel SVM au sein du cluster.
 
+.Avant de commencer
 Vous devez disposer d'identifiants d'administrateur pour le cluster de stockage ou le système qui est ajouté.
 
+.Description de la tâche
 Selon votre configuration, le cluster peut avoir été découvert automatiquement ou avoir déjà été ajouté.
 
 .Étapes

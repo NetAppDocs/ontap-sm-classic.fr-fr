@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser l"onglet gestion des LUN dans System Manager pour
 [role="lead"]
 Vous pouvez utiliser l'onglet *gestion de LUN* de ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) pour mettre hors ligne les LUN sélectionnées et les rendre indisponibles pour l'accès au protocole de bloc.
 
+.Avant de commencer
 Toute application hôte accédant à la LUN doit être mise au repos ou synchronisée.
 
 .Étapes

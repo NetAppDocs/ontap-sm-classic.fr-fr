@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser System Manager pour réserver de l"espace (mesur�
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) pour réserver de l'espace (mesuré en pourcentage) pour les copies Snapshot d'un volume. En définissant la réserve Snapshot, vous pouvez allouer suffisamment d'espace disque pour les copies Snapshot de manière à ce qu'elles ne consomment pas l'espace système de fichiers actif.
 
+.Description de la tâche
 L'espace réservé par défaut pour les copies Snapshot est de 5 % pour les volumes SAN et VMware.
 
 .Étapes

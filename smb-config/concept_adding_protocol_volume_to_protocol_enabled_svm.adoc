@@ -13,4 +13,5 @@ summary: 'L"ajout d"un volume CIFS à un SVM compatible CIFS implique la créati
 [role="lead"]
 L'ajout d'un volume CIFS à un SVM compatible CIFS implique la création et la configuration d'un volume, la création d'un partage et la définition de ses autorisations, et la vérification de l'accès à partir d'un hôte d'administration Windows. Vous pouvez ensuite configurer l'accès client CIFS.
 
+.Avant de commencer
 CIFS doit être entièrement configuré sur le SVM.

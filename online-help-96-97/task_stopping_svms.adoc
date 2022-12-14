@@ -13,6 +13,7 @@ summary: 'System Manager peut être utilisé pour arrêter une machine virtuelle
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour arrêter une machine virtuelle de stockage (SVM) pour résoudre n'importe quel problème avec la SVM, supprimer la SVM ou interrompre l'accès aux données depuis la SVM.
 
+.Avant de commencer
 Tous les clients connectés au SVM doivent être déconnectés.
 
 [NOTE]
@@ -30,4 +31,5 @@ Si des clients sont connectés au SVM lorsque vous l'arrêtez, une perte de donn
 . Sélectionnez le SVM que vous souhaitez arrêter, puis cliquez sur *Stop*.
 
 
+.Résultats
 Le SVM cesse de transmettre les données aux clients.

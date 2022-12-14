@@ -13,6 +13,7 @@ summary: 'Avant de développer un cluster, envoyez un message AutoSupport pour i
 [role="lead"]
 Avant de développer un cluster, envoyez un message AutoSupport pour indiquer que vous êtes sur le point de démarrer le processus d'extension. Ce message informe le personnel de support interne et externe de l'extension et sert d'horodatage pour tout dépannage ultérieur.
 
+.Avant de commencer
 AutoSupport doit être configuré.
 
 .Étapes

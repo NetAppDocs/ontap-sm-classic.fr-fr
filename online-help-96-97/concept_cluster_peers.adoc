@@ -76,7 +76,7 @@ La longueur minimale requise de la phrase de passe est de huit caractères.
 +
 La phrase de passe est modifiée immédiatement. Cependant, il peut y avoir un délai avant l'affichage de l'état d'authentification correct.
 
-. Connectez-vous au cluster distant et effectuez les étapes ,1 à ,4 pour modifier la phrase de passe dans le cluster distant.
+. Connectez-vous au cluster distant et effectuez les étapes <<STEP_52691237935644E3A8710F51CC2E3F81,1>> à <<STEP_1ABAF15926174E709CA59192E200ABE3,4>> pour modifier la phrase de passe dans le cluster distant.
 +
 Le statut d'authentification pour le cluster local est affiché comme `ok_and_offer` jusqu'à ce que vous modifiiez la phrase de passe dans le cluster distant.
 
@@ -88,6 +88,7 @@ Le statut d'authentification pour le cluster local est affiché comme `ok_and_of
 
 Vous pouvez utiliser System Manager pour modifier les interfaces logiques IPspace et intercluster qui sont configurées pour le cluster distant. Vous pouvez ajouter de nouvelles adresses IP intercluster ou supprimer des adresses IP existantes.
 
+.Avant de commencer
 Vous devez disposer d'au moins une adresse IP intercluster pour créer la relation cluster peer.
 
 .Étapes
@@ -116,6 +117,7 @@ La boîte de dialogue Modifier les paramètres du réseau homologue s'affiche.
 
 Vous pouvez utiliser System Manager pour modifier l'état de cryptage de peering pour le cluster sélectionné.
 
+.Description de la tâche
 L'état du chiffrement peut être activé ou désactivé. Vous pouvez modifier l'état de activé à Désactivé ou de Désactivé à activé en sélectionnant *Modifier le cryptage*.
 
 .Étapes
@@ -148,8 +150,8 @@ Si la phrase de passe utilisée sur le site local ne correspond pas à la phrase
 Sélectionnez l'une des options suivantes :
 
 +
-** *Générer une phrase de passe* : passer à l'étape ,#STEP_1ABAF15926174E709CA59192E200ABE3.
-** *Déjà une phrase de passe*: Passer à l'étape ,#STEP_2EFD822431974811AD2260C3F31DC977.
+** *Générer une phrase de passe* : passer à l'étape <<STEP_1ABAF15926174E709CA59192E200ABE3,#STEP_1ABAF15926174E709CA59192E200ABE3>>.
+** *Déjà une phrase de passe*: Passer à l'étape <<STEP_2EFD822431974811AD2260C3F31DC977,#STEP_2EFD822431974811AD2260C3F31DC977>>.
 
 
 . Si vous avez choisi *générer une phrase de passe*, renseignez les champs nécessaires :
@@ -191,7 +193,7 @@ Vous pouvez utiliser System Manager pour supprimer une relation entre clusters s
 . Cliquez sur *Configuration* > *Cluster pairs*.
 . Sélectionnez l'homologue de cluster pour lequel vous souhaitez supprimer la relation, puis cliquez sur *Supprimer*.
 . Cochez la case de confirmation, puis cliquez sur *Supprimer*.
-. Connectez-vous au cluster distant et effectuez les étapes ,1 à ,3 pour supprimer la relation homologue entre le cluster local et le cluster distant.
+. Connectez-vous au cluster distant et effectuez les étapes <<STEP_313E6AFE5C2B4D8C9E9723FAF1F8534A,1>> à <<STEP_24E41EC7F4E746D09897FC2DCBEC0E18,3>> pour supprimer la relation homologue entre le cluster local et le cluster distant.
 +
 L'état de la relation homologue est affiché comme « malsaine » jusqu'à ce que la relation soit supprimée à la fois du cluster local et du cluster distant.
 

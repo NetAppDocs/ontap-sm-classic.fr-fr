@@ -13,6 +13,7 @@ summary: Vous pouvez créer une relation de cluster peer-to-peer entre deux clus
 [role="lead"]
 Depuis ONTAP 9.3, jusqu'à ONTAP 9.7, vous pouvez utiliser l'interface ONTAP System Manager _classic_ pour créer une relation de cluster entre deux clusters en fournissant une phrase secrète générée par le système et les adresses IP des LIF intercluster du cluster distant.
 
+.Description de la tâche
 Depuis ONTAP 9.6, le chiffrement de peering de cluster est activé par défaut sur toutes les relations de peering de cluster que nous avons récemment créées. Le cryptage de peering de cluster doit être activé manuellement pour la relation de peering créée avant la mise à niveau vers ONTAP 9.6. Le chiffrement de peering de cluster n'est pas disponible pour les clusters qui exécutent ONTAP 9.5 ou une version antérieure. Par conséquent, les deux clusters de la relation de peering doivent exécuter ONTAP 9.6 afin de permettre le cryptage du peering de cluster.
 
 Le chiffrement de peering de cluster utilise la couche de sécurité du transport (TLS) pour sécuriser les communications de peering inter-cluster pour les fonctionnalités ONTAP, telles que SnapMirror et FlexCache.
@@ -40,7 +41,7 @@ image::../media/generate_passphrase.gif[Cette image est expliquée par le texte 
 .. Cliquez sur *Done*.
 
 
-. Dans le cluster source, saisissez la phrase de passe générée dans ,Étape 2.
+. Dans le cluster source, saisissez la phrase de passe générée dans <<step2-passphrase,Étape 2>>.
 . Cliquez sur *initier le peering de cluster*.
 +
 La relation cluster peer-to-peer est créée.

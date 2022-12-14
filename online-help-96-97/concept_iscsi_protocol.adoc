@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 Un alias iSCSI est un identifiant convivial que vous attribuez à un périphérique cible iSCSI (dans ce cas, le système de stockage) pour faciliter l'identification du périphérique cible dans les interfaces utilisateur. Vous pouvez utiliser System Manager pour créer un alias iSCSI.
 
+.Description de la tâche
 Un alias iSCSI est une chaîne de 1 à 128 caractères imprimables.un alias iSCSI ne doit pas inclure d'espaces.
 
 .Étapes
@@ -35,6 +36,7 @@ Un alias iSCSI est une chaîne de 1 à 128 caractères imprimables.un alias iSCS
 
 System Manager peut être utilisé pour contrôler les interfaces réseau utilisées pour la communication iSCSI en activant ou désactivant les interfaces. Lorsque le service iSCSI est activé, les connexions et les requêtes iSCSI sont acceptées via les interfaces réseau activées pour iSCSI, mais pas via les interfaces désactivées.
 
+.Avant de commencer
 Vous devez avoir mis fin à toutes les connexions et sessions iSCSI en attente qui utilisent actuellement l'interface. Par défaut, le service iSCSI est activé sur toutes les interfaces Ethernet après l'activation de la licence iSCSI.
 
 .Étapes

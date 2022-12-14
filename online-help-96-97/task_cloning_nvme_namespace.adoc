@@ -13,8 +13,10 @@ summary: 'Vous pouvez utiliser System Manager pour créer rapidement un autre es
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour créer rapidement un autre espace de nom de la même configuration en choisissant de cloner un espace de noms. Vous pouvez mapper l'espace de noms nouvellement cloné sur un autre NQN hôte.
 
+.Avant de commencer
 Vous devez disposer d'une licence FlexClone pour cloner un espace de noms.
 
+.Description de la tâche
 Vous pouvez cloner un espace de noms avec le mappage d'hôtes sélectionné et l'associer à un autre sous-système.
 
 .Étapes

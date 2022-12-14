@@ -65,6 +65,7 @@ Lors de la création d'un volume, le volume hérite automatiquement des règles 
 . Vérifiez que la colonne *Export Policy* de la fenêtre *Junction Path* affiche la stratégie d'exportation que vous avez appliquée au volume.
 
 
+.Résultats
 L'export-policy par défaut est remplacée par l'export-policy que vous avez sélectionnée.
 
 

@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser System Manager pour afficher des informations sur
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour afficher des informations sur un volume FlexGroup. Vous pouvez afficher une représentation graphique de l'espace alloué, de l'état de protection et des performances d'un volume FlexGroup.
 
+.Description de la tâche
 Vous pouvez également afficher les copies Snapshot disponibles pour le volume FlexGroup, les relations de protection des données pour le volume FlexGroup et les metrics de performance moyens, les metrics de performance en lecture et les metrics de performance en écriture du volume FlexGroup basées sur la latence, les IOPS et le débit.
 
 .Étapes

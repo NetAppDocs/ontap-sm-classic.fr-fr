@@ -21,6 +21,7 @@ Si le protocole que vous souhaitez configurer n'est pas activé sur le SVM, vous
 * Vous devez disposer des informations d'identification d'Active Directory, d'unité organisationnelle et de compte d'administration pour configurer le protocole CIFS.
 
 
+.Description de la tâche
 Les agrégats SnapLock ne sont pas pris en compte pour la création automatique de volumes.
 
 .Étapes
@@ -110,4 +111,5 @@ Par défaut, ce paramètre est défini sur CN=Computers.
 . Cliquez sur *Envoyer et continuer*.
 
 
+.Résultats
 Le serveur CIFS et le domaine NIS sont configurés avec la configuration spécifiée, et les LIFs de données sont créées. Par défaut, les LIFs data ont un accès de gestion. Vous pouvez consulter les détails de la configuration sur la page Récapitulatif.

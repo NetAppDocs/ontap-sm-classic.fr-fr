@@ -18,6 +18,7 @@ La segmentation des commutateurs FC permet aux hôtes de se connecter au stockag
 * Vous devez connaître le WWPN de chaque port initiateur hôte et de chaque LIF FC pour le SVM (Storage Virtual machine) dans lequel vous avez créé la LUN.
 
 
+.Description de la tâche
 Pour plus de détails sur la segmentation de vos commutateurs, reportez-vous à la documentation du fournisseur du commutateur.
 
 Vous devez effectuer une zone par WWPN, et non par port physique. Chaque port initiateur doit se trouver dans une zone distincte avec l'ensemble des ports cibles correspondants.

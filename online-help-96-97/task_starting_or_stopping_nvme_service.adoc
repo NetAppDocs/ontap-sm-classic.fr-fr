@@ -13,6 +13,7 @@ summary: 'Le service NVMe vous permet de gérer les adaptateurs NVMe à utiliser
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour démarrer le service NVMe et mettre les adaptateurs en ligne. Le service NVMe vous permet de gérer les adaptateurs NVMe à utiliser avec les espaces de noms. Vous pouvez arrêter le service NVMe de mettre les adaptateurs NVMe hors ligne et de désactiver l'accès aux namespaces.
 
+.Avant de commencer
 Des adaptateurs compatibles NVMe doivent être présents avant de démarrer le service NVMe.
 
 .Étapes

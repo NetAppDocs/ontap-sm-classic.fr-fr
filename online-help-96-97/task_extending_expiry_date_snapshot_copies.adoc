@@ -13,8 +13,10 @@ summary: 'System Manager peut être utilisé pour étendre la date d"expiration 
 [role="lead"]
 ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) peut être utilisé pour étendre la date d'expiration des copies Snapshot d'un volume.
 
+.Avant de commencer
 La licence SnapLock doit être installée sur votre système.
 
+.Description de la tâche
 Vous pouvez étendre la date d'expiration uniquement pour les copies Snapshot dans un volume de protection des données (DP) qui est le destination d'une relation SnapLock pour SnapVault.
 
 .Étapes

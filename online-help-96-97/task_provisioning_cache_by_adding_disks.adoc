@@ -35,6 +35,7 @@ Si le cluster est dans un état de version mixte, vous pouvez utiliser l'interfa
 * L'agrégat ne doit pas contenir de LUN de baies.
 
 
+.Description de la tâche
 Vous devez connaître les bonnes pratiques propres à une plateforme et à des charges de travail spécifiques pour la taille et la configuration des niveaux SSD de l'agrégat Flash Pool.
 
 .Étapes
@@ -84,6 +85,7 @@ Pour les agrégats mis en miroir, une boîte de dialogue *Add cache* s'affiche a
 . Dans la boîte de dialogue *Ajouter un cache*, cliquez sur *Oui*.
 
 
+.Résultats
 Les disques de cache sont ajoutés à l'agrégat sélectionné.
 
 
@@ -126,6 +128,7 @@ Pour les agrégats en miroir, une boîte de dialogue Ajouter un cache s'affiche 
 . Dans la boîte de dialogue *Ajouter un cache*, cliquez sur *Oui*.
 
 
+.Résultats
 Les disques de cache sont ajoutés à l'agrégat Flash Pool sélectionné.
 
 *Informations connexes*

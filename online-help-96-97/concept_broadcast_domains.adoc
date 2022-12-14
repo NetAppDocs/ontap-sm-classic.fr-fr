@@ -40,6 +40,7 @@ Vous devez plutôt utiliser l'interface de ligne de commandes.
 
 Vous pouvez supprimer un domaine de diffusion en utilisant System Manager si vous n'avez plus besoin du domaine de diffusion.
 
+.Avant de commencer
 Aucun sous-réseau ne doit être associé au domaine de diffusion que vous souhaitez supprimer.
 
 .Description de la tâche

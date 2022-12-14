@@ -43,8 +43,10 @@ Vous pouvez désactiver DDNS en décochant la case *DDNS service*.
 
 Vous pouvez gérer les informations de l'hôte de façon centralisée à l'aide de DNS. Vous pouvez utiliser System Manager pour ajouter ou modifier le nom de domaine DNS de votre système de stockage. Vous pouvez également activer DDNS sur votre système de stockage pour mettre à jour automatiquement le serveur de noms dans le serveur DNS.
 
+.Avant de commencer
 Vous devez avoir configuré un serveur CIFS ou un compte Active Directory pour que la machine virtuelle de stockage (SVM) puisse fonctionner DDNS sécurisée.
 
+.Description de la tâche
 System Manager n'effectue aucune vérification de validation pour les paramètres DNS et DDNS.
 
 .Étapes

@@ -58,6 +58,7 @@ Vous pouvez modifier les détails d'une règle Snapshot existante, par exemple l
 
 Vous pouvez utiliser System Manager pour supprimer les règles Snapshot. Si vous supprimez une règle Snapshot utilisée par un ou plusieurs volumes, les copies Snapshot du ou des volumes ne sont plus créées conformément à la règle supprimée.
 
+.Avant de commencer
 Vous devez avoir dissocié la stratégie Snapshot de chaque volume qui l'utilise.
 
 .Étapes

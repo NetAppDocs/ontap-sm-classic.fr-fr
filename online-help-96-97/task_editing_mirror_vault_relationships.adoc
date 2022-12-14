@@ -18,8 +18,10 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 [role="lead"]
 Vous pouvez utiliser System Manager pour modifier une relation de miroir et de coffre-fort en modifiant la stratégie ou la planification sélectionnée. Cependant, vous ne pouvez pas modifier les paramètres d'une stratégie ou d'une planification existante.
 
+.Avant de commencer
 Les clusters source et destination doivent se trouver dans une relation peer-to-peer en bonne santé.
 
+.Description de la tâche
 Vous pouvez modifier le type de relation d'une relation version flexible miroir, relation de coffre-fort ou relation miroir/coffre-fort en modifiant le type de stratégie.
 
 .Étapes
@@ -107,6 +109,7 @@ Sélectionnez *aucun*.
 [role="lead"]
 Vous pouvez utiliser System Manager pour lancer manuellement une mise à jour incrémentielle non planifiée. Une mise à jour manuelle peut être nécessaire pour éviter toute perte de données due à une panne de courant à venir, à une maintenance planifiée ou à une migration de données.
 
+.Avant de commencer
 La relation miroir et coffre-fort doit être initialisée et à l'état Snapmirrored.
 
 .Étapes
@@ -130,6 +133,7 @@ La relation miroir et coffre-fort doit être initialisée et à l'état Snapmirr
 [role="lead"]
 Vous pouvez utiliser System Manager pour initialiser une relation miroir et coffre-fort si vous n'avez pas déjà initialisé la relation lors de sa création. Lorsque vous initialisez une relation, un transfert de base complet des données est effectué depuis le volume source vers la destination.
 
+.Avant de commencer
 Les clusters source et destination doivent se trouver dans une relation peer-to-peer en bonne santé.
 
 .Étapes
@@ -139,6 +143,7 @@ Les clusters source et destination doivent se trouver dans une relation peer-to-
 . Vérifiez l'état de la relation dans la fenêtre *protection*.
 
 
+.Résultats
 Une copie Snapshot est créée et transférée vers la destination.
 
 Cette copie Snapshot est utilisée comme base pour les copies Snapshot incrémentielles ultérieures.
@@ -210,8 +215,10 @@ Vous pouvez sélectionner la règle dont le nombre maximal d'étiquettes corresp
 [role="lead"]
 Vous pouvez utiliser System Manager pour rétablir une relation de miroir et de copie à distance qui a été rompue auparavant. Vous pouvez effectuer une opération de resynchronisation pour restaurer à partir d'un incident ayant désactivé le volume source.
 
+.Avant de commencer
 Les clusters source et de destination ainsi que les serveurs virtuels de stockage source et destination doivent se trouver dans des relations entre pairs.
 
+.Description de la tâche
 Avant d'effectuer une opération de resynchronisation, vous devez tenir compte des éléments suivants :
 
 * Lorsque vous exécutez une opération de resynchronisation, le contenu du volume de destination est écrasé par le contenu de la source.
@@ -237,6 +244,7 @@ L'opération de resynchronisation peut entraîner la perte de données plus réc
 [role="lead"]
 Vous pouvez utiliser System Manager pour rétablir une relation de miroir et de copie à distance précédemment interrompue. Dans une opération de resynchronisation inverse, les fonctions des volumes source et de destination sont inversées. Vous pouvez utiliser le volume de destination pour transmettre des données pendant que vous réparez ou remplacez la source, mettez à jour la source et rétablissez la configuration d'origine des systèmes.
 
+.Avant de commencer
 Le volume source doit être en ligne.
 
 .Description de la tâche
@@ -268,6 +276,7 @@ Vous pouvez utiliser System Manager pour interrompre une relation de miroir et d
 * Le volume de destination doit être monté sur l'espace de noms du serveur virtuel de stockage de destination.
 
 
+.Description de la tâche
 Vous pouvez briser les relations en miroir entre les systèmes ONTAP et les systèmes de stockage SolidFire.
 
 .Étapes
@@ -276,6 +285,7 @@ Vous pouvez briser les relations en miroir entre les systèmes ONTAP et les syst
 . Cochez la case de confirmation, puis cliquez sur *Break*.
 
 
+.Résultats
 La relation miroir et coffre-fort est rompue. Le type de volume de destination passe de la protection des données (DP) en lecture seule à la lecture/écriture. Le système stocke la copie Snapshot de base pour les relations miroir et coffre-fort pour une utilisation ultérieure.
 
 
@@ -285,6 +295,7 @@ La relation miroir et coffre-fort est rompue. Le type de volume de destination p
 [role="lead"]
 Si vous disposez d'une relation de mise en miroir et de coffre-fort mise en veille, vous pouvez utiliser System Manager pour reprendre la relation. Lorsque vous reprenez la relation, le transfert de données normal vers le volume de destination reprend et toutes les activités de protection sont redémarrées.
 
+.Description de la tâche
 Si vous avez suspendu une relation de miroir et de coffre-fort défaillante à partir de l'interface de ligne de commande, vous ne pouvez pas reprendre la relation depuis System Manager. Vous devez utiliser l'interface de ligne de commandes pour reprendre la relation.
 
 .Étapes
@@ -293,6 +304,7 @@ Si vous avez suspendu une relation de miroir et de coffre-fort défaillante à p
 . Cochez la case de confirmation, puis cliquez sur *reprendre*.
 
 
+.Résultats
 Les transferts de données normaux sont repris. En cas de transfert planifié pour la relation, le transfert est démarré à partir du prochain planning.
 
 
@@ -319,6 +331,7 @@ Si la relation n'est pas libérée, vous devez utiliser l'interface de ligne de 
 
 
 
+.Résultats
 La relation est supprimée et les copies Snapshot de base du volume source sont supprimées définitivement.
 
 
@@ -328,6 +341,7 @@ La relation est supprimée et les copies Snapshot de base du volume source sont 
 [role="lead"]
 Vous pouvez utiliser System Manager pour suspendre un volume de destination afin de stabiliser la destination avant de créer une copie Snapshot. L'opération de mise en attente permet aux transferts de données actifs de se terminer et désactive les transferts futurs pour la relation miroir et coffre-fort.
 
+.Avant de commencer
 La relation miroir et coffre-fort doit être à l'état Snapmirrored.
 
 .Étapes
@@ -336,4 +350,5 @@ La relation miroir et coffre-fort doit être à l'état Snapmirrored.
 . Cochez la case de confirmation, puis cliquez sur *Quiesce*.
 
 
+.Résultats
 S'il n'y a pas de transfert en cours, l'état du transfert s'affiche comme suspendu. Si un transfert est en cours, le transfert n'est pas affecté et le statut du transfert est affiché comme suspendu jusqu'à ce que le transfert soit terminé.

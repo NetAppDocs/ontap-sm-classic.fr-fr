@@ -77,6 +77,7 @@ Dans la boîte de dialogue Options avancées, vous pouvez spécifier le chemin d
 
 
 
+.Liste de résultats pour le traçage du protocole CIFS
 Lorsque vous spécifiez le protocole CIFS, la liste des résultats affiche les données suivantes pour votre trace en fonction des paramètres que vous avez spécifiés. Les données sont affichées dans l'ordre chronologique inverse. Si vous arrêtez le traçage, les résultats restent dans la liste jusqu'à ce que vous démarquiez un autre tracé.
 
 * Partager : nom du partage auquel le système a tenté d'accéder, qu'il ait réussi ou non.
@@ -91,6 +92,7 @@ Lorsque le résultat de la trace affiche un message indiquant que l'accès n'est
 ====
 
 
+.Liste de résultats pour le traçage du protocole NFS
 Lorsque vous spécifiez le protocole NFS, la liste des résultats affiche les données suivantes pour votre trace en fonction des paramètres que vous avez spécifiés. Les données sont affichées dans l'ordre chronologique inverse. Si vous arrêtez le traçage, les résultats restent dans la liste jusqu'à ce que vous démarquiez un autre tracé.
 
 * Chemin d'accès : chemin d'accès au fichier auquel le système a tenté d'accéder, que ce soit réussi ou non.

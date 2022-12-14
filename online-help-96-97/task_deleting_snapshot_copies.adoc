@@ -13,6 +13,7 @@ summary: 'System Manager permet la suppression d"une copie Snapshot pour économ
 [role="lead"]
 ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) permet de supprimer une copie Snapshot afin d'économiser de l'espace disque ou de libérer de l'espace disque. Vous pouvez également supprimer une copie Snapshot si elle n'est plus requise.
 
+.Avant de commencer
 Si vous souhaitez supprimer une copie Snapshot occupée ou verrouillée, vous devez avoir libéré cette copie de l'application utilisant la copie Snapshot.
 
 .Description de la tâche

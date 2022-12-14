@@ -21,4 +21,5 @@ Vous pouvez utiliser ONTAP System Manager classic (disponible dans ONTAP 9.7 et 
 . Cliquez sur *abandonner*.
 
 
+.Résultats
 L'état du transfert est affiché sous la forme « Aborting » jusqu'à ce que l'opération soit terminée et affichée sous la forme « Idle » après la fin de l'opération.

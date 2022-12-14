@@ -13,8 +13,10 @@ summary: 'Depuis System Manager 9.6, vous pouvez modifier les propriétés d"un 
 [role="lead"]
 Depuis System Manager 9.6, vous pouvez modifier les propriétés d'un volume FlexGroup existant.
 
+.Avant de commencer
 Le volume FlexGroup doit être en ligne.
 
+.Description de la tâche
 Les volumes FabricPool FlexGroup peuvent être étendus dans les conditions suivantes :
 
 * Un volume FabricPool FlexGroup ne peut être étendu qu'avec des agrégats FabricPool.

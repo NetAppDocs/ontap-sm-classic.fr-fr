@@ -13,8 +13,10 @@ summary: 'Avant d"utiliser un périphérique multichemin, vérifiez que l"hôte 
 [role="lead"]
 Avant d'utiliser un périphérique multichemin, vérifiez que l'hôte peut écrire des données sur le périphérique multichemin et les lire à nouveau.
 
+.Avant de commencer
 DM-Multipath doit être configuré sur l'hôte Linux pour les nœuds du cluster de stockage auxquels vous accédez.
 
+.Description de la tâche
 Si le nœud de cluster de stockage auquel le périphérique multivoie correspond peut basculer vers son nœud partenaire, vérifiez la lecture des données pendant que le nœud est défaillant. Cette vérification peut ne pas être possible si le cluster de stockage est en production.
 
 .Étapes

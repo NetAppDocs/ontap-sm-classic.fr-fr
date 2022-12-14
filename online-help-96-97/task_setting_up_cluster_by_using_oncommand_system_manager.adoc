@@ -24,6 +24,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 * Si l'interface cluster est présente sur un port, ce port doit être présent dans le cluster IPspace.
 
 
+.Description de la tâche
 Pour créer un cluster, vous devez vous connecter via la console et configurer l'adresse IP de gestion de nœuds sur n'importe quel nœud du réseau de clusters. Une fois l'adresse IP de gestion des nœuds configurée sur un nœud, vous pouvez ajouter d'autres nœuds et créer un cluster à l'aide de ONTAP System Manager.
 
 L'opération de configuration du cluster n'est pas prise en charge sur les configurations MetroCluster pour le logiciel ONTAP.

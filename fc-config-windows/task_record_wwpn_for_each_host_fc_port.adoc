@@ -13,8 +13,10 @@ summary: 'Le nom de port mondial (WWPN) est nécessaire pour segmenter les commu
 [role="lead"]
 Le nom de port mondial (WWPN) est nécessaire pour segmenter les commutateurs FC et créer les igroups qui permettent à l'hôte d'accéder à sa LUN.
 
+.Avant de commencer
 Vous devez avoir installé l'utilitaire HBA du fournisseur pour les HBA de votre hôte et vérifier que les HBA exécutent des versions de pilote, de micrologiciel et de BIOS prises en charge pour votre configuration.
 
+.Description de la tâche
 Le WWPN est utilisé dans l'ensemble des configurations. Vous n'avez pas à enregistrer le nom de nœud mondial (WWNN).
 
 .Étapes

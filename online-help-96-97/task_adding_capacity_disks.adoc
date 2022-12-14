@@ -81,6 +81,7 @@ Pour les agrégats en miroir, une boîte de dialogue *Ajouter capacité* s'affic
 . Dans la boîte de dialogue *Ajouter capacité*, cliquez sur *Oui* pour ajouter les disques de capacité.
 
 
+.Résultats
 Les disques de capacité sont ajoutés à l'agrégat sélectionné et la taille de l'agrégat est augmentée.
 
 *Informations connexes*

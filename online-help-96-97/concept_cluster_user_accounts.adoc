@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 
 Vous pouvez utiliser System Manager pour ajouter un compte utilisateur de cluster et spécifier une méthode de connexion utilisateur pour accéder au système de stockage.
 
+.Description de la tâche
 Dans les clusters sur lesquels l'authentification SAML est activée, pour une application particulière, vous pouvez ajouter l'authentification SAML ou l'authentification basée sur un mot de passe, ou encore ajouter les deux types d'authentification.
 
 .Étapes

@@ -13,6 +13,7 @@ summary: 'Vous pouvez configurer FC sur une machine virtuelle de stockage exista
 [role="lead"]
 Vous pouvez configurer FC sur une machine virtuelle de stockage (SVM) existante. Le protocole FC doit déjà être activé, mais pas configuré sur le SVM. Ces informations sont destinées aux SVM pour lesquels vous configurez plusieurs protocoles, mais qui n'ont pas encore configuré FC.
 
+.Avant de commencer
 Votre structure FC doit être configurée et les ports physiques de votre choix doivent être connectés à la structure.
 
 .Étapes

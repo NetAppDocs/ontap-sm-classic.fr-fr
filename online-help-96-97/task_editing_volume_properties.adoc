@@ -13,6 +13,7 @@ summary: 'Vous pouvez modifier les propriétés d"un volume, telles que le nom d
 [role="lead"]
 Utilisez ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) pour modifier les propriétés du volume, telles que le nom du volume, le style de sécurité, la réserve fractionnaire et la garantie d'espace. Vous pouvez modifier les paramètres d'efficacité du stockage (planification de la déduplication, règles de déduplication et compression) et les paramètres de récupération d'espace.
 
+.Avant de commencer
 Pour activer le chiffrement de volume, vous devez avoir installé la licence de chiffrement de volume à l'aide de System Manager et vous devez avoir activé « Configuration du gestionnaire de clés » à l'aide de l'interface de ligne de commande (CLI). Vous devez actualiser votre navigateur Web après l'activation de « Configuration du gestionnaire de clés ».
 
 .Description de la tâche

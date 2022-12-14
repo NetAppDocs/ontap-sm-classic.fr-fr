@@ -13,6 +13,7 @@ summary: 'Virtual Storage Console pour VMware vSphere automatise la plupart des 
 [role="lead"]
 Virtual Storage Console pour VMware vSphere automatise la plupart des tâches de configuration et de provisionnement nécessaires à l'utilisation du stockage NetApp iSCSI avec un hôte ESXi. Virtual Storage Console est un plug-in de vCenter Server.
 
+.Avant de commencer
 Vous devez disposer des informations d'identification d'administrateur sur le serveur vCenter utilisé pour gérer l'hôte ESXi.
 
 .Description de la tâche

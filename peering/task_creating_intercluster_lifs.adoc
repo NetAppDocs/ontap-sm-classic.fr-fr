@@ -13,6 +13,7 @@ summary: 'Depuis ONTAP 9.3 et jusqu"à ONTAP 9.7, vous pouvez utiliser l"interfa
 [role="lead"]
 Depuis ONTAP 9.3, jusqu'à ONTAP 9.7, vous pouvez utiliser l'interface ONTAP System Manager _classic_ pour créer des interfaces logiques intercluster (LIF), qui permettent au réseau du cluster de communiquer avec un nœud. Vous devez créer une LIF intercluster au sein de chaque IPspace qui sera utilisée pour le peering, sur chaque nœud de chaque cluster pour lequel vous souhaitez créer une relation entre pairs.
 
+.Description de la tâche
 Par exemple, si vous disposez d'un cluster à quatre nœuds que vous souhaitez pairs avec le cluster X au-dessus d'IPspace A, et que vous devez associer un cluster y au-delà de l'IPspace Y, vous devez disposer d'un total de huit LIF intercluster ; Quatre se trouvent sur IPspace A (un par nœud) et quatre sur IPspace y (un par nœud).
 
 Vous devez effectuer cette procédure sur les deux clusters pour lesquels vous souhaitez créer une relation homologue.

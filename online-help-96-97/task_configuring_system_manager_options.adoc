@@ -13,6 +13,7 @@ summary: 'Vous pouvez activer la journalisation et spécifier la valeur du déla
 [role="lead"]
 Vous pouvez activer la journalisation et spécifier la valeur du délai d'inactivité pour ONTAP System Manager Classic (disponible dans ONTAP 9.7 ou version antérieure).
 
+.Description de la tâche
 Vous pouvez configurer les options depuis la fenêtre de connexion de System Manager. Cependant, vous devez vous connecter à l'application pour spécifier la valeur du délai d'inactivité.
 
 .Étapes

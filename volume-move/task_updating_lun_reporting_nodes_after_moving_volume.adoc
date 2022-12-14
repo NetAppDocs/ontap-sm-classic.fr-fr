@@ -13,6 +13,7 @@ summary: 'Si le volume que vous avez déplacé contient des LUN et que le volume
 [role="lead"]
 Si le volume que vous avez déplacé contient des LUN et que le volume se trouve maintenant sur une paire HA différente, vous devez supprimer tous les nœuds distants de la liste des nœuds de rapport du mappage de LUN sélectif (SLM). Le mappage de LUN contient alors uniquement le nœud propriétaire et son partenaire haute disponibilité, ce qui garantit que seuls les chemins de LUN optimisés sont utilisés.
 
+.Description de la tâche
 Cette procédure est nécessaire uniquement si vous avez déplacé le volume de sa paire HA vers une autre paire HA. Si le volume se trouve sur un autre nœud de la même paire HA, vous pouvez ignorer cette procédure.
 
 .Étapes

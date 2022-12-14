@@ -11,6 +11,7 @@ summary: 'Vous pouvez utiliser System Manager pour modifier l"espace de noms en 
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour modifier l'espace de noms en modifiant le sous-système sur lequel l'espace de noms est mappé.
 
+.Description de la tâche
 Vous pouvez uniquement modifier les paramètres du sous-système NVMe dans cette fenêtre. Vous ne pouvez pas modifier les autres détails de l'espace de noms.
 
 .Étapes

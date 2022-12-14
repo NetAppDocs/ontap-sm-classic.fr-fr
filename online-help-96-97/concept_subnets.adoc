@@ -47,8 +47,10 @@ Vous pouvez modifier le sous-réseau même lorsque la LIF de ce sous-réseau est
 
 System Manager peut être utilisé pour supprimer un sous-réseau lorsque vous n'avez plus besoin du sous-réseau et que vous souhaitez réaffecter les adresses IP qui ont été attribuées au sous-réseau.
 
+.Avant de commencer
 Le sous-réseau que vous souhaitez supprimer ne doit pas contenir de LIF qui utilisent des adresses IP du sous-réseau.
 
+.Description de la tâche
 Vous ne pouvez pas utiliser System Manager pour supprimer des sous-réseaux dans le Cluster IPspace. Vous devez plutôt utiliser l'interface de ligne de commandes.
 
 .Étapes

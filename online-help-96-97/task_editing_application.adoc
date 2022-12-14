@@ -13,6 +13,7 @@ summary: 'Vous pouvez modifier une application provisionnée pour augmenter la t
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour modifier une application provisionnée et augmenter ainsi la taille du stockage ou gérer les copies Snapshot de l'application.
 
+.Description de la tâche
 En tant qu'administrateur de cluster, après avoir provisionné une application, vous pouvez la modifier pour modifier la taille du stockage. Vous pouvez également créer, restaurer ou supprimer des copies Snapshot de l'application. L'exemple suivant décrit comment modifier une application *conteneur NAS*.
 
 .Étapes

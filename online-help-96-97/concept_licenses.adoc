@@ -25,6 +25,7 @@ Pour plus d'informations sur la gestion des licences à l'aide de ONTAP 9.8 et v
 * https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["Activation de nouvelles fonctionnalités en ajoutant des clés de licence"^]
 
 
+.Avant de commencer
 La licence logicielle que vous souhaitez supprimer ne doit pas être utilisée par un service ou une fonction.
 
 .Étapes
@@ -55,6 +56,7 @@ Vous ne pouvez supprimer qu'un seul package de licences à la fois.
 . Cochez la case de confirmation, puis cliquez sur *Supprimer*.
 
 
+.Résultats
 La licence logicielle est supprimée de votre système de stockage. La licence supprimée est également supprimée de la liste des licences dans la fenêtre licences.
 
 

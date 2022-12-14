@@ -129,4 +129,5 @@ Les clients NFS doivent connaître l'adresse IP de la LIF de données.
 
 
 
+.Résultats
 Un nouveau SVM est créé avec un serveur NFS contenant un nouveau volume exporté pour un administrateur.

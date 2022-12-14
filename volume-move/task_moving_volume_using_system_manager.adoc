@@ -13,8 +13,10 @@ summary: 'À l"aide de l"interface classique de ONTAP System Manager avec ONTAP 
 [role="lead"]
 À l'aide de l'interface System Manager _Classic_ de ONTAP avec ONTAP 9.7 ou une version antérieure, vous pouvez déplacer un volume en sélectionnant un volume et l'agrégat de destination, démarrer l'opération de déplacement de volume et, éventuellement, contrôler la tâche de déplacement de volume. Avec System Manager, une opération de déplacement de volume se termine automatiquement.
 
+.Avant de commencer
 Vous devez avoir vérifié l'espace disponible sur l'agrégat source et l'agrégat de destination avant l'opération de déplacement de volume et après l'opération de déplacement de volume.
 
+.Description de la tâche
 Une opération de déplacement de volume n'est prise en charge qu'au sein d'un même cluster. Notez également que l'agrégat que vous déplacez le volume vers et l'agrégat que vous déplacez doivent se trouver sur le même SVM (Storage Virtual machine). Un déplacement de volume n'interrompt pas l'accès client.
 
 .Étapes
@@ -85,5 +87,5 @@ image::../media/vol_move_cutover.gif[Cette image est expliquée par le texte qui
 .. Cliquez sur *OK*.
 
 
-. Recommencez ,Étape 4.
+. Recommencez <<step4-monitor,Étape 4>>.
 

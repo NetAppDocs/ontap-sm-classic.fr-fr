@@ -13,6 +13,7 @@ summary: 'Pour ONTAP 9.4 et versions ultérieures, vous pouvez copier l"image du
 [role="lead"]
 Vous pouvez obtenir des images du logiciel ONTAP avec ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures). Pour ONTAP 9.4 et versions ultérieures, vous pouvez copier l'image du logiciel ONTAP depuis le site de support NetApp vers un dossier local. Pour les mises à niveau à partir de ONTAP 9.3 ou d'une version antérieure, vous devez copier l'image du logiciel ONTAP sur un serveur HTTP ou FTP de votre réseau.
 
+.Description de la tâche
 Pour mettre à niveau le cluster vers la version cible de ONTAP, vous devez accéder aux images logicielles. Le site de support NetApp propose les images logicielles, les informations de version du firmware et la dernière version du firmware pour votre modèle de plateforme. Notez les informations importantes suivantes :
 
 * Les images logicielles sont spécifiques aux modèles de plate-forme.

@@ -13,6 +13,7 @@ summary: 'Vous pouvez réduire les perturbations de l"accès aux données lors d
 [role="lead"]
 Vous pouvez réduire les perturbations de l'accès aux données lors de l'activation du volume de destination en configurant les configurations requises telles que les LIF, les partages CIFS et les stratégies d'exportation pour l'environnement NAS, ainsi que les LIF et les groupes initiateurs pour l'environnement SAN sur la SVM contenant le volume de destination.
 
+.Description de la tâche
 Vous devez effectuer cette tâche sur le cluster *destination* pour la SVM contenant le volume de destination.
 
 

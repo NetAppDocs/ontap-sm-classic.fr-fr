@@ -13,6 +13,7 @@ summary: 'Depuis System Manager 9.6, vous pouvez effectuer une opération de ré
 [role="lead"]
 Depuis System Manager 9.6, vous pouvez effectuer une opération de rétablissement qui restaure le contrôle sur le site MetroCluster d'origine (site B) une fois que le système a terminé une opération de basculement.
 
+.Avant de commencer
 Avant d'effectuer une opération de rétablissement, vous devez effectuer les tâches suivantes :
 
 * Vous devez préparer les sites MetroCluster par xref:task_performing_negotiated_planned_switchover.adoc[Effectuer un basculement négocié (planifié)] ou xref:task_performing_unplanned_switchover.adoc[Effectuer un basculement non planifié].
@@ -20,6 +21,7 @@ Avant d'effectuer une opération de rétablissement, vous devez effectuer les t�
 * Si l'état du site distant est affiché comme « prêt pour le rétablissement », les agrégats sont toujours en cours de resynchronisation. Vous devez patienter jusqu'à ce que l'état du site distant indique que celui-ci est prêt pour le rétablissement.
 
 
+.Description de la tâche
 Si le basculement est réussi, la fenêtre MetroCluster Switchback Operations s'affiche. La fenêtre affiche l'état des deux sites et affiche un message vous indiquant que l'opération a réussi.
 
 .Étapes

@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 Vous pouvez utiliser System Manager pour créer un groupe d'interface (mode unique, multimode statique ou multimode dynamique) afin de présenter une interface unique aux clients en combinant les fonctionnalités des ports réseau agrégés.
 
+.Avant de commencer
 Les ports libres doivent être disponibles qui n'appartiennent à aucun domaine de diffusion ou groupe d'interfaces, ou qui hébergent un VLAN.
 
 .Étapes
@@ -76,6 +77,7 @@ Vous pouvez modifier les paramètres du port Ethernet, tels que le mode duplex e
 
 Vous pouvez utiliser System Manager pour ajouter des ports à un groupe d'interfaces, supprimer des ports d'un groupe d'interfaces et modifier le mode d'utilisation et le modèle de distribution de charge des ports d'un groupe d'interfaces.
 
+.Description de la tâche
 Vous ne pouvez pas modifier les paramètres MTU d'un groupe d'interfaces affecté à un domaine de diffusion.
 
 .Étapes
@@ -90,6 +92,7 @@ Vous ne pouvez pas modifier les paramètres MTU d'un groupe d'interfaces affect�
 
 Si vous souhaitez modifier la taille de MTU d'une interface VLAN qui ne fait pas partie d'un domaine de diffusion, vous pouvez utiliser System Manager pour modifier la taille.
 
+.Description de la tâche
 Vous ne devez pas modifier la taille MTU du port de gestion e0M.
 
 .Étapes
@@ -104,6 +107,7 @@ Vous ne devez pas modifier la taille MTU du port de gestion e0M.
 
 Vous pouvez supprimer les VLAN configurés sur les ports réseau à l'aide de System Manager. Vous devrez peut-être supprimer un VLAN avant de retirer une carte réseau de son logement. Lorsque vous supprimez un VLAN, celui-ci est automatiquement supprimé de toutes les règles et groupes de basculement qui utilisent le VLAN.
 
+.Avant de commencer
 Aucune LIFs ne doit être associée au VLAN.
 
 .Étapes

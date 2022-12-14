@@ -13,8 +13,10 @@ summary: Lorsque le volume source est en ligne, vous devez resynchroniser les do
 [role="lead"]
 Lorsque le volume source est en ligne, vous devez resynchroniser les données entre le volume de destination et le volume source pour répliquer les dernières données depuis le volume de destination.
 
+.Avant de commencer
 Le volume source doit être en ligne.
 
+.Description de la tâche
 Vous devez effectuer la tâche à partir du cluster *destination*.
 
 L'image suivante montre que les données sont répliquées depuis le volume de destination actif vers le volume source en lecture seule :

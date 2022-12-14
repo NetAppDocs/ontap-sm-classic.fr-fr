@@ -14,8 +14,10 @@ summary: Vous pouvez utiliser System Manager pour protéger vos données et amé
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) pour protéger vos données et améliorer la résilience en mettant en miroir les données en temps réel dans un agrégat unique. La mise en miroir des agrégats supprime les points de défaillance uniques lors de la connexion aux disques et aux LUN de baies.
 
+.Avant de commencer
 L'autre pool doit disposer de disques disponibles suffisants pour mettre en miroir l'agrégat.
 
+.Description de la tâche
 Un agrégat Flash Pool ne peut pas être mis en miroir lorsque la source du cache est un pool de stockage.
 
 .Étapes

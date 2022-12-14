@@ -136,4 +136,5 @@ L'administrateur DNS doit connaître le nom du serveur CIFS et l'adresse IP de l
 
 
 
+.Résultats
 Un nouveau SVM est créé avec un serveur CIFS contenant un nouveau volume partagé.

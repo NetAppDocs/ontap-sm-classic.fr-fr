@@ -44,7 +44,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 Volume source
  a| 
 .. Sélectionnez *Volume source*.
-.. ,Passez à l'étape 6.
+.. <<STEP_3D59B4A5225847F1B3EF9F3D38C78DFA,Passez à l'étape 6>>.
 
 
 

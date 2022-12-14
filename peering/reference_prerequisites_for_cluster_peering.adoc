@@ -71,4 +71,5 @@ Bien que HTTPS n'est pas requis lors de la configuration du peering de clusters 
 
 La valeur par défaut `intercluster` La politique de pare-feu permet l'accès via le protocole HTTPS et à partir de toutes les adresses IP (0.0.0.0/0). Vous pouvez modifier ou remplacer la stratégie si nécessaire.
 
+.Informations associées
 https://docs.netapp.com/us-en/ontap/data-protection/index.html["Protection des données"]

@@ -13,6 +13,7 @@ summary: 'Si vous choisissez d"utiliser une machine virtuelle de stockage (SVM) 
 [role="lead"]
 Si vous choisissez d'utiliser une machine virtuelle de stockage (SVM) existante, vérifiez que le service FC s'exécute sur la SVM à l'aide de ONTAP System Manager. Vous devez également vérifier que les interfaces logiques FC (LIF) sont déjà créées.
 
+.Avant de commencer
 Vous devez avoir sélectionné un SVM existant sur lequel vous prévoyez de créer une nouvelle LUN.
 
 .Étapes

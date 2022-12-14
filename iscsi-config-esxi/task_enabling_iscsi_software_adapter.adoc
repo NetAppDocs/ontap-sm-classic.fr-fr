@@ -13,6 +13,7 @@ summary: 'L"adaptateur logiciel iSCSI crée la connexion iSCSI sur l"hôte ESX. 
 [role="lead"]
 La carte logicielle iSCSI crée la connexion iSCSI sur l'hôte ESXi. Il est intégré au système d'exploitation, mais doit être activé avant de pouvoir être utilisé.
 
+.Avant de commencer
 Un client VMware vSphere doit être installé sur votre poste de travail ou vous devez avoir accès à un client Web vSphere.
 
 .Étapes

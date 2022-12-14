@@ -13,6 +13,7 @@ summary: Vous pouvez utiliser ONTAP System Manager pour créer et configurer un 
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour créer et configurer un cluster dans votre data Center.
 
+.Description de la tâche
 Si le cluster prend en charge ONTAP 9.1 ou version ultérieure, vous pouvez uniquement ajouter les systèmes de stockage qui exécutent ONTAP 9.1 ou version ultérieure.
 
 .Étapes

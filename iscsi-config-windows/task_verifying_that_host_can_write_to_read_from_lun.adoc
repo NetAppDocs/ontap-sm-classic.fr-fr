@@ -13,8 +13,10 @@ summary: 'Avant d"utiliser la LUN, vérifiez que l"hôte peut écrire les donné
 [role="lead"]
 Avant d'utiliser la LUN, vérifiez que l'hôte peut écrire les données sur la LUN et les lire de nouveau.
 
+.Avant de commencer
 La LUN doit être initialisée et formatée avec un système de fichiers.
 
+.Description de la tâche
 Si le nœud de cluster de stockage sur lequel la LUN est créée peut être basculée vers son nœud partenaire, vérifiez que les données sont sollicitées alors que le nœud est défaillant. Ce test peut être impossible si le cluster de stockage est en production.
 
 Si l'un des tests échoue, vérifiez que le service iSCSI est en cours d'exécution et vérifiez les chemins iSCSI vers la LUN.

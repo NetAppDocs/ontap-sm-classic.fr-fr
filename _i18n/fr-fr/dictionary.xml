@@ -9249,4 +9249,9 @@
   <block id="1cea5f7ff46fdcaad82b7016abae2ceb" category="sidebar">Configuration SMB/CIFS</block>
   <block id="8cadc76a323c196244af8dd4c3ad5543" category="sidebar">Ad a un volume CIFS vers un SVM compatible CIFS</block>
   <block id="0fe674cba26a6125717793de11bb3096" category="sidebar">Administration de l'extension de cluster</block>
+  <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">Résultats</block>
+  <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">[[prérequis-peering, conditions préalables pour le peering de cluster]] prérequis pour le peering de cluster</block>
+  <block id="f6544266822afc00f9e28a38a852cab9" category="paragraph-title">Liste de résultats pour le traçage du protocole CIFS</block>
+  <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">Liste de résultats pour le traçage du protocole NFS</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Informations associées</block>
 </blocks>

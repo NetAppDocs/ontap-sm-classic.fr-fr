@@ -13,6 +13,7 @@ summary: 'La configuration de la page de support termine la configuration du clu
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour configurer une page de support. La configuration de la page de support termine la configuration du cluster, implique la configuration des notifications d'événement et, pour les clusters à un seul nœud, la configuration de la sauvegarde du système.
 
+.Avant de commencer
 Vous devez avoir configuré le cluster et le réseau.
 
 .Étapes

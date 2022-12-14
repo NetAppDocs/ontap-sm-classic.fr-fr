@@ -13,6 +13,7 @@ summary: 'Avant d"utiliser la LUN, vérifiez que l"hôte peut écrire les donné
 [role="lead"]
 Avant d'utiliser la LUN, vérifiez que l'hôte peut écrire les données sur la LUN et les lire de nouveau.
 
+.Description de la tâche
 Si le nœud de cluster sur lequel la LUN est créée peut être basculée vers son nœud partenaire, vérifiez la lecture des données pendant que le nœud est défaillant. Ce test peut être impossible si le cluster est en production.
 
 .Étapes

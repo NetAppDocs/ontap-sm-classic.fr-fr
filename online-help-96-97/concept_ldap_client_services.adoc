@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 Vous pouvez utiliser System Manager pour ajouter une configuration client LDAP au niveau du cluster ou au niveau des SVM (Storage Virtual machine) si vous souhaitez utiliser les services LDAP. Vous devez d'abord configurer un client LDAP pour utiliser les services LDAP.
 
+.Description de la tâche
 Au niveau du SVM, il est possible d'ajouter un client LDAP uniquement pour une SVM sélectionnée.
 
 .Étapes
@@ -44,6 +45,7 @@ Au niveau du SVM, il est possible d'ajouter un client LDAP uniquement pour une S
 
 System Manager permet de supprimer une configuration client LDAP au niveau du cluster ou du SVM.
 
+.Description de la tâche
 Au niveau du SVM, vous pouvez supprimer un client LDAP uniquement pour une SVM sélectionnée.
 
 .Étapes
@@ -64,6 +66,7 @@ Au niveau du SVM, vous pouvez supprimer un client LDAP uniquement pour une SVM s
 
 System Manager peut être utilisé pour modifier une configuration client LDAP au niveau du cluster ou au niveau des SVM (Storage Virtual machine).
 
+.Description de la tâche
 Au niveau du SVM, il est possible de modifier un client LDAP uniquement pour une SVM sélectionnée.
 
 .Étapes

@@ -30,6 +30,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 
 Vous pouvez utiliser l'onglet groupes initiateurs de System Manager pour supprimer les groupes initiateurs.
 
+.Avant de commencer
 Le mappage manuel de toutes les LUN mappées sur le groupe initiateur doit être annulé.
 
 .Étapes
@@ -60,6 +61,7 @@ Vous pouvez utiliser System Manager pour ajouter des initiateurs à un groupe in
 
 Vous pouvez utiliser l'onglet groupes initiateurs de System Manager pour supprimer un initiateur. Pour supprimer un initiateur d'un groupe initiateur, vous devez le dissocier du groupe initiateur.
 
+.Avant de commencer
 Toutes les LUN mappées sur le groupe initiateur qui contient l'initiateur que vous souhaitez supprimer doivent être manuellement mappées.
 
 .Étapes

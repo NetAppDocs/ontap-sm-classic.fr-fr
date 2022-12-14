@@ -13,6 +13,7 @@ summary: 'L"hôte Linux doit disposer d"une connexion iSCSI avec chaque nœud (c
 [role="lead"]
 L'hôte Linux doit disposer d'une connexion iSCSI avec chaque nœud (cible) du cluster de stockage. Vous définissez les sessions à partir de l'hôte.
 
+.Description de la tâche
 Dans ONTAP, l'hôte iSCSI doit avoir des chemins d'accès à chaque nœud du cluster. DM-Multipath sélectionne les meilleurs chemins d'accès à utiliser. En cas d'échec des chemins, DM-Multipath sélectionne les chemins alternatifs.
 
 .Étapes

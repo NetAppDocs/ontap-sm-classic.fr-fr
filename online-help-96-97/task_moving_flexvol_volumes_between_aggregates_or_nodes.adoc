@@ -13,8 +13,10 @@ summary: 'Vous pouvez déplacer, sans interruption, un volume FlexVol vers un au
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) pour déplacer, sans interruption, un volume FlexVol vers un autre agrégat ou un nœud différent pour optimiser l'utilisation de la capacité et les performances.
 
+.Avant de commencer
 Si vous déplacez un volume de protection des données (DP), vous devez initialiser les relations de miroir de protection des données avant de déplacer le volume.
 
+.Description de la tâche
 Vous ne pouvez pas déplacer les volumes SnapLock entre les agrégats et les nœuds.
 
 .Étapes

@@ -13,6 +13,7 @@ summary: 'L"hôte ESXi requiert des ports réseau pour les connexions NFS vers l
 [role="lead"]
 L'hôte ESXi requiert des ports réseau pour les connexions NFS vers le cluster de stockage.
 
+.Description de la tâche
 Il est recommandé d'utiliser le hachage IP comme stratégie de regroupement de cartes réseau, qui nécessite un port VMkernel unique sur un seul vSwitch.
 
 Les ports hôte et les ports de cluster de stockage utilisés pour NFS doivent avoir des adresses IP dans le même sous-réseau.

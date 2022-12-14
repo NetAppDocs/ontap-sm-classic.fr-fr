@@ -190,4 +190,5 @@ Si le cluster sélectionné exécute une version du logiciel ONTAP antérieure �
 . Vérifiez que le volume que vous avez créé est inclus dans la liste des volumes de la fenêtre *Volume*.
 
 
+.Résultats
 Le volume est créé avec une sécurité de style UNIX et des autorisations UNIX 700 de « réexécution en écriture » pour le propriétaire.

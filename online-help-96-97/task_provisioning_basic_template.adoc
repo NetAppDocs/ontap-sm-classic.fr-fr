@@ -13,6 +13,7 @@ summary: System Manager peut être utilisé pour provisionner rapidement les mod
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) pour provisionner rapidement les modèles de base pour SAP HANA.
 
+.Description de la tâche
 En tant qu'administrateur de cluster, vous pouvez provisionner des applications en configurant un modèle de base. L'exemple décrit comment configurer *SAP HANA Server*.
 
 .Étapes
@@ -31,6 +32,7 @@ En tant qu'administrateur de cluster, vous pouvez provisionner des applications 
 . Cliquez sur *Provision Storage*
 
 
+.Résultats
 L'application SAP HANA Server est provisionnée.
 
 *Informations connexes*

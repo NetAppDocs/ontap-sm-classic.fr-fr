@@ -63,4 +63,5 @@ host# cd ..
 ----
 
 
+.Résultats
 Vous avez confirmé que vous avez activé l'accès NFS au SVM.

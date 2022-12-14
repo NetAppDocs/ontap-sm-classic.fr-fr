@@ -58,6 +58,7 @@ System Manager peut être utilisé pour modifier les attributs d'une stratégie 
 
 Vous pouvez utiliser System Managerto supprimer une stratégie d'efficacité qui n'est plus requise.
 
+.Avant de commencer
 La politique d'efficacité doit être désactivée.
 
 .Étapes

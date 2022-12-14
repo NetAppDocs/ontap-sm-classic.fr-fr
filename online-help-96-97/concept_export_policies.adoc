@@ -69,6 +69,7 @@ System Manager peut être utilisé pour supprimer les règles d'exportation qui 
 
 Vous pouvez utiliser System Manager pour ajouter des règles à une export policy, qui permet de définir l'accès des clients aux données.
 
+.Avant de commencer
 Vous devez avoir créé l'export policy à laquelle vous souhaitez ajouter les règles d'exportation.
 
 .Étapes

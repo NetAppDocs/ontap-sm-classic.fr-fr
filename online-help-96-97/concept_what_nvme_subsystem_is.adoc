@@ -83,6 +83,7 @@ Les détails du sous-système NVMe sont mis à jour et la fenêtre des sous-syst
 
 Vous pouvez utiliser System Manager pour supprimer un sous-système NVMe d'un cluster.
 
+.Description de la tâche
 Les actions suivantes se produisent lorsque vous supprimez un sous-système NVMe :
 
 * Si le sous-système NVMe dispose d'hôtes configurés, les hôtes mappés seront supprimés.
@@ -108,8 +109,8 @@ Le sous-système NVMe est supprimé du cluster et la fenêtre des sous-systèmes
 
 La fenêtre des sous-systèmes NVMe affiche par défaut une liste d'inventaire des sous-systèmes NVMe dans un cluster. Vous pouvez filtrer la liste pour afficher uniquement les sous-systèmes spécifiques à un SVM. Elle vous permet également de créer, modifier ou supprimer des sous-systèmes NVMe. Vous pouvez accéder à cette fenêtre en sélectionnant *Storage* > *NVMe* > *sous-systèmes*.
 
-* ,Tableau des sous-systèmes NVMe
-* ,Barre d'outils
+* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Tableau des sous-systèmes NVMe>>
+* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Barre d'outils>>
 
 
 

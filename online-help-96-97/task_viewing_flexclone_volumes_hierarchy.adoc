@@ -20,6 +20,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 . Cliquez sur *plus d'actions* > *Clone* > *Afficher hiérarchie*.
 
 
+.Résultats
 Les volumes qui ont au moins un volume FlexClone enfant sont affichés. Les volumes FlexClone sont affichés en tant que enfants de leurs volumes parents respectifs.
 
 *Informations connexes*

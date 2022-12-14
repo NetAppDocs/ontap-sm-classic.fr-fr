@@ -117,6 +117,7 @@ En fonction des ensembles de ports sélectionnés, les LIF sont distribuées sur
 . Cliquez sur *Envoyer et continuer*.
 
 
+.Résultats
 Les LIFs iSCSI et les ensembles de ports sont créés avec la configuration spécifiée. Les LIF sont distribuées entre les ensembles de ports en fonction de l'ensemble de ports sélectionné. Le service iSCSI est démarré si toutes les LIFs sont créées avec succès.
 
 Si la création de LIF échoue, vous pouvez créer les LIF en utilisant la fenêtre Network interfaces, attacher les LIF aux ensembles de ports à l'aide de la fenêtre LUN, puis démarrer le service iSCSI à l'aide de la fenêtre iSCSI.

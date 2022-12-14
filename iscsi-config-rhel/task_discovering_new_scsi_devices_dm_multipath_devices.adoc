@@ -13,6 +13,7 @@ summary: 'Les LUN du cluster de stockage apparaissent sur l"hôte Linux comme de
 [role="lead"]
 Les LUN du cluster de stockage apparaissent sur l'hôte Linux comme des périphériques SCSI, qui sont des chemins d'E/S que DM-Multipath rassemble dans un nouveau périphérique, appelé périphérique multichemin. L'hôte ne détecte pas automatiquement les nouveaux périphériques SCSI (LUN) que vous ajoutez à votre système. Vous devez les réanalyser manuellement pour les détecter.
 
+.Avant de commencer
 Vous devez disposer d'une copie du `rescan` script, qui est dans le `sg3_utils` Package faisant partie de votre distribution Linux OS.
 
 .Étapes

@@ -13,4 +13,5 @@ summary: 'L"ajout d"un volume NFS à un SVM compatible NFS implique la création
 [role="lead"]
 L'ajout d'un volume NFS à un SVM compatible NFS implique la création et la configuration d'un volume, la création d'une export policy et la vérification de l'accès à partir d'un hôte d'administration UNIX. Vous pouvez ensuite configurer l'accès client NFS.
 
+.Avant de commencer
 NFS doit être entièrement configuré sur le SVM.

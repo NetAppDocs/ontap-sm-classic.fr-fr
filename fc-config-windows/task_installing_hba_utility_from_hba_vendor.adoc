@@ -13,6 +13,7 @@ summary: 'L"utilitaire HBA vous permet d"afficher le nom international du port (
 [role="lead"]
 L'utilitaire HBA vous permet d'afficher le nom international du port (WWPN) de chaque port FC. L'utilitaire s'avère également utile pour la résolution des problèmes liés à FC.
 
+.Description de la tâche
 Chaque fournisseur de HBA propose un utilitaire HBA pour ses HBA FC. Vous devez télécharger la version correcte de votre système d'exploitation hôte et de votre processeur.
 
 Voici une liste partielle des utilitaires HBA :

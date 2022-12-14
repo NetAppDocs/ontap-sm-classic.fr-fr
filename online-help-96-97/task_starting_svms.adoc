@@ -18,4 +18,5 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 . Sélectionnez le SVM que vous souhaitez démarrer, puis cliquez sur *Start*.
 
 
+.Résultats
 Le SVM commence à transmettre des données aux clients.

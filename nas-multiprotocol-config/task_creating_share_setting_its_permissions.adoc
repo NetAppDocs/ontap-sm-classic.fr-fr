@@ -13,6 +13,7 @@ summary: 'Pour que les utilisateurs Windows puissent accéder à un volume, vous
 [role="lead"]
 Pour que les utilisateurs Windows puissent accéder à un volume, vous devez créer un partage CIFS sur le volume et restreindre l'accès au partage en modifiant la liste de contrôle d'accès (ACL) du partage.
 
+.Description de la tâche
 À des fins de test, vous ne devez autoriser l'accès qu'aux administrateurs. Par la suite, après avoir vérifié que le volume est accessible, vous pouvez autoriser l'accès à davantage de clients.
 
 .Étapes

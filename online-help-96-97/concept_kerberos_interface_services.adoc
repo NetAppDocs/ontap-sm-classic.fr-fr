@@ -33,6 +33,7 @@ Un serveur CIFS n'est pas requis pour l'accès Kerberos NFS basique. Un serveur 
 ====
 
 
+.Description de la tâche
 Si vous utilisez Microsoft Active Directory Kerberos, les 15 premiers caractères des noms de domaine utilisés doivent être uniques. Microsoft Active Directory est limité aux numéros SPN de 15 caractères maximum et n'autorise pas les doublons SPN.
 
 .Étapes

@@ -13,6 +13,7 @@ summary: 'Il est possible d"utiliser System Manager pour créer un ou plusieurs 
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour créer un ou plusieurs espaces de noms NVMe et les connecter à un hôte ou un ensemble d'hôtes d'une machine virtuelle de stockage (SVM). L'espace de noms NVMe est une quantité de mémoire pouvant être formatée dans des blocs logiques. Chaque espace de noms peut être mappé sur un sous-système NVMe.
 
+.Avant de commencer
 La SVM doit déjà être configurée avec le protocole NVMe. Pour mapper un namespace, il faut au moins une LIF avec le protocole de données NVMe doit exister sur le nœud qui possède le namespace.
 
 .Étapes

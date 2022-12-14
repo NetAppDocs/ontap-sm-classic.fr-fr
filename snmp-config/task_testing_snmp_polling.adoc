@@ -13,6 +13,7 @@ summary: Une fois le protocole SNMP configuré, vous devez vérifier que vous po
 [role="lead"]
 Une fois le protocole SNMP configuré, vous devez vérifier que vous pouvez interroger le cluster.
 
+.Description de la tâche
 Pour interroger un cluster, vous devez utiliser une commande tierce par exemple `snmpwalk`.
 
 .Étapes

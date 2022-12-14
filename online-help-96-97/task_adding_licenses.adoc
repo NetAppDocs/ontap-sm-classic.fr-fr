@@ -15,6 +15,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 Si le logiciel de votre système de stockage a été installé en usine, System Manager ajoute automatiquement le logiciel à sa liste de licences.
 
+.Avant de commencer
 Le code de licence logicielle pour le service ONTAP spécifique doit être disponible.
 
 .Description de la tâche
@@ -87,6 +88,7 @@ La boîte de dialogue Ajouter l'état de la licence affiche la liste des licence
 . Cliquez sur *Fermer*.
 
 
+.Résultats
 La licence logicielle est ajoutée à votre système de stockage et s'affiche dans la liste des licences de la fenêtre licences.
 
 *Informations connexes*

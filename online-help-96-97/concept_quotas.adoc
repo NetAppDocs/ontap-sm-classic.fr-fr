@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 
 Les quotas vous permettent de limiter ou de suivre l'espace disque et le nombre de fichiers utilisés par un utilisateur, un groupe ou un qtree. L'assistant Ajouter un quota dans System Manager permet de créer un quota et d'appliquer le quota à un volume ou qtree spécifique.
 
+.Description de la tâche
 À l'aide de System Manager, la valeur minimale que vous pouvez spécifier pour la limite matérielle et la limite soft sur le nombre de fichiers que le quota peut posséder est de 1000. Si vous souhaitez spécifier une valeur inférieure à 1000, vous devez utiliser l'interface de ligne de commandes.
 
 .Étapes
@@ -90,6 +91,7 @@ Vous pouvez utiliser System Manager pour activer ou désactiver des quotas sur u
 
 Vous pouvez utiliser la boîte de dialogue Redimensionner le quota dans System Manager pour ajuster les quotas actifs dans le volume spécifié afin qu'ils reflètent les modifications que vous avez apportées à un quota.
 
+.Avant de commencer
 Les quotas doivent être activés pour les volumes pour lesquels vous souhaitez redimensionner les quotas.
 
 .Étapes

@@ -13,8 +13,10 @@ summary: 'Vous pouvez utiliser l"interface ONTAP System Manager « classique » 
 [role="lead"]
 Vous pouvez utiliser l'interface ONTAP System Manager _Classic_ avec ONTAP 9.7 ou version antérieure pour ajouter un Traphost (gestionnaire SNMP) afin de recevoir des notifications SNMP (unités de données de protocole d'interruption SNMP) lorsque des interruptions sont générées dans le cluster.
 
+.Avant de commencer
 IPv6 doit être activé sur le cluster si vous configurez des Traphosts SNMP possédant des adresses IPv6.
 
+.Description de la tâche
 Les interruptions SNMP et SNMP sont activées par défaut. Le rapport technique NetApp TR-4220 sur la prise en charge de SNMP contient la liste de tous les événements par défaut qui sont pris en charge par les traps SNMP.
 
 http://www.netapp.com/us/media/tr-4220.pdf["Rapport technique NetApp 4220 : prise en charge SNMP dans Data ONTAP"^]
@@ -29,6 +31,6 @@ L'adresse IP d'un Traphost SNMP peut être IPv4 ou IPv6.
 +
 image::../media/snmp_add_traphost.gif[Cette image montre la boîte de dialogue Modifier les paramètres SNMP,Traphosts tab,in which the traphost status "enabled" is checked and the example traphost IP address "192.0.2.0" is entered.]
 
-. Pour ajouter un autre Traphost, répétez l'opération ,Étape 2 et ,Étape 3.
+. Pour ajouter un autre Traphost, répétez l'opération <<step2-verify-enable-traps,Étape 2>> et <<step3-enter-traphost-ip,Étape 3>>.
 . Lorsque vous avez terminé d'ajouter des Traphosts, cliquez sur *OK* dans la boîte de dialogue *Modifier les paramètres SNMP*.
 

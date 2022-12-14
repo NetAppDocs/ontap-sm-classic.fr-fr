@@ -13,6 +13,7 @@ summary: 'Vous pouvez supprimer une application provisionnée lorsque celle-ci n
 [role="lead"]
 ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) permet de supprimer une application provisionnée lorsqu'elle n'est plus nécessaire.
 
+.Description de la tâche
 En tant qu'administrateur de cluster, vous pouvez le supprimer lorsque vous n'en avez plus besoin. L'exemple suivant décrit comment supprimer une application *conteneur NAS*.
 
 .Étapes

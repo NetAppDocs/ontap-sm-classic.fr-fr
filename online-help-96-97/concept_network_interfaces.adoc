@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 
 System Manager peut être utilisé pour créer une interface réseau ou une LIF pour accéder aux données depuis des SVM (Storage Virtual machines), gérer les SVM et fournir une interface pour la connectivité intercluster.
 
+.Avant de commencer
 Le domaine de diffusion associé au sous-réseau doit disposer de ports alloués.
 
 .Description de la tâche
@@ -155,6 +156,7 @@ Vous pouvez utiliser System Manager pour modifier l'interface réseau afin d'act
 
 System Manager peut être utilisé pour supprimer une interface réseau afin de libérer l'adresse IP de l'interface, puis pour utiliser l'adresse IP dans un autre but.
 
+.Avant de commencer
 Le statut de l'interface réseau doit être désactivé.
 
 .Étapes
@@ -169,6 +171,7 @@ Le statut de l'interface réseau doit être désactivé.
 
 Vous pouvez utiliser System Manager pour migrer une LIF de données ou une LIF de gestion du cluster vers un autre port sur le même nœud ou sur un autre nœud du cluster si le port source est défectueux ou nécessite une maintenance.
 
+.Avant de commencer
 Le nœud et les ports de destination doivent être opérationnels et doivent pouvoir accéder au même réseau que le port source.
 
 .Description de la tâche

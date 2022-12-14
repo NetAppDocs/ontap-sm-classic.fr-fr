@@ -13,6 +13,7 @@ summary: 'Après avoir configuré un SVM (Storage Virtual machine) fonctionnel o
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour déléguer l'administration de la SVM aux administrateurs SVM après avoir configuré une machine virtuelle de stockage fonctionnelle (SVM) ou des SVM avec une configuration réseau de base.
 
+.Description de la tâche
 Les administrateurs SVM ne peuvent pas utiliser System Manager pour gérer les SVM délégués. Les administrateurs ne peuvent les gérer que via l'interface de ligne de commandes.
 
 .Étapes
@@ -74,6 +75,7 @@ Si aucune route n'existe, une nouvelle route est automatiquement créée en fonc
 
 
 
+.Résultats
 Le `vsadmin` le compte est déverrouillé et configuré avec le mot de passe.
 
 Méthodes d'accès par défaut pour le `vsadmin` Le compte sont l'API ONTAP `(ontapi)` Et SSH `(ssh)`. L'administrateur du SVM peut se connecter au système de stockage en utilisant l'adresse IP de gestion.

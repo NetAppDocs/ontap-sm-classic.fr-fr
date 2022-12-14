@@ -13,6 +13,7 @@ summary: 'Depuis System Manager 9.6, vous pouvez effectuer un basculement non pl
 [role="lead"]
 Depuis System Manager 9.6, vous pouvez effectuer un basculement non planifié d'un site MetroCluster. Cette opération est utile en cas d'interruption ou d'incident.
 
+.Avant de commencer
 Votre MetroCluster fonctionne normalement. Toutefois, les nœuds du cluster local (site A) sont actifs, mais les nœuds du cluster distant (site B) sont en panne.
 
 .Étapes
@@ -42,7 +43,7 @@ Un message d'avertissement s'affiche, vous avertissant que l'opération de bascu
 +
 [NOTE]
 ====
-Comme indiqué à l'étape ,1, Le site B doit en fait être en panne et pas seulement non connecté. Notez également que le basculement peut entraîner une perte de données.
+Comme indiqué à l'étape <<STEP_EBC0FFC2349B415AB24156AAAD3F0386,1>>, Le site B doit en fait être en panne et pas seulement non connecté. Notez également que le basculement peut entraîner une perte de données.
 
 ====
 . Si vous souhaitez continuer, assurez-vous que la case est cochée, puis cliquez sur *Oui*.

@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser System Manager pour créer des LUN pour un agrég
 [role="lead"]
 ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) permet de créer des LUN pour un agrégat, un volume ou un qtree existant, dès qu'il existe de l'espace libre. Vous pouvez créer une LUN dans un volume existant ou en créer un nouveau FlexVol pour cette LUN. Vous pouvez également activer la qualité de service (QoS) du stockage pour gérer les performances des workloads.
 
+.Description de la tâche
 Si vous spécifiez l'ID de LUN, System Manager vérifie la validité de l'ID de LUN avant de l'ajouter. Si vous ne spécifiez pas d'ID de LUN, le logiciel ONTAP en attribue automatiquement un.
 
 Lors de la sélection du type multiprotocole LUN, vous devez avoir tenu compte des consignes relatives à l'utilisation de chaque type. Le type multiprotocole LUN ou le type de système d'exploitation détermine la disposition des données sur la LUN, ainsi que les tailles minimale et maximale de la LUN. Une fois la LUN créée, vous ne pouvez pas modifier le type de système d'exploitation hôte LUN.

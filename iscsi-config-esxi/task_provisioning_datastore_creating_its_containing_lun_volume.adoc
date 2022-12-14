@@ -13,10 +13,12 @@ summary: 'Un datastore contient des machines virtuelles et leurs VMDK sur l"hôt
 [role="lead"]
 Un datastore contient des machines virtuelles et leurs VMDK sur l'hôte ESXi. Le datastore de l'hôte ESXi est provisionné sur un LUN du cluster de stockage.
 
+.Avant de commencer
 Virtual Storage Console pour VMware vSphere (VSC) doit être installé et enregistré auprès du serveur vCenter qui gère l'hôte ESXi.
 
 VSC doit disposer de suffisamment d'identifiants de cluster ou de machine virtuelle de stockage (SVM) pour créer la LUN et le volume.
 
+.Description de la tâche
 VSC automatise le provisionnement du datastore, notamment la création d'un LUN et d'un volume sur le SVM spécifié.
 
 .Étapes

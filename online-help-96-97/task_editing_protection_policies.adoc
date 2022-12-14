@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser System Manager pour modifier une règle de protec
 [role="lead"]
 Vous pouvez utiliser System Manager pour modifier une règle de protection et l'appliquer à une relation de protection des données.
 
+.Description de la tâche
 Les règles de protection ne s'affichent pas au niveau du cluster.
 
 .Étapes

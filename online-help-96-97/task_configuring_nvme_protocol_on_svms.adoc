@@ -13,6 +13,7 @@ summary: 'Le protocole NVMe peut être configuré sur une machine virtuelle de s
 [role="lead"]
 ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) permet de configurer le protocole NVMe sur une machine virtuelle de stockage (SVM). Vous pouvez ensuite créer des espaces de noms et les affecter à un sous-système et un hôte NVMe.
 
+.Description de la tâche
 Le SVM avec NVMe ne doit pas posséder d'autre protocole. Si vous sélectionnez NVMe, le reste des protocoles est désactivé. Vous pouvez également configurer NVMe lors de la création de la SVM.
 
 .Étapes

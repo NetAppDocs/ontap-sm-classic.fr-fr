@@ -31,6 +31,7 @@ Vous pouvez activer ou désactiver SNMP sur les clusters à l'aide de System Man
 
 Vous pouvez utiliser la boîte de dialogue Modifier les paramètres SNMP dans System Manager pour mettre à jour les informations relatives à l'emplacement du système de stockage et au personnel de contact, et pour spécifier les communautés SNMP de votre système.
 
+.Description de la tâche
 System Manager utilise les protocoles SNMP SNMPv1 et SNMPv2c, et une communauté SNMP pour détecter les systèmes de stockage.
 
 .Étapes
@@ -60,6 +61,7 @@ Le nom de communauté peut comporter 32 caractères et ne doit pas contenir les 
 
 Les traps SNMP vous permettent de surveiller l'intégrité et l'état des divers composants de votre système de stockage. Vous pouvez utiliser la boîte de dialogue Modifier les paramètres SNMP dans System Manager pour activer ou désactiver les interruptions SNMP sur votre système de stockage.
 
+.Description de la tâche
 Bien que SNMP soit activé par défaut, les interruptions SNMP sont désactivées par défaut.
 
 .Étapes

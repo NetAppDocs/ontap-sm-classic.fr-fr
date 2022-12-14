@@ -13,6 +13,7 @@ summary: 'System Manager permet de supprimer les SVM (Storage Virtual machines) 
 [role="lead"]
 ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) permet de supprimer les serveurs virtuels de stockage dont vous n'avez plus besoin de la configuration du système de stockage.
 
+.Avant de commencer
 Vous devez avoir effectué les tâches suivantes :
 
 . Désactivez les copies Snapshot, les miroirs de protection des données (DP) et les miroirs de partage de charge (LS) pour tous les volumes
@@ -32,6 +33,7 @@ Vous devez utiliser l'interface de ligne de commande pour désactiver les miroir
 . La SVM a été arrêtée
 
 
+.Description de la tâche
 Lorsque vous supprimez des SVM, les objets suivants associés à la SVM sont également supprimés :
 
 * Les LIF, les Failover Groups de LIF et les groupes de routage de LIF

@@ -50,6 +50,7 @@ Vous pouvez modifier uniquement le nom de LIF et le port de départ. Vous devez 
 . Cliquez sur *Envoyer et continuer*.
 
 
+.Résultats
 Les LIFs de données et les ensembles de ports sont créés avec la configuration spécifiée. Les LIF sont distribuées en conséquence parmi les ensembles de ports. Le service FCP est démarré si toutes les LIFs sont créées avec succès pour au moins un protocole.
 
 Si la création de LIF échoue, vous pouvez créer les LIF et démarrer le service FCP à partir de la fenêtre FC/FCoE.

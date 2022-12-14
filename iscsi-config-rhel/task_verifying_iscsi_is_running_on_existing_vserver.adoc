@@ -13,6 +13,7 @@ summary: 'Si vous choisissez d"utiliser une machine virtuelle de stockage (SVM) 
 [role="lead"]
 Si vous choisissez d'utiliser une machine virtuelle de stockage (SVM) existante, vous devez vérifier que le service iSCSI s'exécute sur la SVM.
 
+.Avant de commencer
 Vous devez avoir sélectionné un SVM existant sur lequel vous prévoyez de créer une nouvelle LUN.
 
 .Étapes

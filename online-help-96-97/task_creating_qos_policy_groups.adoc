@@ -52,6 +52,7 @@ Cette valeur est sensible à la casse. L'unité que vous spécifiez n'affecte pa
 
 ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) permet de supprimer le groupe de règles de qualité de service (QoS) de stockage qui n'est plus nécessaire.
 
+.Avant de commencer
 Vous devez avoir non affecté tous les objets de stockage affectés à ce groupe de règles.
 
 .Étapes

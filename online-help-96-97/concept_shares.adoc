@@ -16,6 +16,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 
 Vous pouvez utiliser System Manager pour créer un partage CIFS qui vous permet de spécifier le dossier, qtree ou volume auquel les utilisateurs CIFS peuvent accéder.
 
+.Avant de commencer
 Vous devez avoir installé la licence CIFS avant de configurer et de démarrer CIFS.
 
 .Étapes
@@ -35,6 +36,7 @@ Depuis la version System Manager 9.6, la disponibilité continue est prise en ch
 . Fournissez une description ou un commentaire pour le partage, puis cliquez sur *Créer*.
 
 
+.Résultats
 Le partage CIFS est créé avec les autorisations d'accès définies sur « contrôle total pour tous » dans le groupe.
 
 
@@ -43,6 +45,7 @@ Le partage CIFS est créé avec les autorisations d'accès définies sur « cont
 
 System Manager peut être utilisé pour arrêter un partage lorsque vous souhaitez supprimer l'accès réseau partagé à un dossier, qtree ou volume.
 
+.Avant de commencer
 Vous devez avoir installé la licence CIFS.
 
 .Étapes
@@ -59,6 +62,7 @@ Vous devez avoir installé la licence CIFS.
 
 Vous pouvez utiliser System Manager pour créer un partage de home Directory et gérer les chemins de recherche des home Directory.
 
+.Avant de commencer
 Le protocole CIFS doit être configuré et démarré.
 
 .Étapes

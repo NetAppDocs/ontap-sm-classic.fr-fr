@@ -17,8 +17,10 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 
 Vous pouvez utiliser System Manager pour initialiser l'heure de conformité à l'heure actuelle du cluster. Vous devez initialiser l'heure de conformité pour créer des agrégats SnapLock.
 
+.Avant de commencer
 La licence SnapLock doit être installée.
 
+.Description de la tâche
 Vous ne pouvez pas modifier ou arrêter l'heure de la fin de l'horloge après son initialisation.
 
 .Étapes

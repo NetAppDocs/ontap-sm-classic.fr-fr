@@ -13,8 +13,10 @@ summary: 'Vous pouvez créer un agrégat suivant des recommandations de stockage
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour créer un agrégat basé sur des recommandations de stockage ou manuellement, selon vos besoins. Vous pouvez créer des agrégats Flash Pool, des agrégats SnapLock et des agrégats compatibles FabricPool pour fournir du stockage à un ou plusieurs volumes à l'aide de System Manager.
 
+.Avant de commencer
 Vous devez disposer de suffisamment de disques de spare pour créer un agrégat.
 
+.Description de la tâche
 Vous ne pouvez pas effectuer les actions suivantes en utilisant System Manager :
 
 * Combiner des disques de différentes tailles, même s'il y a suffisamment de disques de secours de différentes tailles.
@@ -62,6 +64,7 @@ La boîte de dialogue informations affiche l'état des agrégats.
 
 Vous pouvez créer manuellement un agrégat composé uniquement de disques durs ou de disques SSD en utilisant ONTAP System Manager classique (disponible sur ONTAP 9.7 et versions antérieures).
 
+.Avant de commencer
 Tous les disques doivent être de même taille.
 
 .Description de la tâche
@@ -103,6 +106,7 @@ Pour les configurations MetroCluster, la création d'agrégats sans miroir est l
 . Cliquez sur *Créer*.
 
 
+.Résultats
 L'agrégat est créé avec la configuration spécifiée, et est ajouté à la liste des agrégats dans la fenêtre Aggregates.
 
 
@@ -172,6 +176,7 @@ Infrastructure SSD dédiée
 . Cliquez sur *Créer*.
 
 
+.Résultats
 L'agrégat Flash Pool est créé avec la configuration spécifiée et est ajouté à la liste des agrégats dans la fenêtre Aggregates.
 
 
@@ -180,6 +185,7 @@ L'agrégat Flash Pool est créé avec la configuration spécifiée et est ajout�
 
 Vous pouvez utiliser System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour créer manuellement un agrégat SnapLock Compliance ou un agrégat SnapLock Enterprise. Vous pouvez créer des volumes SnapLock sur ces agrégats, qui fournissent les fonctionnalités WORM (Write Once, Read Many).
 
+.Avant de commencer
 La licence SnapLock doit avoir été ajoutée.
 
 .Description de la tâche
@@ -252,6 +258,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 * Une connexion réseau dédiée doit exister entre le niveau de cloud et l'agrégat.
 
 
+.Description de la tâche
 Ces magasins d'objets peuvent être utilisés en tant que tiers cloud :
 
 * StorageGRID

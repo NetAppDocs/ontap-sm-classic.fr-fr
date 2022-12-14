@@ -74,6 +74,7 @@ Vous devez plutôt utiliser l'interface de ligne de commandes.
 
 System Manager permet d'effacer toutes les données et de formater les LUN de la baie de disques de rechange en écrivant des zéros sur les LUN de la baie. Ces LUN de baie peuvent ensuite être utilisées dans de nouveaux agrégats.
 
+.Description de la tâche
 Lorsque vous mettez à zéro les LUN de baie de rechange, toutes les unités de rechange dans le cluster, y compris les disques, sont mises à zéro. Vous pouvez zéro les LUN de baie de rechange pour un nœud spécifique ou pour l'ensemble du cluster.
 
 .Étapes

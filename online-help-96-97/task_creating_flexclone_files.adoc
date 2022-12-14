@@ -35,6 +35,7 @@ Vous pouvez créer un fichier FlexClone d'un fichier parent au sein d'un volume 
 . Cliquez sur *Clone*.
 
 
+.Résultats
 Le fichier FlexClone est créé dans le même volume que le fichier parent.
 
 *Informations connexes*

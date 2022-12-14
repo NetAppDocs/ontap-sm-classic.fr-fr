@@ -31,6 +31,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 . Cochez la case de confirmation, puis cliquez sur *Break*.
 
 
+.Résultats
 La relation SnapMirror de protection des données est défaillante. Le type de volume de destination passe de la protection des données (DP), en lecture seule, à la lecture/écriture (RW). Le système stocke la copie Snapshot de base pour la relation de miroir de protection des données en vue d'une utilisation ultérieure.
 
 *Informations connexes*

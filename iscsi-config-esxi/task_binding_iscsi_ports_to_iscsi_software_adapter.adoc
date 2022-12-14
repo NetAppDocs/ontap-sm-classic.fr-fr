@@ -18,6 +18,7 @@ Les ports que vous avez créés pour iSCSI doivent être associés à l'adaptate
 * La carte logicielle iSCSI doit être activée sur l'hôte ESXi.
 
 
+.Description de la tâche
 Vous pouvez lier les ports iSCSI à l'aide du client vSphere.
 
 Pour obtenir des instructions détaillées, consultez _VMware vSphere Storage_ pour votre version d'ESXi 5 à partir de VMware.

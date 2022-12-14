@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser System Manager pour réinitialiser la connexion C
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour réinitialiser la connexion CIFS avec les contrôleurs de domaine pour le domaine spécifié. Si les informations du contrôleur de domaine ne sont pas réinitialisées, la connexion risque d'être interrompue.
 
+.Description de la tâche
 Vous devez mettre à jour les informations de détection du contrôleur de domaine disponible du système de stockage après avoir ajouté ou supprimé un domaine de la liste des contrôleurs de domaine préférés. Vous pouvez mettre à jour les informations de détection de contrôleur de domaine disponibles du système de stockage dans ONTAP via l'interface de ligne de commande.
 
 .Étapes

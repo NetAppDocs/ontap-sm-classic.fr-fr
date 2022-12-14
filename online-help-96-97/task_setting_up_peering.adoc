@@ -17,7 +17,7 @@ image::../media/peering_workflow.gif[flux de travail de peering]
 
 
 
-== Conditions préalables au peering de clusters
+== [[prérequis-peering, conditions préalables pour le peering de cluster]] prérequis pour le peering de cluster
 
 Avant de configurer le peering de cluster, vous devez vérifier que la connectivité, le port, l'adresse IP, le sous-réseau, le pare-feu, et les exigences de nommage des clusters sont respectées.
 
@@ -100,7 +100,7 @@ Vous pouvez créer une relation authentifiée de cluster peer pour connecter les
 .Avant de commencer
 * Vous devez avoir passé en revue et rempli les conditions requises pour effectuer cette tâche.
 +
-,Conditions préalables au peering de clusters
+<<prerequisites-peering,Conditions préalables au peering de clusters>>
 
 * Vous devez avoir créé des interfaces logiques (LIF) intercluster.
 * Vous devez connaître la version de ONTAP que chaque cluster exécute.
@@ -167,6 +167,7 @@ Vous devez spécifier les détails du SVM dans la fenêtre de SVM peering pour c
 
 SVM peering vous permet d'établir une relation de pairs entre deux machines virtuelles de stockage (SVM) pour la protection des données.
 
+.Avant de commencer
 Vous devez avoir créé une relation de pairs entre les clusters dans lesquels les SVM que vous prévoyez de résider.
 
 .Description de la tâche

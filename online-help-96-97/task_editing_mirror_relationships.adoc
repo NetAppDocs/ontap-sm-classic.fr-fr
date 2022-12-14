@@ -19,6 +19,7 @@ Pour gérer les relations de miroir, vous pouvez utiliser ONTAP System Manager c
 
 System Manager peut être utilisé pour supprimer une relation de miroir et mettre fin de façon permanente à la relation de miroir entre les volumes source et de destination. Lorsqu'une relation de miroir est supprimée, la copie Snapshot de base sur le volume source est supprimée.
 
+.Description de la tâche
 Il est recommandé de briser la relation de miroir avant de supprimer la relation.
 
 .Étapes
@@ -27,6 +28,7 @@ Il est recommandé de briser la relation de miroir avant de supprimer la relatio
 . Cochez les cases de confirmation pour supprimer la relation miroir et libérer les copies Snapshot de base, puis cliquez sur *Supprimer*.
 
 
+.Résultats
 La relation est supprimée, et la copie Snapshot de base est supprimée sur le volume source.
 
 
@@ -35,6 +37,7 @@ La relation est supprimée, et la copie Snapshot de base est supprimée sur le v
 
 Vous pouvez utiliser System Manager pour rétablir une relation de miroir qui a été rompue auparavant. Vous pouvez effectuer une opération de resynchronisation pour restaurer à partir d'un incident ayant désactivé le volume source.
 
+.Avant de commencer
 Le cluster source et le cluster destination, ainsi que le SVM source et le SVM destination doivent être en relations entre pairs.
 
 .Description de la tâche
@@ -66,6 +69,7 @@ Si la durée d'expiration du volume est passée ou n'a pas été définie, la co
 
 Vous pouvez utiliser System Manager pour reprendre une relation de miroir mise en veille. Lorsque vous reprenez la relation, le transfert de données normal vers la destination du miroir reprend et toutes les activités du miroir sont redémarrées.
 
+.Description de la tâche
 Si vous avez suspendu une relation de miroir interrompue à partir de l'interface de ligne de commande, vous ne pouvez pas reprendre la relation depuis System Manager. Vous devez utiliser l'interface de ligne de commandes pour reprendre la relation.
 
 .Étapes
@@ -75,6 +79,7 @@ Si vous avez suspendu une relation de miroir interrompue à partir de l'interfac
 . Cochez la case de confirmation et cliquez sur *reprendre*.
 
 
+.Résultats
 Le transfert de données vers la destination du miroir reprend pour la relation de miroir sélectionnée.
 
 
@@ -83,6 +88,7 @@ Le transfert de données vers la destination du miroir reprend pour la relation 
 
 System Manager permet d'initier une mise à jour miroir non planifiée de la destination. Il peut être nécessaire d'effectuer une mise à jour manuelle pour éviter toute perte de données due à une panne de courant à venir, à une maintenance planifiée ou à une migration de données.
 
+.Avant de commencer
 La relation miroir doit être à l'état Snapmirrored.
 
 .Étapes
@@ -105,6 +111,7 @@ La relation miroir doit être à l'état Snapmirrored.
 
 Vous pouvez utiliser System Manager pour suspendre une destination en miroir afin de la stabiliser avant de créer une copie Snapshot. L'opération de mise en attente permet de terminer les transferts de miroir actifs et de désactiver les transferts futurs pour la relation de mise en miroir.
 
+.Description de la tâche
 Vous pouvez suspendre uniquement les relations de mise en miroir qui sont à l'état Snapmirrored.
 
 .Étapes
@@ -128,6 +135,7 @@ Lorsque vous démarrez une relation en miroir, vous devez initialiser cette rela
 . Vérifiez l'état de la relation miroir dans la fenêtre *protection*.
 
 
+.Résultats
 Une copie Snapshot est créée et transférée vers la destination. Cette copie Snapshot est utilisée comme base pour les copies Snapshot incrémentielles ultérieures.
 
 
@@ -273,6 +281,7 @@ Le suffixe du nom du volume est ajouté aux noms des volumes source pour génér
 . Cliquez sur *Créer*.
 
 
+.Résultats
 Si vous choisissez de créer un volume de destination, un volume de destination de type _dp_ est créé, avec l'attribut de langue défini pour correspondre à l'attribut de langue du volume source.
 
 Une relation de miroir est créée entre le volume source et le volume de destination. La copie Snapshot de base est transférée vers le volume de destination si vous avez accepté d'initialiser la relation.
@@ -283,6 +292,7 @@ Une relation de miroir est créée entre le volume source et le volume de destin
 
 Vous pouvez utiliser System Manager pour rétablir une relation de miroir qui était auparavant interrompue. Dans une opération de resynchronisation inverse, vous inversez les fonctions du volume source et du volume de destination.
 
+.Avant de commencer
 Le volume source doit être en ligne.
 
 .Description de la tâche

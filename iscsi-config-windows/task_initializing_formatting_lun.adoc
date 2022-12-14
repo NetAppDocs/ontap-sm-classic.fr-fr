@@ -13,8 +13,10 @@ summary: 'Lorsqu"un nouvel LUN est accédé pour la première fois par l"hôte W
 [role="lead"]
 Lorsqu'un nouvel LUN est accédé pour la première fois par l'hôte Windows, il n'a pas de partition ni de système de fichiers. Vous devez initialiser la LUN et éventuellement la formater avec un système de fichiers.
 
+.Avant de commencer
 La LUN doit avoir été découverte par l'hôte Windows.
 
+.Description de la tâche
 Les LUN apparaissent sous Windows Disk Management en tant que disques.
 
 Vous pouvez initialiser le disque en tant que disque de base avec une table de partition GPT ou MBR.

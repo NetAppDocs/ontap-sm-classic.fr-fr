@@ -19,6 +19,7 @@ Pour configurer le réseau, vous pouvez utiliser ONTAP System Manager classique 
 
 Vous pouvez créer un IPspace en utilisant System Manager pour configurer un cluster ONTAP unique pour l'accès client à partir de plusieurs domaines réseau distincts d'un point de vue administratif, même lorsque les clients utilisent la même plage de sous-réseau d'adresses IP. Cela vous permet de séparer le trafic client pour la confidentialité et la sécurité.
 
+.Description de la tâche
 Tous les noms IPspace doivent être uniques au sein d'un cluster et ne doivent pas être constitués de noms réservés par le système, tels que « local » ou « localhost ».
 
 .Étapes
@@ -47,8 +48,10 @@ Vous pouvez créer un domaine de diffusion en utilisant System Manager pour four
 
 Vous pouvez créer un sous-réseau en utilisant System Manager pour fournir une sous-division logique d'un réseau IP afin de pré-allouer les adresses IP. Un sous-réseau vous permet de créer plus facilement des interfaces en spécifiant un sous-réseau au lieu d'une adresse IP et de valeurs de masque de réseau pour chaque nouvelle interface.
 
+.Avant de commencer
 Vous devez avoir créé le broadcast domain sur lequel le sous-réseau est utilisé.
 
+.Description de la tâche
 Si vous spécifiez une passerelle lors de la création d'un sous-réseau, une route par défaut vers la passerelle est ajoutée automatiquement au SVM lorsqu'une LIF est créée à l'aide de ce sous-réseau.
 
 .Étapes

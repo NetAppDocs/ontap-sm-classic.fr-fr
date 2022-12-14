@@ -13,6 +13,7 @@ summary: 'Le protocole iSCSI peut être configuré sur une machine virtuelle de 
 [role="lead"]
 Le protocole iSCSI peut être configuré sur une machine virtuelle de stockage (SVM) existante. Le protocole iSCSI doit déjà être activé, mais pas configuré sur le SVM. Ces informations sont destinées aux SVM pour lesquels vous configurez plusieurs protocoles, mais n'ont pas encore configuré iSCSI.
 
+.Avant de commencer
 Vous devez disposer d'un nombre suffisant d'adresses réseau disponibles pour créer deux LIF pour chaque nœud.
 
 .Étapes

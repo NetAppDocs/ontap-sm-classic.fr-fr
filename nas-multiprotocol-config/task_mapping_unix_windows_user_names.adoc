@@ -13,6 +13,7 @@ summary: 'Si votre site possède à la fois des comptes utilisateur Windows et U
 [role="lead"]
 Si votre site possède à la fois des comptes utilisateur Windows et UNIX, vous devez utiliser le mappage de noms pour vous assurer que les utilisateurs Windows peuvent accéder aux fichiers avec des autorisations de fichiers UNIX et pour vous assurer que les utilisateurs UNIX peuvent accéder aux fichiers avec des autorisations de fichiers NTFS. Le mappage de noms peut impliquer toute combinaison de mappage implicite, de règles de conversion et d'utilisateurs par défaut.
 
+.Description de la tâche
 Vous devez utiliser cette procédure uniquement si votre site dispose de comptes utilisateur Windows et UNIX qui ne sont pas nécessairement associés, c'est-à-dire lorsque la version en minuscules de chaque nom d'utilisateur Windows correspond au nom d'utilisateur UNIX. Ceci peut être effectué à l'aide de NIS, LDAP ou d'utilisateurs locaux. Si vous avez deux ensembles d'utilisateurs qui ne correspondent pas, vous devez configurer le mappage de noms.
 
 .Étapes

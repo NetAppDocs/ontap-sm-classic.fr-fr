@@ -34,6 +34,7 @@ Vous pouvez ajouter jusqu'à cinq adresses e-mail des noms d'hôte.
 
 Vous pouvez activer ou désactiver les paramètres AutoSupport sur votre système de stockage à l'aide de System Manager. Les messages AutoSupport vous permettent de surveiller l'état de santé de votre système de stockage ou d'envoyer des notifications au support technique et à votre organisation de support interne.
 
+.Description de la tâche
 L'option AutoSupport est activée par défaut.
 
 .Étapes

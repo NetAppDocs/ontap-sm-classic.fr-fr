@@ -26,6 +26,7 @@ Les LUN sont mappées sur un sous-ensemble d'initiateurs du groupe initiateur po
 * Lors du déplacement d'un volume ou d'une LUN, vous devez modifier la liste des noeuds-rapports SLM avant de procéder au déplacement.
 
 
+.Description de la tâche
 Si la convention de nommage de votre entreprise, il est conseillé d'utiliser les noms des LUN, des volumes, etc. Sinon, vous devez accepter les noms par défaut.
 
 .Étapes

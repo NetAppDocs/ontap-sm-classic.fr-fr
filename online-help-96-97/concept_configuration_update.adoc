@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 System Manager peut être utilisé pour configurer rapidement les détails d'administration d'une machine virtuelle de stockage (SVM). Vous pouvez choisir de déléguer l'administration de la SVM aux administrateurs de la SVM.
 
+.Description de la tâche
 En tant qu'administrateur SVM, System Manager ne peut pas gérer les SVM délégués. Vous pouvez gérer lesSVMuniquement en utilisant l'interface de ligne de commandes.
 
 .Étapes

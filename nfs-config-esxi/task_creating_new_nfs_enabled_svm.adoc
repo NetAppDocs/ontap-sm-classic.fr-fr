@@ -24,6 +24,7 @@ La configuration d'un nouveau SVM implique la création du nouveau et l'activati
 * Tout pare-feu externe doit être configuré de manière appropriée pour permettre l'accès aux services réseau.
 
 
+.Description de la tâche
 Vous pouvez utiliser un assistant qui vous guide tout au long du processus de création du SVM, de configuration du DNS, de création d'une LIF de données et d'activation de NFS.
 
 .Étapes
@@ -98,4 +99,5 @@ Les clients NFS doivent connaître l'adresse IP de la LIF de données.
 
 
 
+.Résultats
 Un nouveau SVM est créé avec l'activation de NFS.

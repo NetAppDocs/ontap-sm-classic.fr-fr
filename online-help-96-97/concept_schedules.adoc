@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 
 Vous pouvez créer des planifications d'exécution d'un travail à un moment spécifique ou à des périodes régulières grâce à System Manager.
 
+.Description de la tâche
 Lorsque vous créez un programme dans une configuration MetroCluster, il est également recommandé de créer un horaire équivalent sur le cluster sur le site survivant.
 
 .Étapes
@@ -60,6 +61,7 @@ Sélectionnez *Avancé* et spécifiez les détails de la planification et de la 
 
 Vous pouvez apporter des modifications à une planification cron précédemment créée ou à une planification d'intervalle si elle ne répond pas à vos besoins en utilisant System Manager. Vous pouvez modifier les détails de planification, tels que les jours et heures récurrents, les options d'intervalle et les options avancées de cron.
 
+.Description de la tâche
 Lorsque vous modifiez un planning dans une configuration MetroCluster, il est également recommandé de modifier le planning équivalent sur le cluster du site survivant.
 
 .Étapes

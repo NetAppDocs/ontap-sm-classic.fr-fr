@@ -13,6 +13,7 @@ summary: 'Une fois le cluster déployé, envoyez un message AutoSupport pour ind
 [role="lead"]
 Une fois le cluster déployé, envoyez un message AutoSupport pour indiquer que le processus d'extension est terminé. Ce message indique au personnel de support interne et externe que l'extension est terminée et qu'elle sert d'horodatage pour tout dépannage ultérieur nécessaire.
 
+.Avant de commencer
 AutoSupport doit être configuré.
 
 .Étapes

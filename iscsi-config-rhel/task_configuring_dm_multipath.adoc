@@ -13,6 +13,7 @@ summary: 'DM-Multipath gère plusieurs chemins entre l"hôte Linux et le cluster
 [role="lead"]
 DM-Multipath gère plusieurs chemins entre l'hôte Linux et le cluster de stockage. La configuration de DM-Multipath sur une LUN, qui apparaît sur l'hôte Linux en tant que périphérique SCSI, permet à votre hôte Linux d'accéder à son LUN sur le cluster de stockage en cas de défaillance d'un chemin ou d'un composant.
 
+.Avant de commencer
 Vous devez avoir identifié la version requise de DM-Multipath à partir de l'outil Interoperability Matrix.
 
 https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]

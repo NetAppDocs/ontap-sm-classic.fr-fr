@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser System Manager pour modifier le nom du volume d"u
 [role="lead"]
 Utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour modifier le nom du volume pour un volume de protection des données (DP). Si l'efficacité du stockage n'est pas activée sur le volume source, vous souhaiterez peut-être activer l'efficacité du stockage uniquement sur le volume de destination.
 
+.Description de la tâche
 Vous ne pouvez pas modifier l'efficacité du stockage sur un volume DP en miroir.
 
 .Étapes

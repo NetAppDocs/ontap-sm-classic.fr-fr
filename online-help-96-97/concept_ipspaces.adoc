@@ -37,8 +37,10 @@ Vous pouvez utiliser System Manager pour renommer un IPspace.
 
 Vous pouvez utiliser System Manager pour supprimer un IPspace si vous n'avez plus besoin de l'IPspace.
 
+.Avant de commencer
 L'IPspace à supprimer ne doit pas être associé à des domaines de diffusion, des interfaces réseau, des relations entre pairs et des machines virtuelles de stockage (SVM).
 
+.Description de la tâche
 Les IPspace « Default » et « Cluster » définis par le système ne peuvent pas être supprimés.
 
 .Étapes

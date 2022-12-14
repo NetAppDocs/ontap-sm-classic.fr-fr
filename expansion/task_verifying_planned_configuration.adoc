@@ -13,6 +13,7 @@ summary: 'Avant d"étendre un cluster, vous devez vous assurer que : la configur
 [role="lead"]
 Avant d'étendre un cluster, vous devez vous assurer que : la configuration planifiée est prise en charge, que les licences requises existent, que le site est prêt, que les commutateurs de cluster prennent en charge l'extension et que les nœuds existants utilisent la même version de ONTAP 9.
 
+.Avant de commencer
 Vous devez disposer de deux ensembles d'informations d'identification : le nom d'utilisateur et le mot de passe requis pour vous connecter au cluster en tant qu'administrateur, ainsi que le nom d'utilisateur et le mot de passe requis pour vous connecter au site de support NetApp.
 
 .Étapes

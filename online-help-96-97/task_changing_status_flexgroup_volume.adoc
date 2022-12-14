@@ -13,6 +13,7 @@ summary: 'Vous pouvez utiliser System Manager pour modifier l"état d"un volume 
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et versions antérieures) pour modifier l'état d'un volume FlexGroup lorsque vous souhaitez mettre un volume FlexGroup hors ligne, remettre un volume FlexGroup en ligne ou restreindre l'accès à un volume FlexGroup.
 
+.Description de la tâche
 System Manager ne prend pas en charge la gestion au niveau des composants pour les volumes FlexGroup.
 
 .Étapes

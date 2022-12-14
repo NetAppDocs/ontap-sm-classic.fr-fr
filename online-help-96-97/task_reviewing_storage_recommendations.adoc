@@ -13,8 +13,10 @@ summary: La fenêtre stockage vous permet de consulter les recommandations de st
 [role="lead"]
 Pour examiner les recommandations de stockage fournies pour la création d'agrégats, utilisez la fenêtre de stockage de ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures).
 
+.Avant de commencer
 Vous devez avoir configuré le cluster, le réseau et les détails du support.
 
+.Description de la tâche
 Vous pouvez créer des agrégats de données conformément aux recommandations en matière de stockage. Vous pouvez également ignorer cette étape et créer des agrégats de données plus tard à l'aide de System Manager.
 
 

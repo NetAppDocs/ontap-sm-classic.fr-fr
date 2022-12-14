@@ -18,6 +18,7 @@ ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieur
 * Le volume FlexGroup doit être hors ligne.
 
 
+.Description de la tâche
 System Manager ne prend pas en charge le niveau de gestion composant pour les volumes FlexGroup.
 
 .Étapes

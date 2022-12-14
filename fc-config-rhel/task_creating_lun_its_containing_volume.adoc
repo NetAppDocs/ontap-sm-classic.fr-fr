@@ -19,6 +19,7 @@ L'assistant de création de LUN permet de créer une LUN. L'assistant crée éga
 * Vous devez avoir enregistré les noms de ports (WWPN) mondiaux des ports FC hôtes.
 
 
+.Description de la tâche
 Si la convention de nommage de votre entreprise, il est conseillé d'utiliser les noms des LUN, des volumes, etc. Sinon, vous devez accepter les noms par défaut.
 
 .Étapes

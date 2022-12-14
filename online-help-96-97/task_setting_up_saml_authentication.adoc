@@ -32,6 +32,7 @@ Consultez la documentation fournie par le PDI que vous avez configuré.
 * Vous devez avoir l'URI du IDP.
 
 
+.Description de la tâche
 Les PDI qui ont été validées avec System Manager sont Shibboeth et Active Directory Federation Services.
 
 [NOTE]
@@ -73,6 +74,7 @@ Une fois le IDP configuré, si l'utilisateur tente de se connecter en utilisant 
 
 Vous pouvez désactiver l'authentification SAML si vous souhaitez désactiver l'accès à distance à System Manager ou modifier la configuration SAML.
 
+.Description de la tâche
 La désactivation de l'authentification SAML ne supprime pas la configuration SAML.
 
 .Étapes

@@ -31,6 +31,7 @@ System Manager peut être utilisé pour ajouter un niveau cloud à un agrégat S
 * Si la communication entre le niveau cloud et le cluster est chiffrée à l'aide de SSL ou TLS, les certificats requis doivent être installés.
 
 
+.Description de la tâche
 Ces magasins d'objets peuvent être utilisés en tant que tiers cloud :
 
 * StorageGRID
@@ -86,6 +87,7 @@ Si vous avez sélectionné le type AWS commercial Cloud Service (C2S), vous deve
 
 System Manager peut être utilisé pour attacher un agrégat 100 % Flash à un Tier cloud. Vous pouvez stocker les données peu utilisées dans des tiers cloud.
 
+.Avant de commencer
 Vous devez avoir ajouté un Tier cloud au cluster.
 
 .Étapes
@@ -110,6 +112,7 @@ System Manager peut être utilisé pour créer un agrégat compatible FabricPool
 * Une connexion réseau dédiée doit exister entre le niveau de cloud et l'agrégat.
 
 
+.Description de la tâche
 Ces magasins d'objets peuvent être utilisés en tant que tiers cloud :
 
 * StorageGRID
@@ -199,6 +202,7 @@ Si vous avez sélectionné le niveau cloud AWS commercial Cloud Service (C2S), v
 
 System Manager permet de supprimer un Tier de cloud dont vous n'avez plus besoin.
 
+.Avant de commencer
 Vous devez avoir supprimé l'agrégat FabricPool associé au Tier cloud.
 
 .Étapes

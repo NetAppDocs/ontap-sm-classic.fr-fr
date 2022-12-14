@@ -15,8 +15,10 @@ Vous pouvez ajouter des nœuds de reporting de LUN pour maintenir un chemin de L
 
 Si le volume que vous déplacez contient des LUN et que l'agrégat de destination se trouve sur une autre paire haute disponibilité, ONTAP ajoute automatiquement une paire haute disponibilité à la liste des nœuds de reporting Selective LUN Map
 
+.Avant de commencer
 Deux LIF doivent être configurées : une LIF sur le nœud de destination et l'autre LIF sur le partenaire haute disponibilité du nœud de destination.
 
+.Description de la tâche
 Cette procédure est uniquement nécessaire si vous déplacez un volume d'une paire HA vers une autre paire HA. Si vous déplacez un volume vers un autre nœud de la même paire haute disponibilité (par exemple, si vous disposez d'un cluster à deux nœuds ou d'une configuration MetroCluster), vous pouvez ignorer cette procédure.
 
 .Étapes

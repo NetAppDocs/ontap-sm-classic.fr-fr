@@ -13,6 +13,7 @@ summary: 'Avant de provisionner un volume pour contenir vos LUN, vous devez déc
 [role="lead"]
 Avant de provisionner un volume pour contenir vos LUN, vous devez décider d'ajouter ce volume à un SVM existant ou de créer un nouveau SVM pour le volume. Vous devrez peut-être également configurer iSCSI sur une SVM existante.
 
+.Description de la tâche
 Si un SVM existant est déjà configuré avec les protocoles nécessaires et que celui-ci dispose de LIF accessibles depuis l'hôte, il est plus facile d'utiliser le SVM existant.
 
 Vous pouvez créer un nouveau SVM afin de séparer les données ou l'administration des autres utilisateurs du cluster de stockage. Il n'y a pas d'avantage à utiliser des SVM distincts pour séparer différents protocoles.

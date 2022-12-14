@@ -30,6 +30,7 @@ C'est le cas si vous n'avez pas suivi cette procédure pour créer le SVM lors d
 
 
 
+.Description de la tâche
 L'ordre dans lequel vous configurez CIFS et NFS affecte les boîtes de dialogue qui s'affichent. Dans cette procédure, vous devez configurer CIFS en premier et NFS en second.
 
 .Étapes

@@ -18,6 +18,7 @@ Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 e
 * Le volume que vous souhaitez cloner doit être en ligne et doit être un volume non root.
 
 
+.Description de la tâche
 La copie Snapshot de base utilisée pour créer un volume FlexClone d'une destination SnapMirror est marquée comme étant occupé et ne peut pas être supprimée. Si un volume FlexClone est créé à partir d'une copie Snapshot qui n'est pas la copie Snapshot la plus récente et que cette copie Snapshot n'existe plus sur le volume source, toutes les mises à jour de SnapMirror vers le volume de destination échouent.
 
 .Étapes

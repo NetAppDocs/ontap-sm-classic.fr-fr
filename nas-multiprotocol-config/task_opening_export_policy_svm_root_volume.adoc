@@ -13,6 +13,7 @@ summary: 'Vous devez ajouter une règle à l"export policy par défaut pour perm
 [role="lead"]
 Vous devez ajouter une règle à l'export policy par défaut pour permettre à tous les clients d'accéder via NFSv3. Sans cette règle, tous les clients NFS se voient refuser l'accès au SVM et à ses volumes.
 
+.Description de la tâche
 Vous devez spécifier tout accès NFS comme l'export policy par défaut, puis limiter l'accès aux volumes individuels en créant des export policy personnalisées pour les volumes individuels.
 
 .Étapes
@@ -35,4 +36,5 @@ image::../media/export_rule_for_root_volume_multi.gif[Cette image est expliquée
 
 
 
+.Résultats
 Les clients NFSv3 peuvent désormais accéder à tous les volumes créés sur le SVM.

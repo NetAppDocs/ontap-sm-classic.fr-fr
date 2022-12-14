@@ -13,8 +13,10 @@ summary: 'Vous pouvez configurer iSCSI sur une machine virtuelle de stockage (SV
 [role="lead"]
 Vous pouvez configurer iSCSI sur une machine virtuelle de stockage (SVM) existante, et créer une LUN et son volume contenant à l'aide d'un assistant unique. Le protocole iSCSI doit déjà être activé, mais pas configuré sur le SVM. Ces informations sont destinées aux SVM pour lesquels vous configurez plusieurs protocoles, mais n'ont pas encore configuré iSCSI.
 
+.Avant de commencer
 Vous devez disposer d'un nombre suffisant d'adresses réseau disponibles pour créer deux LIF pour chaque nœud.
 
+.Description de la tâche
 Les LUN sont mappées sur un sous-ensemble d'initiateurs du groupe initiateur pour limiter le nombre de chemins d'accès de l'hôte à la LUN.
 
 * ONTAP utilise le mappage de LUN sélectif (SLM) pour rendre la LUN accessible uniquement via des chemins sur le nœud possédant la LUN et son partenaire haute disponibilité.

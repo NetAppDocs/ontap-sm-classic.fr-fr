@@ -33,6 +33,7 @@ La liste des clients LDAP s'affiche dans la fenêtre LDAP.
 
 Un serveur LDAP vous permet de gérer les informations utilisateur de manière centralisée. Si vous stockez votre base de données utilisateur sur un serveur LDAP de votre environnement, vous pouvez configurer votre SVM (Storage Virtual machine) pour rechercher les informations utilisateur dans votre base de données LDAP existante.
 
+.Description de la tâche
 ONTAP prend en charge le protocole LDAP pour l'authentification des utilisateurs, l'autorisation d'accès aux fichiers, ainsi que des services de consultation et de mappage entre NFS et CIFS.
 
 

@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 Vous pouvez gérer les adhésions à des groupes locaux en ajoutant et en supprimant un utilisateur local, un utilisateur Active Directory ou un groupe Active Directory à l'aide de System Manager. Vous pouvez modifier les privilèges qui sont affectés à un groupe et la description d'un groupe pour identifier facilement le groupe.
 
+.Description de la tâche
 Lorsque vous ajoutez ou supprimez des membres d'un groupe Windows local, vous devez garder à l'esprit les éléments suivants :
 
 * Vous ne pouvez pas ajouter ou supprimer des utilisateurs du groupe spécial _Everyone_.
@@ -45,6 +46,7 @@ Vous pouvez sélectionner les privilèges dans l'ensemble prédéfini de privil�
 . Cliquez sur *Modifier*.
 
 
+.Résultats
 Les paramètres du groupe Windows local sont modifiés et les modifications sont affichées dans l'onglet *groupes*.
 
 
@@ -53,6 +55,7 @@ Les paramètres du groupe Windows local sont modifiés et les modifications sont
 
 System Manager peut être utilisé pour créer des groupes Windows locaux à utiliser pour autoriser l'accès aux données contenues dans la machine virtuelle de stockage (SVM) sur une connexion SMB. Vous pouvez également attribuer les privilèges qui définissent les droits d'utilisateur ou les capacités d'un membre du groupe lors de l'exécution d'activités administratives.
 
+.Avant de commencer
 Le serveur CIFS doit être configuré pour le SVM.
 
 .Description de la tâche
@@ -111,6 +114,7 @@ Vous pouvez sélectionner les privilèges dans l'ensemble prédéfini de privil�
 . Cliquez sur *Créer*.
 
 
+.Résultats
 Le groupe Windows local est créé et apparaît dans la fenêtre groupes.
 
 
@@ -124,6 +128,7 @@ Vous pouvez ajouter un utilisateur local, un utilisateur Active Directory ou un 
 * L'utilisateur doit exister avant de pouvoir ajouter l'utilisateur à un groupe.
 
 
+.Description de la tâche
 Lorsque vous ajoutez des membres à un groupe Windows local, vous devez garder à l'esprit les éléments suivants :
 
 * Vous ne pouvez pas ajouter d'utilisateurs au groupe spécial _Everyone_.
@@ -148,6 +153,7 @@ Vous pouvez renommer le compte utilisateur ou ajouter le compte utilisateur en u
 . Cliquez sur *OK*.
 
 
+.Résultats
 L'utilisateur que vous avez ajouté est répertorié dans le stab utilisateur de l'onglet *groupes*.
 
 
@@ -177,6 +183,7 @@ Vous pouvez utiliser System Manager pour renommer un groupe Windows local afin d
 . Dans la fenêtre *Renommer le groupe*, spécifiez un nouveau nom pour le groupe.
 
 
+.Résultats
 Le nom du groupe local est modifié et le groupe est répertorié avec le nouveau nom dans la fenêtre groupes.
 
 
@@ -203,6 +210,7 @@ Les descripteurs de sécurité Windows sur les fichiers et les répertoires fais
 . Cliquez sur *Supprimer*.
 
 
+.Résultats
 Le groupe local est supprimé avec ses enregistrements d'adhésion.
 
 
@@ -215,6 +223,7 @@ Vous pouvez utiliser System Manager pour créer un compte utilisateur Windows lo
 * Le serveur CIFS doit être configuré pour le SVM.
 
 
+.Description de la tâche
 Un nom d'utilisateur Windows local doit satisfaire aux exigences suivantes :
 
 * Il ne doit pas dépasser 20 caractères
@@ -255,6 +264,7 @@ Le mot de passe doit répondre aux exigences de mot de passe.
 . Cliquez sur *Créer*.
 
 
+.Résultats
 Le compte d'utilisateur Windows local est créé et est affecté aux groupes sélectionnés. Le compte utilisateur est répertorié dans l'onglet *utilisateurs*.
 
 
@@ -272,6 +282,7 @@ Vous pouvez utiliser System Manager pour modifier un compte d'utilisateur Window
 . Cliquez sur *Modifier*.
 
 
+.Résultats
 Les attributs du compte utilisateur Windows local sont modifiés et sont affichés dans l'onglet *utilisateurs*.
 
 
@@ -285,6 +296,7 @@ Vous pouvez utiliser System Manager pour attribuer l'appartenance à un groupe �
 * L'utilisateur doit exister avant de pouvoir ajouter l'utilisateur à un groupe.
 
 
+.Description de la tâche
 Vous ne pouvez pas ajouter d'utilisateurs au groupe spécial _Everyone_.
 
 .Étapes
@@ -296,6 +308,7 @@ Vous ne pouvez pas ajouter d'utilisateurs au groupe spécial _Everyone_.
 . Cliquez sur *OK*.
 
 
+.Résultats
 Le compte utilisateur est associé à tous les groupes sélectionnés et l'utilisateur dispose des privilèges associés à ces groupes.
 
 
@@ -326,6 +339,7 @@ Vous pouvez utiliser System Manager pour renommer un compte d'utilisateur Window
 . Confirmez le nouveau nom, puis cliquez sur *Renommer*.
 
 
+.Résultats
 Le nom d'utilisateur est modifié et le nouveau nom est répertorié dans l'onglet *utilisateurs*.
 
 
@@ -334,6 +348,7 @@ Le nom d'utilisateur est modifié et le nouveau nom est répertorié dans l'ongl
 
 Vous pouvez utiliser System Manager pour réinitialiser le mot de passe d'un utilisateur local Windows. Par exemple, vous pouvez réinitialiser le mot de passe si le mot de passe actuel est compromis ou si l'utilisateur a oublié le mot de passe.
 
+.Description de la tâche
 Le mot de passe que vous définissez doit répondre aux critères suivants :
 
 * Doit comporter au moins six caractères
@@ -376,6 +391,7 @@ Vous pouvez utiliser System Manager pour supprimer un compte utilisateur Windows
 . Cliquez sur *Supprimer*.
 
 
+.Résultats
 Le compte d'utilisateur local est supprimé avec ses entrées d'appartenance au groupe.
 
 

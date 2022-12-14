@@ -105,6 +105,7 @@ Le SVM est créé avec la configuration spécifiée.
 
 
 
+.Résultats
 Le SVM que vous avez créé est démarré automatiquement. Le nom du volume racine est généré automatiquement en tant que `SVM name_root`. Par défaut, le `vsadmin` le compte utilisateur est créé et est à l'état verrouillé.
 
 

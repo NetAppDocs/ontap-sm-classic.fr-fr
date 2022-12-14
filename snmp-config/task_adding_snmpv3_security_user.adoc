@@ -15,6 +15,7 @@ Vous pouvez utiliser l'interface ONTAP System Manager _Classic_ avec ONTAP 9.7 o
 
 L'utilisateur SNMPv3 peut exécuter des utilitaires SNMP à partir du traphost (gestionnaire SNMP) en utilisant les paramètres d'authentification et de confidentialité que vous spécifiez. SNMPv3 offre une sécurité avancée en utilisant des phrases de passe et le cryptage.
 
+.Description de la tâche
 Lorsque vous ajoutez un utilisateur SNMPv3 au niveau du cluster, cet utilisateur peut accéder au cluster via toutes les LIFs qui ont appliqué la politique de pare-feu « mgmt ».
 
 .Étapes

@@ -18,6 +18,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 * Les cookies et les données du site doivent être activés dans le navigateur.
 
 
+.Description de la tâche
 Vous pouvez utiliser une LIF de cluster management ou un LIF de node management pour accéder à ONTAP System Manager. Pour un accès ininterrompu à ONTAP System Manager, vous devez utiliser une LIF de gestion du cluster.
 
 .Étapes

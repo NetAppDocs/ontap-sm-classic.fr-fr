@@ -19,6 +19,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 Vous pouvez utiliser System Manager pour modifier une relation de coffre-fort en sélectionnant une stratégie ou une planification existante dans le cluster, ou en créant une nouvelle règle ou planification. Cependant, vous ne pouvez pas modifier les paramètres d'une stratégie ou d'une planification existante.
 
+.Avant de commencer
 Les clusters source et destination doivent se trouver dans une relation peer-to-peer en bonne santé.
 
 .Étapes
@@ -109,6 +110,7 @@ xref:reference_protection_window.adoc[Fenêtre de protection]
 
 Vous pouvez utiliser System Manager pour initialiser une relation de coffre-fort si vous ne l'avez pas déjà initialisée lors de la création de la relation. Le transfert de base des données est initié du volume FlexVol source vers le volume FlexVol de destination.
 
+.Avant de commencer
 Les clusters source et destination doivent se trouver dans une relation peer-to-peer en bonne santé.
 
 .Étapes
@@ -117,6 +119,7 @@ Les clusters source et destination doivent se trouver dans une relation peer-to-
 . Dans la fenêtre *Initialize*, cliquez sur *Initialize*.
 
 
+.Résultats
 Une copie Snapshot est créée et transférée vers la destination.
 
 Cette copie Snapshot est utilisée comme base pour les copies Snapshot incrémentielles ultérieures.
@@ -192,6 +195,7 @@ La période de conservation par défaut peut être définie sur n'importe quelle
 . Cliquez sur *Créer*.
 
 
+.Résultats
 Si vous choisissez de créer un volume de destination, un volume de type _dp_ est créé avec les paramètres par défaut suivants :
 
 * Croissance automatique activée.
@@ -208,6 +212,7 @@ Une relation de coffre-fort est créée entre le volume de destination et le vol
 
 Vous pouvez utiliser System Manager pour lancer manuellement une mise à jour incrémentielle non planifiée. Une mise à jour manuelle peut être nécessaire pour éviter toute perte de données due à une panne de courant à venir, à une maintenance planifiée ou à une migration de données.
 
+.Avant de commencer
 La relation de coffre-fort doit être initialisée.
 
 .Étapes
@@ -230,6 +235,7 @@ La relation de coffre-fort doit être initialisée.
 
 Vous pouvez utiliser System Manager pour mettre fin à une relation de copie à distance entre un volume source et un volume de destination, puis libérer les copies Snapshot de la source.
 
+.Description de la tâche
 La libération de la relation supprime définitivement les copies Snapshot de base utilisées par la relation de coffre-fort sur le volume source. Pour recréer la relation de coffre-fort, vous devez exécuter l'opération de resynchronisation à partir du volume source à l'aide de l'interface de ligne de commande (CLI).
 
 .Étapes
@@ -256,6 +262,7 @@ Vous pouvez reprendre une relation de coffre-fort mise en veille à l'aide de Sy
 . Dans la fenêtre *reprendre*, cliquez sur *reprendre*.
 
 
+.Résultats
 Les transferts de données normaux sont repris. En cas de transfert planifié pour la relation, le transfert est démarré à partir du prochain planning.
 
 
@@ -270,6 +277,7 @@ Vous pouvez utiliser System Manager pour désactiver les transferts de données 
 . Dans la fenêtre *Quiesce*, cliquez sur *Quiesce*.
 
 
+.Résultats
 S'il n'y a pas de transfert en cours, l'état du transfert s'affiche comme suspendu. Si un transfert est en cours, le transfert n'est pas affecté et le statut du transfert est affiché comme suspendu jusqu'à ce que le transfert soit terminé.
 
 *Informations connexes*

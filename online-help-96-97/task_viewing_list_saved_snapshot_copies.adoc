@@ -13,8 +13,10 @@ summary: 'Vous pouvez utiliser System Manager pour afficher la liste de toutes l
 [role="lead"]
 Vous pouvez utiliser ONTAP System Manager classique (disponible dans ONTAP 9.7 et versions antérieures) pour afficher la liste de toutes les copies Snapshot enregistrées d'un volume sélectionné à partir de l'onglet copies Snapshot dans le volet inférieur de la fenêtre volumes. Vous pouvez utiliser la liste des copies Snapshot enregistrées pour renommer, restaurer ou supprimer une copie Snapshot.
 
+.Avant de commencer
 Le volume doit être en ligne.
 
+.Description de la tâche
 Vous ne pouvez afficher les copies Snapshot que pour un seul volume à la fois.
 
 .Étapes

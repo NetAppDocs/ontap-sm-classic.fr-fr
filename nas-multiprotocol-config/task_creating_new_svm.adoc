@@ -28,6 +28,7 @@ Vous pouvez utiliser un assistant qui vous guide tout au long du processus de cr
 * L'heure sur les contrôleurs de domaine AD, les clients et le SVM doit être synchronisée dans les cinq minutes qui suivent l'un l'autre.
 
 
+.Description de la tâche
 Lorsque vous créez un SVM pour l'accès multiprotocole, vous ne devez pas utiliser les sections de provisionnement de la fenêtre d'installation des SVM (Storage Virtual machine) qui crée deux volumes, et non un volume unique avec accès multiprotocole. Vous pouvez provisionner le volume plus tard dans le workflow.
 
 .Étapes
@@ -119,6 +120,7 @@ L'administrateur DNS doit connaître le nom du serveur CIFS et l'adresse IP de l
 
 
 
+.Résultats
 Un nouveau SVM est créé avec un serveur CIFS et un serveur NFS accessible via la même LIF de données.
 
 

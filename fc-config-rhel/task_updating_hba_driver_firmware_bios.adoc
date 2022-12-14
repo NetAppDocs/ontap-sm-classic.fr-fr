@@ -13,10 +13,12 @@ summary: 'Si les adaptateurs de bus hôte FC (HBA) de l"hôte Linux n"exécutent
 [role="lead"]
 Si les adaptateurs de bus hôte FC (HBA) de l'hôte Linux n'exécutent pas les versions de pilote, de micrologiciel et de BIOS prises en charge, vous devez les mettre à jour.
 
+.Avant de commencer
 Vous devez avoir identifié les versions de pilote, de micrologiciel et de BIOS prises en charge pour votre configuration à partir de l'outil Interoperability Matrix Tool.
 
 https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
 
+.Description de la tâche
 Les pilotes, micrologiciels, BIOS et utilitaires HBA sont fournis par les fournisseurs HBA.
 
 .Étapes

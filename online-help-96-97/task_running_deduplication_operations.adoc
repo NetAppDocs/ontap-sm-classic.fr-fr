@@ -18,6 +18,7 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 * Le volume doit être en ligne et monté.
 
 
+.Description de la tâche
 La déduplication est un processus d'arrière-plan qui consomme des ressources système pendant l'opération. Par conséquent, elle peut avoir un impact sur d'autres opérations en cours. Vous devez annuler la déduplication avant d'effectuer toute autre opération.
 
 .Étapes
