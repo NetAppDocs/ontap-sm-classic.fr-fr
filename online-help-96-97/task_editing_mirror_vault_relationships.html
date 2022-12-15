@@ -7216,7 +7216,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-15 19:39:51 +0000">11/15/2022</time>
+    <time datetime="2022-12-15 15:14:01 +0000">12/15/2022</time>
     
   
 
@@ -7240,9 +7240,11 @@
 <p>Vous pouvez utiliser System Manager pour modifier une relation de miroir et de coffre-fort en modifiant la stratégie ou la planification sélectionnée. Cependant, vous ne pouvez pas modifier les paramètres d&#8217;une stratégie ou d&#8217;une planification existante.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>Les clusters source et destination doivent se trouver dans une relation peer-to-peer en bonne santé.</p>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Vous pouvez modifier le type de relation d&#8217;une relation version flexible miroir, relation de coffre-fort ou relation miroir/coffre-fort en modifiant le type de stratégie.</p>
 </div>
 <div class="olist arabic">
@@ -7396,6 +7398,7 @@
 <p>Vous pouvez utiliser System Manager pour lancer manuellement une mise à jour incrémentielle non planifiée. Une mise à jour manuelle peut être nécessaire pour éviter toute perte de données due à une panne de courant à venir, à une maintenance planifiée ou à une migration de données.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>La relation miroir et coffre-fort doit être initialisée et à l&#8217;état Snapmirrored.</p>
 </div>
 <div class="olist arabic">
@@ -7440,6 +7443,7 @@
 <p>Vous pouvez utiliser System Manager pour initialiser une relation miroir et coffre-fort si vous n&#8217;avez pas déjà initialisé la relation lors de sa création. Lorsque vous initialisez une relation, un transfert de base complet des données est effectué depuis le volume source vers la destination.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>Les clusters source et destination doivent se trouver dans une relation peer-to-peer en bonne santé.</p>
 </div>
 <div class="olist arabic">
@@ -7460,6 +7464,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>Une copie Snapshot est créée et transférée vers la destination.</p>
 </div>
 <div class="paragraph">
@@ -7601,9 +7606,11 @@
 <p>Vous pouvez utiliser System Manager pour rétablir une relation de miroir et de copie à distance qui a été rompue auparavant. Vous pouvez effectuer une opération de resynchronisation pour restaurer à partir d&#8217;un incident ayant désactivé le volume source.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>Les clusters source et de destination ainsi que les serveurs virtuels de stockage source et destination doivent se trouver dans des relations entre pairs.</p>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Avant d&#8217;effectuer une opération de resynchronisation, vous devez tenir compte des éléments suivants :</p>
 </div>
 <div class="ulist">
@@ -7653,6 +7660,7 @@
 <p>Vous pouvez utiliser System Manager pour rétablir une relation de miroir et de copie à distance précédemment interrompue. Dans une opération de resynchronisation inverse, les fonctions des volumes source et de destination sont inversées. Vous pouvez utiliser le volume de destination pour transmettre des données pendant que vous réparez ou remplacez la source, mettez à jour la source et rétablissez la configuration d&#8217;origine des systèmes.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>Le volume source doit être en ligne.</p>
 </div>
 <div class="ulist">
@@ -7714,6 +7722,7 @@
 </ul>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Vous pouvez briser les relations en miroir entre les systèmes ONTAP et les systèmes de stockage SolidFire.</p>
 </div>
 <div class="olist arabic">
@@ -7731,6 +7740,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>La relation miroir et coffre-fort est rompue. Le type de volume de destination passe de la protection des données (DP) en lecture seule à la lecture/écriture. Le système stocke la copie Snapshot de base pour les relations miroir et coffre-fort pour une utilisation ultérieure.</p>
 </div>
 </div>
@@ -7742,6 +7752,7 @@
 <p>Si vous disposez d&#8217;une relation de mise en miroir et de coffre-fort mise en veille, vous pouvez utiliser System Manager pour reprendre la relation. Lorsque vous reprenez la relation, le transfert de données normal vers le volume de destination reprend et toutes les activités de protection sont redémarrées.</p>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Si vous avez suspendu une relation de miroir et de coffre-fort défaillante à partir de l&#8217;interface de ligne de commande, vous ne pouvez pas reprendre la relation depuis System Manager. Vous devez utiliser l&#8217;interface de ligne de commandes pour reprendre la relation.</p>
 </div>
 <div class="olist arabic">
@@ -7759,6 +7770,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>Les transferts de données normaux sont repris. En cas de transfert planifié pour la relation, le transfert est démarré à partir du prochain planning.</p>
 </div>
 </div>
@@ -7801,6 +7813,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>La relation est supprimée et les copies Snapshot de base du volume source sont supprimées définitivement.</p>
 </div>
 </div>
@@ -7812,6 +7825,7 @@
 <p>Vous pouvez utiliser System Manager pour suspendre un volume de destination afin de stabiliser la destination avant de créer une copie Snapshot. L&#8217;opération de mise en attente permet aux transferts de données actifs de se terminer et désactive les transferts futurs pour la relation miroir et coffre-fort.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>La relation miroir et coffre-fort doit être à l&#8217;état Snapmirrored.</p>
 </div>
 <div class="olist arabic">
@@ -7829,6 +7843,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>S&#8217;il n&#8217;y a pas de transfert en cours, l&#8217;état du transfert s&#8217;affiche comme suspendu. Si un transfert est en cours, le transfert n&#8217;est pas affecté et le statut du transfert est affiché comme suspendu jusqu&#8217;à ce que le transfert soit terminé.</p>
 </div>
 </div>

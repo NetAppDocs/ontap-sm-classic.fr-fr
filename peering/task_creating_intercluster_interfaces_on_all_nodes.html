@@ -7216,7 +7216,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-15 19:39:51 +0000">11/15/2022</time>
+    <time datetime="2022-12-15 15:14:01 +0000">12/15/2022</time>
     
   
 
@@ -7233,9 +7233,11 @@
 <p>Les clusters communiquent entre eux via les interfaces logiques (LIF) dédiées à la communication intercluster. Vous devez créer une LIF intercluster au sein de chaque IPspace qui sera utilisé pour le peering. Les LIFs doivent être créées sur chaque nœud de chaque cluster pour lequel vous souhaitez créer une relation peer-to-peer.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>Vous devez avoir identifié le sous-réseau et les ports, et éventuellement les adresses IP, que vous prévoyez d&#8217;utiliser pour les LIF intercluster.</p>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Vous devez effectuer cette procédure sur les deux clusters pour lesquels vous souhaitez créer une relation homologue. Par exemple, si vous disposez d&#8217;un cluster à quatre nœuds que vous souhaitez pairs avec le cluster X au-dessus d&#8217;IPspace A, et que vous devez associer un cluster y au-delà de l&#8217;IPspace Y, vous devez disposer d&#8217;un total de huit LIF intercluster ; Quatre se trouvent sur IPspace A (un par nœud) et quatre sur IPspace y (un par nœud).</p>
 </div>
 <div class="olist arabic">
@@ -7296,7 +7298,7 @@
 </div>
 </li>
 <li>
-<p>Recommencez ,Étape 1 pour chaque nœud du cluster.</p>
+<p>Recommencez <a href="#step1-intercluster-lif">Étape 1</a> pour chaque nœud du cluster.</p>
 <div class="paragraph">
 <p>Chaque nœud du cluster dispose d&#8217;un LIF intercluster.</p>
 </div>
@@ -7323,6 +7325,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>Tous les nœuds de chaque cluster disposent de LIF intercluster qui peuvent tous communiquer entre eux.</p>
 </div>
 

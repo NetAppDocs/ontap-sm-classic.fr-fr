@@ -7216,7 +7216,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-15 19:39:51 +0000">11/15/2022</time>
+    <time datetime="2022-12-15 15:14:01 +0000">12/15/2022</time>
     
   
 
@@ -7240,6 +7240,7 @@
 <p>System Manager peut être utilisé pour supprimer une relation de miroir et mettre fin de façon permanente à la relation de miroir entre les volumes source et de destination. Lorsqu&#8217;une relation de miroir est supprimée, la copie Snapshot de base sur le volume source est supprimée.</p>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Il est recommandé de briser la relation de miroir avant de supprimer la relation.</p>
 </div>
 <div class="olist arabic">
@@ -7257,6 +7258,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>La relation est supprimée, et la copie Snapshot de base est supprimée sur le volume source.</p>
 </div>
 </div>
@@ -7268,6 +7270,7 @@
 <p>Vous pouvez utiliser System Manager pour rétablir une relation de miroir qui a été rompue auparavant. Vous pouvez effectuer une opération de resynchronisation pour restaurer à partir d&#8217;un incident ayant désactivé le volume source.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>Le cluster source et le cluster destination, ainsi que le SVM source et le SVM destination doivent être en relations entre pairs.</p>
 </div>
 <div class="ulist">
@@ -7331,6 +7334,7 @@
 <p>Vous pouvez utiliser System Manager pour reprendre une relation de miroir mise en veille. Lorsque vous reprenez la relation, le transfert de données normal vers la destination du miroir reprend et toutes les activités du miroir sont redémarrées.</p>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Si vous avez suspendu une relation de miroir interrompue à partir de l&#8217;interface de ligne de commande, vous ne pouvez pas reprendre la relation depuis System Manager. Vous devez utiliser l&#8217;interface de ligne de commandes pour reprendre la relation.</p>
 </div>
 <div class="olist arabic">
@@ -7351,6 +7355,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>Le transfert de données vers la destination du miroir reprend pour la relation de miroir sélectionnée.</p>
 </div>
 </div>
@@ -7362,6 +7367,7 @@
 <p>System Manager permet d&#8217;initier une mise à jour miroir non planifiée de la destination. Il peut être nécessaire d&#8217;effectuer une mise à jour manuelle pour éviter toute perte de données due à une panne de courant à venir, à une maintenance planifiée ou à une migration de données.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>La relation miroir doit être à l&#8217;état Snapmirrored.</p>
 </div>
 <div class="olist arabic">
@@ -7406,6 +7412,7 @@
 <p>Vous pouvez utiliser System Manager pour suspendre une destination en miroir afin de la stabiliser avant de créer une copie Snapshot. L&#8217;opération de mise en attente permet de terminer les transferts de miroir actifs et de désactiver les transferts futurs pour la relation de mise en miroir.</p>
 </div>
 <div class="paragraph">
+<div class="title">Description de la tâche</div>
 <p>Vous pouvez suspendre uniquement les relations de mise en miroir qui sont à l&#8217;état Snapmirrored.</p>
 </div>
 <div class="olist arabic">
@@ -7454,6 +7461,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>Une copie Snapshot est créée et transférée vers la destination. Cette copie Snapshot est utilisée comme base pour les copies Snapshot incrémentielles ultérieures.</p>
 </div>
 </div>
@@ -7748,6 +7756,7 @@
 </ol>
 </div>
 <div class="paragraph">
+<div class="title">Résultats</div>
 <p>Si vous choisissez de créer un volume de destination, un volume de destination de type <em>dp</em> est créé, avec l&#8217;attribut de langue défini pour correspondre à l&#8217;attribut de langue du volume source.</p>
 </div>
 <div class="paragraph">
@@ -7762,6 +7771,7 @@
 <p>Vous pouvez utiliser System Manager pour rétablir une relation de miroir qui était auparavant interrompue. Dans une opération de resynchronisation inverse, vous inversez les fonctions du volume source et du volume de destination.</p>
 </div>
 <div class="paragraph">
+<div class="title">Avant de commencer</div>
 <p>Le volume source doit être en ligne.</p>
 </div>
 <div class="ulist">
