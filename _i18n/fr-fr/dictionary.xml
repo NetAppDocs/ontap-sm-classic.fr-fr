@@ -8405,7 +8405,6 @@
   <block id="8ffc06d28e87576dd9ff2da3caa069e3" category="paragraph">Depuis ONTAP 9.3, jusqu'à ONTAP 9.7, vous pouvez utiliser l'interface ONTAP System Manager _classic_ pour créer des relations SVM peer-to-peer. Le peering de serveur virtuel de stockage (SVM) vous permet d'établir une relation de pairs entre deux SVM pour la protection des données.</block>
   <block id="61c932880254c345e3760972ca757cab" category="list-text">Cliquez sur *initier SVM peering*.</block>
   <block id="1d38d81d646985ec3458b8d11103d5e2" category="summary">Une fois que vous avez créé une relation de peering de cluster, vous êtes prêt à protéger la disponibilité de vos données.</block>
-  <block id="16514528850809da669879bf9c0def51" category="paragraph">Une fois que vous avez créé une relation de peering de cluster, vous êtes prêt à protéger la disponibilité de vos données. Vous pouvez protéger vos données à l'aide des informations suivantes :</block>
   <block id="a97f5cda69815f1e77668550fdaeedca" category="list-text"><block ref="a97f5cda69815f1e77668550fdaeedca" category="inline-link-macro-rx"></block></block>
   <block id="3552a03559c9745468390e65ff5420dd" category="paragraph">Décrit la procédure de configuration et de surveillance rapides des relations SnapMirror entre les volumes de différents clusters.</block>
   <block id="4a4c3d33f3a7344913b2fc74439a7be1" category="paragraph">Décrit la configuration rapide d'une relation SnapVault intercluster.</block>
@@ -9254,4 +9253,8 @@
   <block id="f6544266822afc00f9e28a38a852cab9" category="paragraph-title">Liste de résultats pour le traçage du protocole CIFS</block>
   <block id="7d5ed3e12000d1e71004e9e21d57eae0" category="paragraph-title">Liste de résultats pour le traçage du protocole NFS</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Informations associées</block>
+  <block id="0832a9959e45466f30fb7d8ac340284b" category="list-text">Sélectionner le SVM, puis cliquer sur *Edit*.</block>
+  <block id="34a08238e292163c8a9e2bbdbca31b46" category="paragraph">Spécifie que la déduplication est constamment exécutée en arrière-plan. Cette règle est définie pour tous les volumes nouvellement créés et pour tous les volumes mis à niveau qui n'ont pas été configurés manuellement pour la déduplication en arrière-plan. Si vous changez la politique en "par défaut" ou toute autre politique, la politique "auto" est désactivée.</block>
+  <block id="0edff1709e29131d53711deec4ab07ca" category="paragraph">Lorsqu'un volume est déplacé d'un système non AFF vers un système AFF, la règle « automatique » est activée par défaut sur le nœud de destination. Lorsqu'un volume est déplacé d'un nœud AFF vers un nœud non AFF, la règle « auto » sur le nœud de destination est remplacée par la règle « à la volée uniquement » par défaut.</block>
+  <block id="52d62f4cf5db67fc9fd3bfd390035923" category="paragraph">Vous pouvez protéger vos données à l'aide des informations suivantes :</block>
 </blocks>

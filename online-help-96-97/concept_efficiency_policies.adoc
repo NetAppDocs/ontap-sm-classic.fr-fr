@@ -148,6 +148,13 @@ Met à jour les informations dans la fenêtre.
 
 === Liste des règles d'efficacité
 
+* *Auto*
++
+Spécifie que la déduplication est constamment exécutée en arrière-plan. Cette règle est définie pour tous les volumes nouvellement créés et pour tous les volumes mis à niveau qui n'ont pas été configurés manuellement pour la déduplication en arrière-plan. Si vous changez la politique en "par défaut" ou toute autre politique, la politique "auto" est désactivée.
+
++
+Lorsqu'un volume est déplacé d'un système non AFF vers un système AFF, la règle « automatique » est activée par défaut sur le nœud de destination. Lorsqu'un volume est déplacé d'un nœud AFF vers un nœud non AFF, la règle « auto » sur le nœud de destination est remplacée par la règle « à la volée uniquement » par défaut.
+
 * *Politique*
 +
 Spécifie le nom d'une règle d'efficacité.

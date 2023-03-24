@@ -11,7 +11,9 @@ summary: Une fois que vous avez créé une relation de peering de cluster, vous 
 
 
 [role="lead"]
-Une fois que vous avez créé une relation de peering de cluster, vous êtes prêt à protéger la disponibilité de vos données. Vous pouvez protéger vos données à l'aide des informations suivantes :
+Une fois que vous avez créé une relation de peering de cluster, vous êtes prêt à protéger la disponibilité de vos données.
+
+Vous pouvez protéger vos données à l'aide des informations suivantes :
 
 * link:../volume-disaster-prep/index.html["Préparation de la reprise après incident de volume"]
 +

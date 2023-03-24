@@ -44,7 +44,7 @@ System Manager affiche le commutateur de service de nom et le commutateur de map
 
 .Étapes
 . Cliquez sur *Storage* > *SVM*.
-. Sélectionner la SVM, puis cliquer sur *SVM Settings*.
+. Sélectionner le SVM, puis cliquer sur *Edit*.
 . Dans l'onglet *Détails*, modifiez les protocoles de données requis.
 . Dans l'onglet *Resource allocation*, choisissez l'une des méthodes suivantes pour déléguer la création de volume :
 +
