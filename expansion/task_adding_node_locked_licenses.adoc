@@ -13,6 +13,10 @@ summary: Si le cluster possède des fonctionnalités qui utilisent des licences 
 [role="lead"]
 Si le cluster possède des fonctionnalités qui utilisent des licences verrouillées par des nœuds (ce qui autorise uniquement des nœuds spécifiques à la fonctionnalité sous licence), vous devez vous assurer que les licences verrouillées par des nœuds sont installées pour les nouveaux nœuds. Vous devez ajouter les licences avant que les nœuds ne soient joints au cluster.
 
+Effectuez cette tâche si vous utilisez l'interface utilisateur _Classic_ System Manager avec ONTAP 9.7 et les versions antérieures. Si vous utilisez l'interface utilisateur de System Manager avec ONTAP 9.7 et versions ultérieures, reportez-vous à la section link:https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["Activation de nouvelles fonctionnalités en ajoutant des clés de licence"].
+
+Pour plus d'informations sur la gestion des licences, reportez-vous à la section link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["Présentation de la gestion des licences"].
+
 .Étapes
 . Ajoutez chaque clé de licence à l'aide de la `system license add` commande.
 +
