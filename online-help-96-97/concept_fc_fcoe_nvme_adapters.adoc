@@ -29,4 +29,4 @@ Vous pouvez modifier les paramètres de vitesse de l'adaptateur FC/FCoE et NVMe 
 
 xref:reference_network_window.adoc[Fenêtre réseau]
 
-https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion du réseau"]
+https://["Gestion du réseau"]

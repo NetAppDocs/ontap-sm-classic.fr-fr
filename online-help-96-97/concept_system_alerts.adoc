@@ -214,4 +214,4 @@ La zone de détails affiche des informations détaillées sur l'alerte, telles q
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/system-admin/index.html["Administration du système"]
+https://["Administration du système"]

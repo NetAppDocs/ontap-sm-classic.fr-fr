@@ -18,7 +18,7 @@ Avant de développer un cluster, vous devez vérifier que tous les composants du
 +
 ** Si vous n'avez pas Config Advisor sur votre ordinateur portable, téléchargez-le.
 +
-https://mysupport.netapp.com/site/tools/tool-eula/activeiq-configadvisor["Téléchargement NetApp : Config Advisor"]
+https://["Téléchargement NetApp : Config Advisor"]
 
 ** Si vous avez Config Advisor, démarrez-le, cliquez sur *aide* > *Rechercher les mises à jour* et suivez les invites pour la mettre à niveau si nécessaire.
 +

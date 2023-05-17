@@ -19,7 +19,7 @@ IPv6 doit être activé sur le cluster si vous configurez des Traphosts SNMP pos
 .Description de la tâche
 Les interruptions SNMP et SNMP sont activées par défaut. Le rapport technique NetApp TR-4220 sur la prise en charge de SNMP contient la liste de tous les événements par défaut qui sont pris en charge par les traps SNMP.
 
-http://www.netapp.com/us/media/tr-4220.pdf["Rapport technique NetApp 4220 : prise en charge SNMP dans Data ONTAP"^]
+http://["Rapport technique NetApp 4220 : prise en charge SNMP dans Data ONTAP"^]
 
 .Étapes
 . Dans la fenêtre SNMP, cliquez sur *EDIT* pour ouvrir la boîte de dialogue *Edit SNMP Settings*.

@@ -22,6 +22,6 @@ L'onglet volumes s'affiche uniquement si vous avez activé les licences CIFS et 
 ====
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["Concepts relatifs à ONTAP"^]
+https://["Concepts relatifs à ONTAP"^]
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["Gestion du stockage logique"^]
+https://["Gestion du stockage logique"^]

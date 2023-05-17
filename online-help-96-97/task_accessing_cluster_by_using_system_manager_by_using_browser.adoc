@@ -45,4 +45,4 @@ Cette option n'est pas prise en charge sur les systèmes sur lesquels l'authenti
 
 *Informations connexes*
 
-https://docs.netapp.com/ontap-9/index.jsp["Centre de documentation ONTAP 9"]
+https://["Centre de documentation ONTAP 9"]

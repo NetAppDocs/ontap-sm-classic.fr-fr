@@ -181,4 +181,4 @@ La zone située sous la liste LUN de la matrice affiche des informations détail
 
 *Informations connexes*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.vs-irrg/home.html["Conditions requises pour l'installation et référence de la virtualisation FlexArray"]
+https://["Conditions requises pour l'installation et référence de la virtualisation FlexArray"]

@@ -18,11 +18,11 @@ Vous devez avoir effectué les tâches suivantes :
 
 * Vérifiez la configuration prise en charge dans la matrice d'interopérabilité
 +
-https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
+https://["Matrice d'interopérabilité NetApp"]
 
 * Identification des éventuels correctifs Windows requis dans la matrice d'interopérabilité
 +
-https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
+https://["Matrice d'interopérabilité NetApp"]
 
 * Ajoutez la licence FCP et démarrez le service cible
 * Vérifiez le câblage
@@ -46,7 +46,7 @@ Voir link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html["Installat
 .Étapes
 . Téléchargez la version appropriée de Windows Unified Host Utilities sur le site de support NetApp.
 +
-https://mysupport.netapp.com/site/global/dashboard["Support NetApp"]
+https://["Support NetApp"]
 
 . Exécutez le fichier exécutable et suivez les instructions à l'écran.
 . Redémarrez l'hôte Windows lorsque vous y êtes invité.

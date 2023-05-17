@@ -26,7 +26,7 @@ Si des exemples de cette procédure utilisent un cluster à deux nœuds, ils s'a
 Pour ajouter un nœud à un cluster à un seul nœud, vous devez suivre une autre procédure.
 
 +
-https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.html["Ajout d'un second contrôleur pour créer une paire haute disponibilité"]
+https://["Ajout d'un second contrôleur pour créer une paire haute disponibilité"]
 
 ** Il n'utilise pas d'adressage IPv6 ou de cryptage du stockage.
 ** Il ne s'agit pas d'une configuration MetroCluster.
@@ -41,7 +41,7 @@ https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.htm
 
 * Lorsque vous effectuez des tâches de configuration ONTAP avec System Manager, vous voulez utiliser l'interface utilisateur _Classic_ System Manager pour ONTAP 9.7 et les versions antérieures, et non l'interface utilisateur ONTAP System Manager pour ONTAP 9.7 et versions ultérieures.
 +
-https://docs.netapp.com/us-en/ontap/["Documentation de ONTAP System Manager"]
+https://["Documentation de ONTAP System Manager"]
 
 * Vous voulez appliquer les bonnes pratiques, pas explorer toutes les options disponibles.
 * Vous ne voulez pas lire beaucoup de contexte conceptuel.

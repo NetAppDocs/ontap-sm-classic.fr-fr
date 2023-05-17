@@ -39,4 +39,4 @@ Si l'un des tests échoue, vérifiez que le service iSCSI est exécuté sur le c
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/high-availability/index.html["Gestion de la haute disponibilité"^]
+https://["Gestion de la haute disponibilité"^]

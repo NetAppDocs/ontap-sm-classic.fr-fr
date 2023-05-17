@@ -18,7 +18,7 @@ Utilisez cette procédure pour configurer l'accès à un volume de la manière s
 * Vous voulez appliquer les bonnes pratiques, pas explorer toutes les options disponibles.
 * Votre réseau de données utilise l'IPspace par défaut, le domaine de diffusion par défaut et le groupe de basculement par défaut.
 +
-Si votre réseau de données est plat, l'utilisation de ces objets par défaut garantit que les LIFs basculeront correctement en cas de panne de liaison. Si vous n'utilisez pas les objets par défaut, reportez-vous à la https://docs.netapp.com/us-en/ontap/networking/index.html["Documentation de gestion du réseau"^] Pour plus d'informations sur la configuration du basculement de chemin LIF.
+Si votre réseau de données est plat, l'utilisation de ces objets par défaut garantit que les LIFs basculeront correctement en cas de panne de liaison. Si vous n'utilisez pas les objets par défaut, reportez-vous à la https://["Documentation de gestion du réseau"^] Pour plus d'informations sur la configuration du basculement de chemin LIF.
 
 * Les autorisations d'accès au fichier NTFS seront utilisées pour sécuriser le nouveau volume.
 

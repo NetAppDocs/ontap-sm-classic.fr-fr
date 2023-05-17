@@ -45,4 +45,4 @@ xref:task_setting_time_zone_for_cluster.adoc[Configuration du fuseau horaire d'u
 
 xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Configuration d'un réseau lorsqu'une plage d'adresses IP est désactivée]
 
-https://docs.netapp.com/us-en/ontap/system-admin/index.html["Administration du système"]
+https://["Administration du système"]

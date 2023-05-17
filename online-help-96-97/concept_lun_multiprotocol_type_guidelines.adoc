@@ -138,10 +138,10 @@ Pour les LUN brutes, vous pouvez utiliser le type de système d'exploitation inv
 
 xref:task_creating_luns.adoc[Création des LUN]
 
-https://mysupport.netapp.com/NOW/products/interoperability["Interopérabilité NetApp"]
+https://["Interopérabilité NetApp"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148981["Solaris Host Utilities 6.1 - Guide d'installation et de configuration"]
+https://["Solaris Host Utilities 6.1 - Guide d'installation et de configuration"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148983["Solaris Host Utilities 6.1 : référence rapide des commandes"]
+https://["Solaris Host Utilities 6.1 : référence rapide des commandes"]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1148982["Notes de mise à jour de Solaris Host Utilities 6.1"]
+https://["Notes de mise à jour de Solaris Host Utilities 6.1"]

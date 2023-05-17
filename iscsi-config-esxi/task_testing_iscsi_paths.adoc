@@ -37,4 +37,4 @@ Le `ping` La commande est disponible depuis la console de service ESXi.
 
 *Informations connexes*
 
-http://kb.vmware.com/kb/1003486["Article 1003486 de la base de connaissances VMware : test de la connectivité réseau avec la commande ping"]
+http://["Article 1003486 de la base de connaissances VMware : test de la connectivité réseau avec la commande ping"]

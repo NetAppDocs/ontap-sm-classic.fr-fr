@@ -129,4 +129,4 @@ Spécifie la direction du mappage de groupe. Les valeurs possibles sont `krb_uni
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["Gestion SMB/CIFS"]
+https://["Gestion SMB/CIFS"]

@@ -19,7 +19,7 @@ Vous devez avoir identifié la version de Linux Unified Host Utilities prise en 
 .Étapes
 . Téléchargez la version Linux Unified Host Utilities prise en charge sur le site de support NetApp.
 +
-http://mysupport.netapp.com/NOW/cgi-bin/software["Téléchargements NetApp : logiciels"]
+http://["Téléchargements NetApp : logiciels"]
 
 . Installez le logiciel Linux Unified Host Utilities en suivant les instructions de la documentation d'installation.
 . Si le `tuned` le pack n'est pas installé, entrez la commande suivante :
@@ -36,4 +36,4 @@ http://mysupport.netapp.com/NOW/cgi-bin/software["Téléchargements NetApp : log
 
 
 
-*Informations connexes*https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Installation de Linux Unified Host Utilities 7.1"]
+*Informations connexes*https://["Installation de Linux Unified Host Utilities 7.1"]

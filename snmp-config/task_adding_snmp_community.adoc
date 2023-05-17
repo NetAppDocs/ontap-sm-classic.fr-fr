@@ -14,7 +14,7 @@ summary: 'Vous pouvez utiliser l"interface ONTAP System Manager « Classic » av
 Vous pouvez utiliser l'interface ONTAP System Manager _Classic_ avec ONTAP 9.7 ou version antérieure pour ajouter une communauté au SVM (administrative Storage Virtual machine) pour un cluster qui exécute SNMPv1 ou SNMPv2c. System Manager utilise les protocoles SNMP SNMPv1 et SNMPv2c, et une communauté SNMP pour détecter les systèmes de stockage.
 
 .Description de la tâche
-Cette procédure permet d'ajouter une communauté SNMP au SVM d'administration du cluster. La procédure pour ajouter une communauté SNMP à un SVM de données est décrite dans le https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion du réseau"].
+Cette procédure permet d'ajouter une communauté SNMP au SVM d'administration du cluster. La procédure pour ajouter une communauté SNMP à un SVM de données est décrite dans le https://["Gestion du réseau"].
 
 Dans les nouvelles installations de ONTAP, SNMPv1 et SNMPv2c sont désactivés par défaut. Les protocoles SNMPv1 et SNMPv2c sont activés lorsque vous créez une communauté SNMP.
 

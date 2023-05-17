@@ -15,6 +15,6 @@ Vous pouvez utiliser ONTAP System Manager Classic (disponible dans ONTAP 9.7 et 
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["Administration SAN"^]
+https://["Administration SAN"^]
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html["Concepts relatifs à ONTAP"^]
+https://["Concepts relatifs à ONTAP"^]

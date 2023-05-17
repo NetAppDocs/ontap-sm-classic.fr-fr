@@ -8109,7 +8109,6 @@
   <block id="c99ea46138c6cca1947ab45f8b85983c" category="inline-link">Présentation de l'administration du SAN ONTAP 9</block>
   <block id="4ccd1411513c65dcb6a679ea9915e95f" category="paragraph">Pour plus d'informations sur l'administration SAN, consultez le<block ref="8499bea34abc994e4281bc61265ea2b9" category="inline-link-rx"></block></block>
   <block id="d0f2df2bdd6b328117c96dcaacb4a936" category="cell">System Manager redessiné (disponible avec 9.7 et versions ultérieures)</block>
-  <block id="2043d9c76a0ce0aead2a3d90c7edea3d" category="cell"><block ref="2043d9c76a0ce0aead2a3d90c7edea3d" category="inline-link-rx"></block></block>
   <block id="21da5bdcfd1b855ee9de397cb8a78a1d" category="cell"><block ref="21da5bdcfd1b855ee9de397cb8a78a1d" category="inline-link-rx"></block></block>
   <block id="fbded7cf8eaa171bb04ad74428e5113b" category="paragraph">Pour afficher le WWID d'un périphérique SCSI non NetApp, entrez la commande suivante sur le périphérique que vous souhaitez exclure, où<block ref="064f5c4cf2b1b4f36a048470f971f374" prefix=" " category="inline-code"></block> est un périphérique que vous spécifiez :<block ref="16d717586c67c4799efbc85aaf0629e9" prefix=" " category="inline-code"></block></block>
   <block id="0ed3f71b72d6e39d73422ff843314d23" category="list-text">Activez les paramètres DM-Multipath recommandés par NetApp en ajoutant la chaîne suivante à l'extrémité de la ligne du noyau dans le chargeur de démarrage :<block ref="f947a46503ef6e7e379274a8e1e09dde" prefix=" " category="inline-code"></block></block>
@@ -9260,4 +9259,5 @@
   <block id="a8bab46b4ec9127ebe1ca2eb2c46a963" category="paragraph">Effectuez cette tâche si vous utilisez l'interface utilisateur _Classic_ System Manager avec ONTAP 9.7 et les versions antérieures. Si vous utilisez l'interface utilisateur de System Manager avec ONTAP 9.7 et versions ultérieures, reportez-vous à la section <block ref="7a8e6f659072e8056021df642c019ac1" category="inline-link-macro-rx"></block>.</block>
   <block id="793d21bf18b025e1a67b437de47189f5" category="inline-link-macro">Présentation de la gestion des licences</block>
   <block id="0f130bf77768be1af34e32b76ed78492" category="paragraph">Pour plus d'informations sur la gestion des licences, reportez-vous à la section <block ref="40de9a66c3e4481acf1e199beb3ce8ce" category="inline-link-macro-rx"></block>.</block>
+  <block id="604cb5a84c00d7e349ae07b5f7fe770d" category="cell"><block ref="604cb5a84c00d7e349ae07b5f7fe770d" category="inline-link-rx"></block></block>
 </blocks>

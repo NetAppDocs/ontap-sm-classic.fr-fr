@@ -53,14 +53,14 @@ Le déplacement de volumes n'est pas pris en charge dans les configurations NVMe
  a| 
 System Manager redessiné (disponible avec ONTAP 9.7 et versions ultérieures)
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["Gérer les volumes"^]
+https://["Gérer les volumes"^]
 
 
 
  a| 
 Interface de ligne de commandes ONTAP
  a| 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["Gestion du stockage logique"^]
+https://["Gestion du stockage logique"^]
 
 |===
 
@@ -71,10 +71,10 @@ Avant de déplacer des volumes, il est recommandé d'évaluer si les approches s
 
 * Si vous souhaitez mettre à niveau un contrôleur sans interruption, il est possible d'utiliser le transfert d'agrégats (ARL), ce qui ne nécessite pas de déplacement physique des données.
 +
-https://docs.netapp.com/us-en/ontap/high-availability/index.html["Haute disponibilité"^]
+https://["Haute disponibilité"^]
 
 * Si vous souhaitez déplacer uniquement une LUN sans son volume contenant, vous pouvez utiliser le processus de déplacement de LUN.
 +
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["Administration SAN"^]
+https://["Administration SAN"^]
 
 

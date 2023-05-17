@@ -21,6 +21,6 @@ Lorsque la réserve d'espace est définie sur "par défaut", les paramètres de 
 
 *Informations connexes*
 
-http://www.netapp.com/us/media/tr-3563.pdf["Rapport technique 3563 de NetApp : le provisionnement fin de NetApp augmente l'utilisation du stockage avec l'allocation à la demande"^]
+http://["Rapport technique 3563 de NetApp : le provisionnement fin de NetApp augmente l'utilisation du stockage avec l'allocation à la demande"^]
 
-http://www.netapp.com/us/media/tr-3483.pdf["Rapport technique NetApp 3483 : « Thin Provisioning » dans un environnement d'entreprise NetApp SAN ou IP SAN"^]
+http://["Rapport technique NetApp 3483 : « Thin Provisioning » dans un environnement d'entreprise NetApp SAN ou IP SAN"^]

@@ -16,7 +16,7 @@ Pour un fonctionnement fiable, vous devez vérifier que la configuration complè
 .Étapes
 . Accédez au pour vérifier que vous disposez d'une combinaison prise en charge des composants suivants :
 +
-https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
+https://["Matrice d'interopérabilité NetApp"]
 
 +
 ** Logiciel ONTAP

@@ -40,13 +40,13 @@ Vous pouvez configurer l'accès SNMP à un cluster à l'aide de pour toutes les 
  a| 
 System Manager redessiné (disponible avec ONTAP 9.7 et versions ultérieures)
  a| 
-https://docs.netapp.com/us-en/ontap/networking/manage_snmp_on_the_cluster_@cluster_administrators_only@_overview.html["Gérer SNMP sur le cluster (administrateurs de cluster uniquement) et gt ; Présentation"^]
+https://["Gérer SNMP sur le cluster (administrateurs de cluster uniquement) et gt ; Présentation"^]
 
 
 
  a| 
 L'interface de ligne de commande ONTAP
  a| 
-https://docs.netapp.com/us-en/ontap/networking/commands_for_managing_snmp.html["Commandes pour la gestion de SNMP"^]
+https://["Commandes pour la gestion de SNMP"^]
 
 |===

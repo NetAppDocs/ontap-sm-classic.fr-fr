@@ -65,6 +65,6 @@ La configuration de la segmentation varie en fonction du commutateur que vous ut
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/san-config/index.html["Configuration SAN"^]
+https://["Configuration SAN"^]
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html["Administration SAN"^]
+https://["Administration SAN"^]

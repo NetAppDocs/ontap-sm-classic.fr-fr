@@ -14,7 +14,7 @@ summary: 'Si les adaptateurs bus hôte FC de l"hôte ESX n"exécutent pas les ve
 Si les adaptateurs de bus hôte FC (HBA) de l'hôte ESX n'exécutent pas les versions de pilote, de micrologiciel et de BIOS prises en charge, vous devez les mettre à jour.
 
 .Avant de commencer
-Vous devez avoir identifié les versions de pilote, de micrologiciel et de BIOS prises en charge pour votre configuration à partir du https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"].
+Vous devez avoir identifié les versions de pilote, de micrologiciel et de BIOS prises en charge pour votre configuration à partir du https://["Matrice d'interopérabilité NetApp"].
 
 .Description de la tâche
 Les pilotes, micrologiciels, BIOS et utilitaires HBA sont fournis par les fournisseurs HBA.
@@ -29,4 +29,4 @@ Les instructions d'installation et tous les utilitaires d'installation requis so
 
 *Informations connexes*
 
-http://kb.vmware.com/kb/1002413["Article 1002413 de la base de connaissances VMware : identification du firmware d'un HBA Qlogic ou Emulex FC"]
+http://["Article 1002413 de la base de connaissances VMware : identification du firmware d'un HBA Qlogic ou Emulex FC"]

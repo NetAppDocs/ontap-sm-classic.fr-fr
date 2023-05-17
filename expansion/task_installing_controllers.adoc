@@ -23,7 +23,7 @@ Lorsque vous installez des contrôleurs qui seront ajoutés à un cluster exista
 . Obtenez les instructions _installation and Setup_ pour le numéro de modèle FAS du module de contrôleur que vous envisagez d'ajouter au cluster.
 +
 ** Pour un nouveau module de contrôleur, le document est disponible dans la boîte.
-** Pour un module de contrôleur reconverti, vous pouvez télécharger le document.https://mysupport.netapp.com/site/docs-and-kb["Documentation NetApp"]
+** Pour un module de contrôleur reconverti, vous pouvez télécharger le document.https://["Documentation NetApp"]
 
 
 . Suivez la section _Prepare for installation_ avec les exceptions suivantes :

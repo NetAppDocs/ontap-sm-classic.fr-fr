@@ -20,7 +20,7 @@ Les ports hôte et les ports de cluster de stockage utilisés pour iSCSI doivent
 
 Cette tâche répertorie les étapes générales de configuration de l'hôte ESXi. Pour obtenir des instructions plus détaillées, consultez la publication VMware _VMware vSphere Storage_ pour votre version d'ESXi.
 
-http://www.vmware.com["VMware"]
+http://["VMware"]
 
 .Étapes
 . Connectez-vous au client vSphere, puis sélectionnez l'hôte ESXi dans le volet d'inventaire.

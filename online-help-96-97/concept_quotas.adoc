@@ -345,4 +345,4 @@ La zone sous la liste des quotas affiche les détails des quotas tels que l'erre
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html["Gestion du stockage logique"^]
+https://["Gestion du stockage logique"^]

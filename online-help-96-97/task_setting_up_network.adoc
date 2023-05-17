@@ -131,11 +131,11 @@ Saisissez les notifications d'événements sur la page du support pour continuer
 
 *Informations connexes*
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F["Qu'est-ce qu'un processeur de Service et comment l'utiliser ?"]
+https://["Qu'est-ce qu'un processeur de Service et comment l'utiliser ?"]
 
-https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI["Comment configurer et dépanner NTP sur clustered Data ONTAP 8.2 et versions ultérieures à l'aide de l'interface de ligne de commande"]
+https://["Comment configurer et dépanner NTP sur clustered Data ONTAP 8.2 et versions ultérieures à l'aide de l'interface de ligne de commande"]
 
-https://docs.netapp.com/ontap-9/index.jsp["Centre de documentation ONTAP 9"]
+https://["Centre de documentation ONTAP 9"]
 
 xref:reference_network_window.adoc[Fenêtre réseau]
 

@@ -108,6 +108,6 @@ Lorsque le résultat de la trace affiche un message indiquant que l'accès n'est
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html["Gestion SMB/CIFS"]
+https://["Gestion SMB/CIFS"]
 
 xref:../nas-multiprotocol-config/index.html[Configuration multiprotocole SMB/CIFS et NFS]

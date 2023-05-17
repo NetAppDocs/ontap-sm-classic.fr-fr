@@ -96,4 +96,4 @@ La zone de détails affiche les attributs de rôle, tels que le répertoire de c
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/authentication/index.html["Authentification de l'administrateur et RBAC"^]
+https://["Authentification de l'administrateur et RBAC"^]

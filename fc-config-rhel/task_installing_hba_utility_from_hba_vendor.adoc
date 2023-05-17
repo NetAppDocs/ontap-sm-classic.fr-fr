@@ -29,8 +29,8 @@ Voici une liste partielle des utilitaires HBA :
 
 *Informations connexes*
 
-https://www.broadcom.com/support/download-search?tab=search["Documents de support et téléchargements Broadcom (Emulex)"]
+https://["Documents de support et téléchargements Broadcom (Emulex)"]
 
-https://www.broadcom.com/products/storage/fibre-channel-host-bus-adapters/emulex-hba-manager["Gestionnaire de HBA Emulex"]
+https://["Gestionnaire de HBA Emulex"]
 
-http://driverdownloads.qlogic.com/QLogicDriverDownloads_UI/OEM_Product_List.aspx?oemid=372["QLogic : téléchargements NetApp"]
+http://["QLogic : téléchargements NetApp"]

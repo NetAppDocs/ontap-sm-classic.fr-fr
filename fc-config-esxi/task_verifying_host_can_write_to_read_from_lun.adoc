@@ -39,4 +39,4 @@ Si l'un des tests échoue, vérifiez que le service FC s'exécute sur le cluster
 
 *Informations connexes*
 
-https://docs.netapp.com/us-en/ontap/high-availability/index.html["Configuration haute disponibilité de ONTAP 9"]
+https://["Configuration haute disponibilité de ONTAP 9"]
