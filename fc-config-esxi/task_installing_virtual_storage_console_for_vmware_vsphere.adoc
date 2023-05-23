@@ -23,7 +23,7 @@ Vous devez disposer des informations d'identification d'administrateur sur le se
 .Étapes
 . Téléchargez la version de Virtual Storage Console prise en charge pour votre configuration, comme indiqué dans l'outil Interoperability Matrix.
 +
-https://["Support NetApp"]
+https://mysupport.netapp.com/site/global/dashboard["Support NetApp"]
 
 . Déployez l'appliance virtuelle et configurez-la en suivant les étapes du _Guide de déploiement et de configuration_.
 

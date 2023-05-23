@@ -22,7 +22,7 @@ Vous pouvez utiliser la fenêtre licences de System Manager pour supprimer toute
 Pour plus d'informations sur la gestion des licences à l'aide de ONTAP 9.8 et versions ultérieures, consultez les informations suivantes :
 
 * link:https://docs.netapp.com/us-en/ontap/system-admin/manage-licenses-concept.html["Gestion des licences Overview (administrateurs du cluster uniquement)"^]
-* https://["Activation de nouvelles fonctionnalités en ajoutant des clés de licence"^]
+* https://docs.netapp.com/us-en/ontap/task_admin_enable_new_features.html["Activation de nouvelles fonctionnalités en ajoutant des clés de licence"^]
 
 
 .Avant de commencer
@@ -263,6 +263,6 @@ Affiche la date d'expiration du pack de licences logicielles.
 
 *Informations connexes*
 
-https://["Administration du système"]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html["Administration du système"]
 
 xref:task_creating_cluster.adoc[Création d'un cluster]

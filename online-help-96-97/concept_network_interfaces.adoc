@@ -193,6 +193,6 @@ xref:reference_network_window.adoc[Fenêtre réseau]
 
 xref:task_configuring_iscsi_protocol_on_svms.adoc[Configuration du protocole iSCSI sur les SVM]
 
-https://["Concepts relatifs à ONTAP"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["Concepts relatifs à ONTAP"]
 
-https://["Gestion du réseau"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion du réseau"]

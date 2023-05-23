@@ -28,9 +28,9 @@ NOTE: La technologie FCoE (Fibre Channel over Ethernet) n'est pas couverte par c
 
 Si ces hypothèses ne sont pas correctes pour votre situation, vous devez consulter les ressources suivantes :
 
-* https://["Administration SAN"^]
-* https://["Configuration SAN"^]
-* https://["Installation de Linux Unified Host Utilities 7.1"^]
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html["Administration SAN"^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html["Configuration SAN"^]
+* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html["Installation de Linux Unified Host Utilities 7.1"^]
 
 
 

@@ -18,11 +18,11 @@ Vous devez avoir effectué les tâches suivantes :
 
 * Vérifiez la configuration prise en charge dans la matrice d'interopérabilité
 +
-https://["Matrice d'interopérabilité NetApp"]
+https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
 
 * Identification des éventuels correctifs Windows requis dans la matrice d'interopérabilité
 +
-https://["Matrice d'interopérabilité NetApp"]
+https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
 
 * Ajoutez la licence FCP et démarrez le service cible
 * Vérifiez le câblage
@@ -43,12 +43,12 @@ Pour les invités Hyper-V, les disques bruts (pass-through) n'apparaissent pas d
 
 Des informations détaillées sur l'installation sont disponibles dans le link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html#installing-the-host-utilities["Installation de l'hôte unifié Windows"].
 
-https://["Support NetApp"]
+https://mysupport.netapp.com/site/global/dashboard["Support NetApp"]
 
 .Étapes
 . Téléchargez la version appropriée de Windows Unified Host Utilities sur le site de support NetApp.
 +
-https://["Support NetApp"]
+https://mysupport.netapp.com/site/global/dashboard["Support NetApp"]
 
 . Exécutez le fichier exécutable et suivez les instructions à l'écran.
 . Redémarrez l'hôte Windows lorsque vous y êtes invité.

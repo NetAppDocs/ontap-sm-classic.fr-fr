@@ -17,4 +17,4 @@ image::../media/updating_cluster.gif[mise à jour du cluster]
 
 *Informations connexes*
 
-https://["Mettez à niveau ONTAP"]
+https://docs.netapp.com/us-en/ontap/upgrade/task_upgrade_andu_sm.html["Mettez à niveau ONTAP"]

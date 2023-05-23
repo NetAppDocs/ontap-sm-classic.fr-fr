@@ -95,4 +95,4 @@ xref:task_editing_volume_properties.adoc[Modification des propriétés de volume
 
 xref:task_modifying_export_policy_rules.adoc[Modification des règles des export-policy]
 
-https://["Gestion SMB/CIFS"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["Gestion SMB/CIFS"]

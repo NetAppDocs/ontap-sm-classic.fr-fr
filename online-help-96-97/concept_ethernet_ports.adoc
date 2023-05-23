@@ -124,8 +124,8 @@ Les ports sont regroupés sous nœuds et les nœuds sont affichés en fonction d
 
 *Informations connexes*
 
-https://["Gestion du réseau"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion du réseau"]
 
-https://["Concepts relatifs à ONTAP"]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["Concepts relatifs à ONTAP"]
 
 xref:reference_network_window.adoc[Fenêtre réseau]

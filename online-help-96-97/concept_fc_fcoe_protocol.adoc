@@ -93,4 +93,4 @@ La zone de détails affiche des informations sur l'état du service FC/FCoE, le 
 
 xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[Configuration du protocole FC et du protocole FCoE sur les SVM]
 
-https://["Administration SAN"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["Administration SAN"^]

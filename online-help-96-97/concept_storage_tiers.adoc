@@ -15,4 +15,4 @@ Vous pouvez utiliser System Manager pour créer des agrégats afin de répondre 
 
 *Informations connexes*
 
-https://["Gestion des disques et des agrégats"]
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html["Gestion des disques et des agrégats"]

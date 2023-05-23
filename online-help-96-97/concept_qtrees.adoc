@@ -225,10 +225,10 @@ Affiche des informations détaillées sur le qtree sélectionné, par exemple le
 
 *Informations connexes*
 
-https://["Concepts relatifs à ONTAP"^]
+https://docs.netapp.com/us-en/ontap/concepts/index.html["Concepts relatifs à ONTAP"^]
 
-https://["Gestion du stockage logique"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["Gestion du stockage logique"^]
 
-https://["Gestion NFS"^]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["Gestion NFS"^]
 
-https://["Gestion SMB/CIFS"^]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["Gestion SMB/CIFS"^]

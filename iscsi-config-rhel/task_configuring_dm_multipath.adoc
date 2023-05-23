@@ -16,7 +16,7 @@ DM-Multipath gère plusieurs chemins entre l'hôte Linux et le cluster de stocka
 .Avant de commencer
 Vous devez avoir identifié la version requise de DM-Multipath à partir de l'outil Interoperability Matrix.
 
-https://["Matrice d'interopérabilité NetApp"]
+https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"]
 
 [NOTE]
 ====

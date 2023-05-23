@@ -42,4 +42,4 @@ Les administrateurs des SVM peuvent surveiller les tâches, la connexion réseau
 
 *Informations connexes*
 
-https://["Centre de documentation ONTAP 9"]
+https://docs.netapp.com/ontap-9/index.jsp["Centre de documentation ONTAP 9"]

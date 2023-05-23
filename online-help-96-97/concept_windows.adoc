@@ -15,4 +15,4 @@ System Manager permet de créer et de gérer des groupes et des comptes d'utilis
 
 *Informations connexes*
 
-https://["Gestion SMB/CIFS"]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html["Gestion SMB/CIFS"]

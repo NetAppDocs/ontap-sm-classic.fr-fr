@@ -22,4 +22,4 @@ Le montage d'un datastore permet à un hôte d'accéder au stockage. Lorsque les
 
 *Informations connexes*
 
-https://["Virtual Storage Console, VASA Provider et Storage Replication adapter pour VMware vSphere Administration 9.6"]
+https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html["Virtual Storage Console, VASA Provider et Storage Replication adapter pour VMware vSphere Administration 9.6"]

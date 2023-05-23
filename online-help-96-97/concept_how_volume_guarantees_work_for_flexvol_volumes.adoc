@@ -40,4 +40,4 @@ Les garanties sont uniquement honorées pour les volumes en ligne. Si vous mette
 
 *Informations connexes*
 
-http://["Rapport technique de NetApp 3965 : Data ONTAP 8.1 (7-mode) pour le déploiement et l'implémentation du provisionnement fin NetApp"^]
+http://www.netapp.com/us/media/tr-3965.pdf["Rapport technique de NetApp 3965 : Data ONTAP 8.1 (7-mode) pour le déploiement et l'implémentation du provisionnement fin NetApp"^]

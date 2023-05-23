@@ -126,6 +126,6 @@ Périphérique de stockage logique sauvegardé par les baies de stockage et util
 |===
 *Informations connexes*
 
-https://["NetApp Hardware Universe"^]
+https://hwu.netapp.com["NetApp Hardware Universe"^]
 
-http://["Rapport technique NetApp 3437 : résilience du sous-système de stockage"^]
+http://www.netapp.com/us/media/tr-3437.pdf["Rapport technique NetApp 3437 : résilience du sous-système de stockage"^]

@@ -22,11 +22,11 @@ Vous devez disposer de deux ensembles d'informations d'identification : le nom d
 .. Vérifiez que la plateforme des nouveaux contrôleurs peut être associée aux contrôleurs existants du cluster.
 .. Vérifiez que le cluster étendu ne dépasse pas les limites système pour les plateformes.
 +
-https://["NetApp Hardware Universe"^]
+https://hwu.netapp.com["NetApp Hardware Universe"^]
 
 .. Si votre cluster est configuré pour SAN, vérifiez que le cluster étendu ne dépasse pas les limites de configuration pour FC, FCoE et iSCSI.
 +
-https://["Configuration SAN"^]
+https://docs.netapp.com/us-en/ontap/san-config/index.html["Configuration SAN"^]
 
 
 
@@ -53,7 +53,7 @@ CIFS              license CIFS License          -
 .. Examinez la sortie pour identifier les licences verrouillées par des nœuds (identifiées par le type `license`) qui sera nécessaire pour les nœuds supplémentaires.
 .. Assurez-vous que les licences incluses avec les nœuds supplémentaires sont cohérentes avec les licences verrouillées par des nœuds existantes du cluster.
 +
-http://["Recherche de licences logicielles NetApp"^]
+http://mysupport.netapp.com/licenses["Recherche de licences logicielles NetApp"^]
 
 
 
@@ -62,14 +62,14 @@ Si vous ne disposez pas des licences requises pour les nœuds supplémentaires, 
 
 . Vérifiez que le site est prêt pour l'ensemble des nouveaux équipements.
 +
-https://["NetApp Hardware Universe"^]
+https://hwu.netapp.com["NetApp Hardware Universe"^]
 
 +
 Si le site n'est pas prêt, vous devez préparer le site avant de poursuivre l'expansion.
 
 . Vérifier que les commutateurs existants prennent en charge les contrôleurs supplémentaires.
 +
-https://["NetApp Hardware Universe"^]
+https://hwu.netapp.com["NetApp Hardware Universe"^]
 
 +
 Si le cluster est sans commutateur ou si les commutateurs existants ne prennent pas en charge les nœuds supplémentaires, vous devez obtenir les commutateurs de cluster, que vous pourrez installer ultérieurement lors du processus d'extension.

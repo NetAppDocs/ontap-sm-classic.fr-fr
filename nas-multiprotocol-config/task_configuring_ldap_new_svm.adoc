@@ -19,13 +19,13 @@ Pour obtenir des informations utilisateur à partir du protocole LDAP (Lightweig
 Si vous utilisez un autre type de LDAP, vous devez utiliser l'interface de ligne de commandes et d'autres documents pour configurer LDAP.
 
 +
-https://["Rapport technique NetApp 4067 : NFS dans NetApp ONTAP"^]
+https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf["Rapport technique NetApp 4067 : NFS dans NetApp ONTAP"^]
 
 +
-https://["Rapport technique NetApp 4616 : NFS Kerberos dans ONTAP avec Microsoft Active Directory"^]
+https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf["Rapport technique NetApp 4616 : NFS Kerberos dans ONTAP avec Microsoft Active Directory"^]
 
 +
-https://["Rapport technique NetApp 4835 : comment configurer LDAP dans ONTAP"^]
+https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf["Rapport technique NetApp 4835 : comment configurer LDAP dans ONTAP"^]
 
 * Vous devez connaître le domaine AD et les serveurs, ainsi que les informations de liaison suivantes : le niveau d'authentification, l'utilisateur Bind et le mot de passe, le DN de base et le port LDAP.
 

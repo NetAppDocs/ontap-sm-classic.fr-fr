@@ -26,7 +26,7 @@ Vous devez effectuer cette tâche à partir du cluster *source*.
 Vous devez résoudre tous les problèmes liés aux relations SnapVault. Les procédures de dépannage pour les relations SnapMirror sont également applicables aux relations SnapVault.
 
 +
-http://["Rapport technique NetApp 4015 : configuration de SnapMirror et meilleures pratiques pour ONTAP 9.1, 9.2"^]
+http://www.netapp.com/us/media/tr-4015.pdf["Rapport technique NetApp 4015 : configuration de SnapMirror et meilleures pratiques pour ONTAP 9.1, 9.2"^]
 
 
 

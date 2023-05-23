@@ -27,9 +27,9 @@ Ces procédures sont basées sur les hypothèses suivantes :
 * Vous ne configurez pas le démarrage SAN iSCSI.
 
 
-Pour plus d'informations sur la configuration de votre hôte spécifique avec ONTAP, reportez-vous à la section https://["Configuration de l'hôte SAN ONTAP"].
+Pour plus d'informations sur la configuration de votre hôte spécifique avec ONTAP, reportez-vous à la section https://docs.netapp.com/us-en/ontap-sanhost/index.html["Configuration de l'hôte SAN ONTAP"].
 
-Pour plus d'informations sur l'administration SAN, consultez le https://["Présentation de l'administration du SAN ONTAP 9"]
+Pour plus d'informations sur l'administration SAN, consultez le https://docs.netapp.com/us-en/ontap/san-admin/index.html["Présentation de l'administration du SAN ONTAP 9"]
 
 
 
@@ -41,8 +41,8 @@ Pour plus d'informations sur l'administration SAN, consultez le https://["Prése
 | Pour effectuer cette tâche à l'aide de... | Reportez-vous à... 
 
 
-| System Manager redessiné (disponible avec 9.7 et versions ultérieures) | https://["Provisionnement du stockage SAN pour Windows Server"] 
+| System Manager redessiné (disponible avec 9.7 et versions ultérieures) | https://docs.netapp.com/us-en/ontap/task_san_provision_windows.html["Provisionnement du stockage SAN pour Windows Server"] 
 
 
-| Interface de ligne de commande ONTAP | https://["Workflow de configuration de LUN avec l'interface de ligne de commandes"] 
+| Interface de ligne de commande ONTAP | https://docs.netapp.com/us-en/ontap/san-admin/lun-setup-workflow-concept.html["Workflow de configuration de LUN avec l'interface de ligne de commandes"] 
 |===

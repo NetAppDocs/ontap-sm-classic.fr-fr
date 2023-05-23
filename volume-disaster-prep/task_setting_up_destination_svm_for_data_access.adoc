@@ -46,4 +46,4 @@ Si des modifications ont été apportées sur la SVM contenant le volume source,
 
 *Informations connexes*
 
-https://["Centre de documentation ONTAP 9"]
+https://docs.netapp.com/ontap-9/index.jsp["Centre de documentation ONTAP 9"]

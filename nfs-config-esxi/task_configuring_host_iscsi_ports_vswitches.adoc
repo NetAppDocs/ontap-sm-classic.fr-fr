@@ -20,7 +20,7 @@ Les ports hôte et les ports de cluster de stockage utilisés pour NFS doivent a
 
 Cette tâche répertorie les étapes générales de configuration de l'hôte ESXi. Si vous avez besoin d'instructions plus détaillées, consultez la publication VMware _Storage_ pour votre version de ESXi.
 
-http://["VMware"]
+http://www.vmware.com["VMware"]
 
 .Étapes
 . Connectez-vous au client vSphere, puis sélectionnez l'hôte ESXi dans le volet d'inventaire.

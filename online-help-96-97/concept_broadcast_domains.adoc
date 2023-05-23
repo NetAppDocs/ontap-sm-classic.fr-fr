@@ -61,4 +61,4 @@ Vous devez plutôt utiliser l'interface de ligne de commandes.
 
 xref:reference_network_window.adoc[Fenêtre réseau]
 
-https://["Gestion du réseau"]
+https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion du réseau"]

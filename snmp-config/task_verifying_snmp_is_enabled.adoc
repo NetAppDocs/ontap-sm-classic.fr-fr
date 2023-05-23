@@ -16,7 +16,7 @@ Vous pouvez utiliser l'interface ONTAP System Manager _Classic_ avec ONTAP 9.7 o
 .Description de la tâche
 Dans toutes les versions de ONTAP, SNMPv3 est activé par défaut au niveau du cluster et SNMPv1 et SNMPv2c sont désactivés par défaut. Les protocoles SNMPv1 et SNMPv2c sont activés lorsque vous créez une communauté SNMP.
 
-SNMP est désactivé par défaut sur les LIFs de données. Pour plus d'informations sur l'activation de SNMP sur les LIFs de données, voir https://["Gestion du réseau"^].
+SNMP est désactivé par défaut sur les LIFs de données. Pour plus d'informations sur l'activation de SNMP sur les LIFs de données, voir https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion du réseau"^].
 
 .Étapes
 . Cliquez sur l'icône rainure.

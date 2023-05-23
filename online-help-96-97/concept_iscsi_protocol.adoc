@@ -192,4 +192,4 @@ La zone de détails affiche des informations sur l'état du service iSCSI, le no
 
 *Informations connexes*
 
-https://["Administration SAN"^]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html["Administration SAN"^]

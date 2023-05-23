@@ -36,7 +36,7 @@ ONTAP System Manager de ONTAP 9.3 simplifie la configuration des relations entre
  a| 
 System Manager redessiné (disponible avec ONTAP 9.7 et versions ultérieures)
  a| 
-* https://["Gestion du cluster avec System Manager"^]
+* https://docs.netapp.com/us-en/ontap/concept_administration_overview.html["Gestion du cluster avec System Manager"^]
 
 
 
@@ -44,11 +44,11 @@ System Manager redessiné (disponible avec ONTAP 9.7 et versions ultérieures)
  a| 
 L'interface de ligne de commande ONTAP
  a| 
-* https://["Présentation du cluster et de SVM peering avec l'interface de ligne de commande"^]
+* https://docs.netapp.com/us-en/ontap/peering/index.html["Présentation du cluster et de SVM peering avec l'interface de ligne de commande"^]
 +
 Utiliser l'interface de ligne de commande pour configurer les relations de peering de cluster et les relations de peering de SVM.
 
-* https://["Gestion du réseau"^]
+* https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion du réseau"^]
 +
 Utilisez l'interface de ligne de commande pour configurer les sous-réseaux, les LIF intercluster, les routes, les politiques de pare-feu et d'autres composants réseau
 

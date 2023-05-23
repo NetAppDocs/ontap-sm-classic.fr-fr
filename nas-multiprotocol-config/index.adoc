@@ -26,8 +26,8 @@ Si votre réseau de données est plat, l'utilisation de ces objets par défaut g
 
 Pour plus d'informations sur la gamme de fonctionnalités des protocoles ONTAP NFS et SMB, consultez la documentation suivante :
 
-* https://["Gestion NFS"^]
-* https://["Gestion SMB"^]
+* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html["Gestion NFS"^]
+* https://docs.netapp.com/us-en/ontap/smb-admin/index.html["Gestion SMB"^]
 
 
 

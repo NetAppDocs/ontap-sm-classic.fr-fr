@@ -19,8 +19,8 @@ Utiliser cette procédure si :
 * Vous n'utilisez pas l'authentification CHAP pour iSCSI.
 * Une version prise en charge de Virtual Storage Console pour VMware vSphere (VSC) permet de configurer les paramètres de stockage de votre hôte ESX.
 +
-** VSC fait partie du produit depuis la version 7.0 de VSC https://["Outils ONTAP pour VMware vSphere"^] Appliance virtuelle, qui comprend VSC, le fournisseur vStorage APIs for Storage Awareness (VASA) et l'outil Storage Replication adapter (SRA) pour les fonctionnalités VMware vSphere.
-** Assurez-vous de vérifier le https://["Matrice d'interopérabilité NetApp"^] Pour vérifier la compatibilité entre vos versions actuelles de ONTAP et VSC.
+** VSC fait partie du produit depuis la version 7.0 de VSC https://docs.netapp.com/us-en/ontap-tools-vmware-vsphere/index.html["Outils ONTAP pour VMware vSphere"^] Appliance virtuelle, qui comprend VSC, le fournisseur vStorage APIs for Storage Awareness (VASA) et l'outil Storage Replication adapter (SRA) pour les fonctionnalités VMware vSphere.
+** Assurez-vous de vérifier le https://imt.netapp.com/matrix/["Matrice d'interopérabilité NetApp"^] Pour vérifier la compatibilité entre vos versions actuelles de ONTAP et VSC.
 
 
 * Votre réseau utilise l'adressage IPv4.
@@ -42,4 +42,4 @@ Voir link:https://docs.netapp.com/us-en/ontap/networking/index.html["Gestion de 
 * Vous fournissons un stockage aux machines virtuelles via l'hyperviseur ESXi et n'exécutant pas d'initiateur iSCSI au sein de cette machine virtuelle.
 
 
-Pour plus d'informations, voir https://["Tr-4597 : VMware vSphere pour ONTAP"^] Et de la documentation relative à la version de VSC.
+Pour plus d'informations, voir https://docs.netapp.com/us-en/netapp-solutions/virtualization/vsphere_ontap_ontap_for_vsphere.html["Tr-4597 : VMware vSphere pour ONTAP"^] Et de la documentation relative à la version de VSC.

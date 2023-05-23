@@ -57,4 +57,4 @@ Si la création de LIF échoue, vous pouvez créer les LIF et démarrer le servi
 
 *Informations connexes*
 
-https://["Centre de documentation ONTAP 9"]
+https://docs.netapp.com/ontap-9/index.jsp["Centre de documentation ONTAP 9"]

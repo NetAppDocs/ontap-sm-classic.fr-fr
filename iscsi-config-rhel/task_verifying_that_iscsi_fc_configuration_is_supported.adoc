@@ -14,7 +14,7 @@ summary: 'Pour un fonctionnement fiable, vous devez vérifier que l"intégralit�
 Pour un fonctionnement fiable, vous devez vérifier que l'intégralité de la configuration iSCSI est prise en charge.
 
 .Étapes
-. Accédez au https://["Matrice d'interopérabilité NetApp"] pour vérifier que vous disposez d'une combinaison prise en charge des composants suivants :
+. Accédez au https://mysupport.netapp.com/matrix["Matrice d'interopérabilité NetApp"] pour vérifier que vous disposez d'une combinaison prise en charge des composants suivants :
 +
 ** Logiciel ONTAP
 ** Architecture UC de l'ordinateur hôte (pour serveurs en rack standard)

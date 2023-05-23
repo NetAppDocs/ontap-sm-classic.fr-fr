@@ -30,13 +30,13 @@ image::../media/volume_move_workflow.jpg[Flux de travail de déplacement de volu
  a| 
 System Manager redessiné (disponible avec ONTAP 9.7 et versions ultérieures)
  a| 
-https://["Gérer les volumes"^]
+https://docs.netapp.com/us-en/ontap/volumes/manage-volumes-task.html["Gérer les volumes"^]
 
 
 
  a| 
 Interface de ligne de commandes ONTAP
  a| 
-https://["Gestion du stockage logique"^]
+https://docs.netapp.com/us-en/ontap/volumes/index.html["Gestion du stockage logique"^]
 
 |===
