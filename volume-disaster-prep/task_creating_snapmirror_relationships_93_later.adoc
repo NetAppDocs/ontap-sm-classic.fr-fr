@@ -32,7 +32,7 @@ Vous devez effectuer cette tâche à partir du cluster *source*.
 +
 Seuls les SVM peering et les SVM autorisés sont répertoriés sous les SVM de destination.
 
-.. Cliquez sur image:../media/advanced_options_icon_disaster.gif[""].
+.. Cliquez sur image:../media/advanced_options_icon_disaster.gif["Icône Options avancées"].
 .. Dans la boîte de dialogue *Options avancées*, vérifiez cela `MirrorAllSnapshots` est définie comme règle de protection.
 +
 `DPDefault` et `MirrorLatest` Les autres règles de protection par défaut sont disponibles pour les relations SnapMirror.
@@ -47,7 +47,7 @@ Toutes les relations de protection des données sont initialisées par défaut. 
 
 .. Cliquez sur *appliquer* pour enregistrer les modifications.
 +
-image::../media/snapmirror_advanced_options_93.gif[options avancées de snapmirror 93]
+image::../media/snapmirror_advanced_options_93.gif[Options avancées]
 
 
 
@@ -59,7 +59,7 @@ image::../media/snapmirror_advanced_options_93.gif[options avancées de snapmirr
 
 
 +
-image::../media/snapmirror_9_3.gif[snapmirror 9 3]
+image::../media/snapmirror_9_3.gif[Copie d'écran de l'état de SnapMirror]
 
 
 
