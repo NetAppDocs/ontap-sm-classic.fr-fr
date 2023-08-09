@@ -35,6 +35,11 @@ Vous devez utiliser l'interface de ligne de commande pour réaffecter des disque
 
 
 
+[NOTE]
+====
+Dans les versions ultérieures de ONTAP, vous utilisez l'interface de ligne de commandes de ONTAP pour supprimer la propriété des disques, puis attribuer un nouveau propriétaire.
+
+====
 .Étapes
 . Cliquez sur *stockage* > *agrégats et disques* > *disques*.
 . Dans la fenêtre *disques*, sélectionnez l'onglet *Inventaire*.
@@ -42,4 +47,10 @@ Vous devez utiliser l'interface de ligne de commande pour réaffecter des disque
 . Dans la boîte de dialogue *Avertissement*, cliquez sur *Continuer*.
 . Dans la boîte de dialogue *Assign Disks*, sélectionnez le noeud auquel vous souhaitez réaffecter les disques.
 . Cliquez sur *attribuer*.
+
+
+.Informations associées
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/remove-ownership-disk-task.html["Supprimer la propriété des disques à l'aide de l'interface de ligne de commande ONTAP (ONTAP 9.3 et versions ultérieures)"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/disk-autoassignment-policy-concept.html["Affectation automatique des disques à l'aide de l'interface de ligne de commande ONTAP (ONTAP 9.3 et versions ultérieures)"]
+* link:https://docs.netapp.com/us-en/ontap/disks-aggregates/manual-assign-disks-ownership-manage-task.html["Assignation manuelle des disques à l'aide de l'interface de ligne de commandes ONTAP (ONTAP 9.3 et versions ultérieures)"]
 
