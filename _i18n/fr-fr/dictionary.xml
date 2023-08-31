@@ -7160,7 +7160,6 @@
   <block id="a1036b59d73505365ef378243a1e483a" category="list-text">Le IDP que vous envisagez d'utiliser pour l'authentification à distance doit être configuré.</block>
   <block id="72577700d76e5482df206852d16b3918" category="paragraph">Consultez la documentation fournie par le PDI que vous avez configuré.</block>
   <block id="3a9e3f68d0c667f8a7b447e51b0c8cba" category="list-text">Vous devez avoir l'URI du IDP.</block>
-  <block id="de421c081fd7f349421dae3208f4659f" category="paragraph">Les PDI qui ont été validées avec System Manager sont Shibboeth et Active Directory Federation Services.</block>
   <block id="fa8cd930b8e2dc9dc9fd65817b5ce669" category="paragraph">Une fois l'authentification SAML activée, seuls les utilisateurs distants peuvent accéder à l'interface graphique de System Manager. Les utilisateurs locaux ne peuvent pas accéder à l'interface graphique de System Manager après l'authentification SAML.</block>
   <block id="384442b2283e770fe0861c6ff52fe9ca" category="list-text">Cliquez sur *Configuration* &gt; *Cluster* &gt; *Authentication*.</block>
   <block id="a7d79b434e817cf2263ffd64d11515ad" category="list-text">Cochez la case *Activer l'authentification SAML*.</block>
@@ -9268,4 +9267,14 @@
   <block id="fdfcc2567d3a9cc9343a1e14e2a5778e" category="list-text"><block ref="fdfcc2567d3a9cc9343a1e14e2a5778e" category="inline-link-macro-rx"></block></block>
   <block id="a3f857c78c1b112becd5a124491290c0" category="inline-link-macro">Assignation manuelle des disques à l'aide de l'interface de ligne de commandes ONTAP (ONTAP 9.3 et versions ultérieures)</block>
   <block id="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="list-text"><block ref="8e0d62951eeeb6b52dfa9aabfdf5c35c" category="inline-link-macro-rx"></block></block>
+  <block id="d3804326967b3c4d0d1fe456e58f9e3c" category="paragraph">Les PDI suivants ont été validés avec System Manager :</block>
+  <block id="3a6d511a9d218e11dc64c9d43b7d1d73" category="list-text">Services de fédération Active Directory</block>
+  <block id="76d715baa02451f676fce832bea3cab0" category="list-text">Cisco DUO (validé avec les versions ONTAP suivantes :)</block>
+  <block id="99ee2d51ff9d719a2f4ed99cdd7e8201" category="list-text">9.7P21 et versions ultérieures 9.7</block>
+  <block id="7dec5294fcbec488e754eddbe6ba09b4" category="list-text">9.8P17 et versions ultérieures 9.8</block>
+  <block id="0802d2f599d23393bab9380c14849ce2" category="list-text">9.9.1P13 et versions ultérieures 9.9</block>
+  <block id="761c4970281fb273f713e924e77278ad" category="list-text">9.10.1P9 et versions ultérieures 9.10</block>
+  <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4 et versions ultérieures 9.11</block>
+  <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">versions 9.12.1 et ultérieures</block>
+  <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Hurlent</block>
 </blocks>

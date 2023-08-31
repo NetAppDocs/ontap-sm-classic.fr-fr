@@ -33,7 +33,21 @@ Consultez la documentation fournie par le PDI que vous avez configuré.
 
 
 .Description de la tâche
-Les PDI qui ont été validées avec System Manager sont Shibboeth et Active Directory Federation Services.
+Les PDI suivants ont été validés avec System Manager :
+
+* Services de fédération Active Directory
+* Cisco DUO (validé avec les versions ONTAP suivantes :)
++
+** 9.7P21 et versions ultérieures 9.7
+** 9.8P17 et versions ultérieures 9.8
+** 9.9.1P13 et versions ultérieures 9.9
+** 9.10.1P9 et versions ultérieures 9.10
+** 9.11.1P4 et versions ultérieures 9.11
+** versions 9.12.1 et ultérieures
+
+
+* Hurlent
+
 
 [NOTE]
 ====
