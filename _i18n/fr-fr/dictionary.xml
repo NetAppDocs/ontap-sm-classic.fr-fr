@@ -7832,7 +7832,6 @@
   <block id="503e6a1d24532cf16b90068dcf9d0814" category="list-text">Dans la fenêtre *Redimensionner le volume FlexCache*, spécifiez la taille à laquelle vous souhaitez redimensionner le volume FlexCache.</block>
   <block id="2c228870bc26117c2bcc38d47fed7cbb" category="paragraph">Par défaut, les agrégats existants sont utilisés pour redimensionner le volume FlexCache. Depuis System Manager 9.6, la taille maximale autorisée pour le volume est affichée en regard du champ size.</block>
   <block id="ee06c3a75d2f90d528d0bdad6ee8b794" category="inline-link-macro">Spécification des options avancées pour les volumes FlexCache</block>
-  <block id="bf1a8ac5c931866758030b4588ed85b1" category="paragraph">Pour développer le volume FlexCache en ajoutant de nouvelles ressources, cliquez sur <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (options avancées). Reportez-vous à la section <block ref="ff23e8b352173b9385a50749f03a49b1" category="inline-link-macro-rx"></block>.</block>
   <block id="689dc6ae2f8d54723af8baa6aff39f7d" category="list-text">Cliquez sur *Enregistrer* pour redimensionner le volume FlexCache.</block>
   <block id="114168a53a6b42c89026b910fc64289f" category="summary">Depuis System Manager 9.6, lorsque vous modifiez un volume FlexCache, vous pouvez spécifier les options avancées à associer au volume FlexCache.</block>
   <block id="fa8ddae57fb0b13c4eb7a2f3b7deaa99" category="doc">Définition des options avancées pour un volume FlexCache</block>
@@ -9277,4 +9276,5 @@
   <block id="f807dcc2ee9aff63931a364b0bfb045d" category="list-text">9.11.1P4 et versions ultérieures 9.11</block>
   <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">versions 9.12.1 et ultérieures</block>
   <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Hurlent</block>
+  <block id="0141b877fcf49f33b47400dd7edb78c1" category="paragraph">Pour développer le volume FlexCache en ajoutant de nouvelles ressources, cliquez sur <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (options avancées). Reportez-vous à la section <block ref="4f3fc931d92f22f55a489e2373f71d6c" category="inline-link-macro-rx"></block>.</block>
 </blocks>
