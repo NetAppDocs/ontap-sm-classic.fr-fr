@@ -9024,7 +9024,6 @@
   <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Ressources supplémentaires</block>
   <block id="c09b5be4c2da04f4040eef1878f258aa" category="sidebar">Documentation sur ONTAP 9</block>
   <block id="7b974027d646fea794167794eca699d0" category="sidebar">Documents sur l'automatisation et l'API REST</block>
-  <block id="d1b92a4930d50c6ed1038655db0d2684" category="sidebar">Toute la documentation sur les produits ONTAP</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">Présentation</block>
   <block id="7764db582957448eb25528aee4db56b7" category="sidebar">Configuration FC pour ESXi à l'aide de VSC</block>
   <block id="36308d81e97ed47d001a9e37fd37634b" category="sidebar">Configurez des volumes logiques sur des périphériques multipathing et créez un système de fichiers</block>
@@ -9235,7 +9234,6 @@
   <block id="2e8a972dbf09cb9d9e8634a9ff967882" category="sidebar">Ouvrir la export policy du volume root du SVM (création d'un nouveau SVM compatible NFS)</block>
   <block id="6f001c629b64ce94f74af79735f0c5ad" category="sidebar">Créez un partage et définissez ses autorisations</block>
   <block id="1cea5f7ff46fdcaad82b7016abae2ceb" category="sidebar">Configuration SMB/CIFS</block>
-  <block id="8cadc76a323c196244af8dd4c3ad5543" category="sidebar">Ad a un volume CIFS vers un SVM compatible CIFS</block>
   <block id="0fe674cba26a6125717793de11bb3096" category="sidebar">Administration de l'extension de cluster</block>
   <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">Résultats</block>
   <block id="48f1b7cd8c5e771ef4ce929e95a1d530" category="section-title">[[prérequis-peering, conditions préalables pour le peering de cluster]] prérequis pour le peering de cluster</block>
@@ -9277,4 +9275,5 @@
   <block id="04faa4f6e99109900566d6589f5adfd3" category="list-text">versions 9.12.1 et ultérieures</block>
   <block id="3679bf7b8140ea8f4291be1d7fc023bd" category="list-text">Hurlent</block>
   <block id="0141b877fcf49f33b47400dd7edb78c1" category="paragraph">Pour développer le volume FlexCache en ajoutant de nouvelles ressources, cliquez sur <block ref="03cbf9b997ad0db8d0ffb988950200e2" category="inline-image-macro-rx" type="image"></block> (options avancées). Reportez-vous à la section <block ref="4f3fc931d92f22f55a489e2373f71d6c" category="inline-link-macro-rx"></block>.</block>
+  <block id="5069c081842d21ed175ea7a6154fbacb" category="sidebar">L'interface System Manager Classic est disponible dans ONTAP 9.7 et les versions antérieures de ONTAP 9. Vous trouverez de la documentation sur ce site pour les flux de configuration utilisant System Manager Classic, ainsi que l'aide en ligne de System Manager Classic pour ONTAP 9.6 et 9.7.</block>
 </blocks>
